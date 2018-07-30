@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css\rmarkdown.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">R Resources</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="library.html">Library</a>
+</li>
+<li>
+  <a href="ebook.html">E-book &amp; Course</a>
+</li>
+<li>
+  <a href="readings.html">Readings</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p>In this page, I reported my package collection ispired by the following posts:</p>
+<ul>
+<li><a href="https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages?mobile_site=true">Quick list of useful R packages</a></li>
+<li><a href="https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html#tk.drr_mlt">Great R packages for data import, wrangling and visualization</a></li>
+<li><a href="https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/">R resources (free courses, books, tutorials, &amp; cheat sheets)</a></li>
+<li><a href="https://activewizards.com/blog/top-20-r-libraries-for-data-science-in-2018-infographic/">Top 20 R Libraries for Data Science in 2018</a></li>
+<li><a href="http://jasdumas.com/ds-resources/">Data Science Links</a></li>
+</ul>
+<div id="get-the-data" class="section level1">
+<h1>Get the data</h1>
+<p>This <a href="https://cran.r-project.org/doc/manuals/r-release/R-data.html">manual</a> describes the import and export facilities available either in R itself or via packages which are available from CRAN or elsewhere.</p>
+<blockquote>
+<p>readr</p>
+</blockquote>
+<p>the goal of <code>readr</code> is to provide a fast and friendly way to read rectangular data. <a href="https://cran.r-project.org/web/packages/readr/vignettes/readr.html">readr - vignettes</a></p>
+<blockquote>
+<p>rio</p>
+</blockquote>
+<p>The idea behind rio is to simplify the process of importing data into R and exporting data from R.</p>
+<p><a href="https://cran.r-project.org/web/packages/rio/vignettes/rio.html">rio - vignettes</a></p>
+<blockquote>
+<p>dplyr</p>
+</blockquote>
+<p><code>dplyr</code> is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges</p>
+<p><a href="https://dplyr.tidyverse.org/">dbplyr - website</a></p>
+<p><a href="https://cran.r-project.org/web/packages/dbplyr/vignettes/dbplyr.html">dbplyr - vignettes</a></p>
+<blockquote>
+<p>MonetDBLite</p>
+</blockquote>
+<p>MonetDBLite for R, a fully embedded version of MonetDB that installs like any other R package.</p>
+</div>
+<div id="data-trasformation" class="section level1">
+<h1>Data Trasformation</h1>
+<blockquote>
+<p>forcats</p>
+</blockquote>
+<p>The goal of the forcats package is to provide a suite of useful tools that solve common problems with factors.</p>
+<p><a href="http://forcats.tidyverse.org/">forcats - website</a></p>
+</div>
+<div id="explorative-data-analysis" class="section level1">
+<h1>Explorative data analysis</h1>
+<blockquote>
+<p>SmartEDA</p>
+</blockquote>
+<p>Summarize and Explore the Data</p>
+<p><a href="https://cran.r-project.org/web/packages/SmartEDA/vignettes/Report_r1.html">SmartEDA - vignettes</a></p>
+<blockquote>
+<p>FunModeling</p>
+</blockquote>
+<p><code>funModeling</code>: data cleaning, importance variable analysis and model perfomance</p>
+<p><a href="funModeling">funModeling - github</a></p>
+<blockquote>
+<p>DataExplorer</p>
+</blockquote>
+<p>Data exploration process for data analysis and model building, so that users could focus on understanding data and extracting insights. The package automatically scans through each variable and does data profiling.</p>
+<p><a href="https://cran.r-project.org/web/packages/DataExplorer/vignettes/dataexplorer-intro.html">DataExplorer - vignettes</a></p>
+<blockquote>
+<p>naniar</p>
+</blockquote>
+<p><code>naniar</code> provides data structures and functions that facilitate the plotting of missing values and examination of imputations.</p>
+<p><a href="http://naniar.njtierney.com/articles/naniar-visualisation.html">naniar - website</a> <a href="https://github.com/njtierney/naniar">naniar - github</a></p>
+</div>
+<div id="dimension-reduction-pca" class="section level1">
+<h1>Dimension Reduction (PCA)</h1>
+<blockquote>
+<p>FactoMineR</p>
+</blockquote>
+<p><code>FactoMineR</code> is an R package dedicated to multivariate Exploratory Data Analysis.</p>
+<p><a href="http://factominer.free.fr/">FactoMineR - website</a></p>
+</div>
+<div id="clustering" class="section level1">
+<h1>Clustering</h1>
+<blockquote>
+<p>fpc</p>
+</blockquote>
+<p>Various methods for clustering and cluster validation.</p>
+<blockquote>
+<p>gower</p>
+</blockquote>
+<p>Gower’s distance can be used to measure how different two records are.</p>
+<p><a href="https://cran.r-project.org/web/packages/gower/vignettes/intro.html">gower - vignettes</a></p>
+</div>
+<div id="visualization" class="section level1">
+<h1>Visualization</h1>
+<blockquote>
+<p>ggplot2</p>
+</blockquote>
+<p><code>ggplot2</code> is a system for declaratively creating graphics, based on The Grammar of Graphics.</p>
+<p><a href="http://ggplot2.tidyverse.org/">ggplot2 - website</a></p>
+<blockquote>
+<p>GGally</p>
+</blockquote>
+<p><code>GGally</code> extends ggplot2 by adding several functions to reduce the complexity of combining geoms with transformed data.</p>
+<p><a href="https://ggobi.github.io/ggally/">GGally - website</a></p>
+<blockquote>
+<p>ggpubr</p>
+</blockquote>
+<p>The <code>ggpubr</code> package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots.</p>
+<p><a href="http://www.sthda.com/english/rpkgs/ggpubr/index.html">ggpubr - sthda website</a></p>
+<blockquote>
+<p>ggrepel</p>
+</blockquote>
+<p>Repel overlapping text labels away from each other</p>
+<p><a href="https://github.com/slowkow/ggrepel">ggrepel - vignettes</a></p>
+<blockquote>
+<p>tabplot</p>
+</blockquote>
+<p>The tableplot is a powerful visualization method to explore and analyse large multivariate datasets</p>
+<p><a href="https://cran.r-project.org/web/packages/tabplot/vignettes/tabplot-vignette.html">tabplot - vignettes</a></p>
+<blockquote>
+<p>ggstatsplot</p>
+</blockquote>
+<p>creates graphics with details from statistical tests <a href="https://github.com/IndrajeetPatil/ggstatsplot">ggstatsplot - github</a></p>
+<blockquote>
+<p>plotly</p>
+</blockquote>
+<p>An R package for creating interactive web graphics.</p>
+<p><a href="https://github.com/ropensci/plotly">plotly - github</a></p>
+<blockquote>
+<p>patchwork</p>
+</blockquote>
+<p>The goal of <code>patchwork</code> is to make it ridiculously simple to combine separate ggplots into the same graphic. <a href="https://github.com/thomasp85/patchwork/blob/master/README.md">patchwork - github</a></p>
+<blockquote>
+<p>factoextra</p>
+</blockquote>
+<p><code>factoextra</code> is an R package making easy to extract and visualize the output of exploratory multivariate data analyses</p>
+<p><a href="http://www.sthda.com/english/wiki/factoextra-r-package-easy-multivariate-data-analyses-and-elegant-visualization">factoextra - sthda website</a></p>
+<blockquote>
+<p>ggiraphExtra</p>
+</blockquote>
+<p><code>ggiraphExtra</code> contains many useful functions for exploratoty plots.</p>
+<p><a href="http://rpubs.com/cardiomoon/231820">ggiraphExtra - vignettes</a></p>
+</div>
+<div id="machine-learning" class="section level1">
+<h1>Machine Learning</h1>
+<blockquote>
+<p>caret</p>
+</blockquote>
+<p>The <code>caret</code> package (short for Classification And REgression Training) contains functions to streamline the model training process for complex regression and classification problems. <a href="https://cran.r-project.org/web/packages/caret/vignettes/caret.html">caret - vignettes</a></p>
+<blockquote>
+<p>mlr</p>
+</blockquote>
+<p><code>mlr</code> is a framework for machine learning experiments in R. <a href="https://mlr-org.github.io/mlr-tutorial/release/html/index.html">mlr - website</a> <a href="https://mlr-org.github.io/">mlr - blog</a></p>
+<blockquote>
+<p>Metrics</p>
+</blockquote>
+<p>An R package for common supervised machine learning metrics <a href="https://github.com/mfrasco/Metrics">Metrics - github</a></p>
+<blockquote>
+<p>iml</p>
+</blockquote>
+<p>The <code>iml</code> package provides tools for analysing any black box machine learning model. <a href="https://cran.r-project.org/web/packages/iml/vignettes/intro.html">iml - vignettes</a></p>
+<blockquote>
+<p>lime</p>
+</blockquote>
+<p>The purpose of <code>lime</code> is to explain the predictions of black box classifiers <a href="https://cran.r-project.org/web/packages/lime/vignettes/Understanding_lime.html">lime - vignettes</a> <a href="https://github.com/thomasp85/lime">lime - github</a></p>
+<blockquote>
+<p>xgboostExplaine</p>
+</blockquote>
+<p>An R package that makes xgboost models fully interpretable <a href="https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211">xgboostExplainer - tutorial</a></p>
+<blockquote>
+<p>shinyMlr</p>
+</blockquote>
+<p>Integration of the mlr package into shiny. With help of this package mlr can be accessed via a shiny interface.</p>
+<p><a href="https://github.com/mlr-org/shinyMlr">shinyMlr - github</a> <a href="https://www.youtube.com/watch?v=VZuRSQZdayY&amp;list=PLcTJ-34ghaH2QGL73DWfQvIdacW01Nvtp">shinyMlr - video tutorial</a></p>
+<blockquote>
+<p>bounceR</p>
+</blockquote>
+<p><code>bounceR</code> provides methods and tools for automated feature selection for Machine Learning models. The methods are fit for situation in which the data scientists faces an exceedingly high number of features.</p>
+<p><a href="https://github.com/STATWORX/bounceR">bounceR - github</a> )</p>
+<blockquote>
+<p>recipes</p>
+</blockquote>
+<p><code>recipes</code> is an alternative method for creating and preprocessing design matrices that can be used for modeling or visualization. <a href="https://github.com/topepo/recipes">recipes - github</a></p>
+<blockquote>
+<p>modelDown</p>
+</blockquote>
+<p><code>modelDown</code> generates a website with HTML summaries for predictive models <a href="modelDown%20generates%20a%20website%20with%20HTML%20summaries%20for%20predictive%20models">modelDown - vignettes</a></p>
+</div>
+<div id="time-series" class="section level1">
+<h1>Time series</h1>
+<blockquote>
+<p>tsfknn</p>
+</blockquote>
+<p>The package allows, with only a function, to specify the KNN model and to generate the forecasts. <a href="https://cran.r-project.org/web/packages/tsfknn/vignettes/tsfknn.html">tsfknn - vignettes</a></p>
+<blockquote>
+<p>prophet</p>
+</blockquote>
+<p>Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. <a href="https://facebook.github.io/prophet/">prohet - website</a></p>
+</div>
+<div id="r-interface" class="section level1">
+<h1>R Interface</h1>
+<blockquote>
+<p>sparkryl</p>
+</blockquote>
+<p><code>sparklyr</code> is an R interface for Apache Spark</p>
+<p><a href="http://spark.rstudio.com/">sparklyr - website</a></p>
+<blockquote>
+<p>RWeka</p>
+</blockquote>
+<p>An R interface to Weka. Weka is a collection of machine learning algorithms for data mining tasks written in Java.</p>
+<blockquote>
+<p>rbokeh</p>
+</blockquote>
+<p>rbokeh is an R Interface for Bokeh. Bokeh is a visualization library that provides a flexible and powerful declarative framework for creating web-based plots <a href="http://hafen.github.io/rbokeh/#background">rbokeh - vignettes</a></p>
+<div id="deep-learning-interface" class="section level2">
+<h2>Deep Learning interface</h2>
+<blockquote>
+<p>h2o</p>
+</blockquote>
+<p>R scripting functionality for ‘H2O’, the open source math engine for big data that computes parallel distributed machine learning algorithms such as generalized linear models, gradient boosting machines, random forests, and neural networks (deep learning) within various cluster environments.</p>
+<p><a href="http://docs.h2o.ai/h2o/latest-stable/h2o-r/docs/index.html">h2o - website</a></p>
+<p><a href="https://github.com/h2oai/h2o-tutorials/tree/master/tutorials/deeplearning">h2o - tutorial</a></p>
+<blockquote>
+<p>Keras</p>
+</blockquote>
+<p>R interface to Keras <a href="https://tensorflow.rstudio.com/keras/">keras - website</a></p>
+</div>
+</div>
+<div id="big-data" class="section level1">
+<h1>Big-Data</h1>
+<blockquote>
+<p>ff</p>
+</blockquote>
+<p>The ff package provides data structures that are stored on disk but behave (almost) as if they were in RAM. <a href="http://ff.r-forge.r-project.org/">ff - website</a></p>
+<blockquote>
+<p>replyr</p>
+</blockquote>
+<p>The <code>replyr</code> package attempts to provide practical data manipulation affordances to make code perform similarly on local or remote (big) data. <a href="https://github.com/WinVector/replyr">replyr - github</a></p>
+</div>
+<div id="deploy" class="section level1">
+<h1>Deploy</h1>
+<blockquote>
+<p>aurelius</p>
+</blockquote>
+<p>Provides tools for converting R objects and syntax into the Portable Format for Analytics (PFA).</p>
+<p><a href="https://cran.r-project.org/web/packages/aurelius/vignettes/basic-usage.html">aurelius - vignettes</a></p>
+</div>
+<div id="shiny" class="section level1">
+<h1>Shiny</h1>
+<blockquote>
+<p>shiny</p>
+</blockquote>
+<p><code>shiny</code> makes it easy to build interactive web apps straight from R <a href="https://shiny.rstudio.com/">shiny - website</a></p>
+<blockquote>
+<p>shinydashboard</p>
+</blockquote>
+<p><code>shinydashboard</code> makes it easy to use Shiny to create dashboards <a href="https://rstudio.github.io/shinydashboard/">shinydashboard - website</a></p>
+<blockquote>
+<p>shinyproxy</p>
+</blockquote>
+<p>ShinyProxy is your favourite way to deploy Shiny apps in an enterprise context. <a href="https://www.shinyproxy.io/#what-is-shinyproxy">shinyproxy - website</a></p>
+<blockquote>
+<p>shinyLP</p>
+</blockquote>
+<p>A R package for Bootstrap Components to make Landing Home Pages for Shiny <a href="https://github.com/jasdumas/shinyLP">shinyLP - github</a></p>
+<blockquote>
+<p>shinytemplate</p>
+</blockquote>
+<p>RStudio Project Templates for Shinyapps <a href="https://github.com/ThinkR-open/shinytemplate">shinytemplate - github</a></p>
+<blockquote>
+<p>shinymodule</p>
+</blockquote>
+<p>A Shiny module is a piece of a Shiny app. <a href="https://shiny.rstudio.com/articles/modules.html">shinymodules - shiny website</a></p>
+<blockquote>
+<p>dashboardthemes</p>
+</blockquote>
+<p>custom theme support for R Shinydashboard applications <a href="https://github.com/nik01010/dashboardthemes">dashboardthemes - github</a></p>
+</div>
+<div id="reporting-publishing-results" class="section level1">
+<h1>Reporting &amp; Publishing results</h1>
+<blockquote>
+<p>rmarkdorwn</p>
+</blockquote>
+<p>Convert R Markdown documents into a variety of formats.</p>
+<p><a href="https://rmarkdown.rstudio.com/">rmarkdown - website</a></p>
+<blockquote>
+<p>icon</p>
+</blockquote>
+<p>web icons for rmarkdown</p>
+<p><a href="https://ropensci.org/technotes/2018/05/15/icon/">icon - website</a></p>
+<blockquote>
+<p>officer</p>
+</blockquote>
+<p>Access and manipulate ‘Microsoft Word’ and ‘Microsoft PowerPoint’ documents from R. <a href="https://cran.r-project.org/web/packages/officer/vignettes/officer_reader.html">officer - vignettes</a></p>
+<blockquote>
+<p>kableExtra</p>
+</blockquote>
+<p>The goal of kableExtra is to help you build common complex tables and manipulate table styles.</p>
+<p><a href="https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html">kableExtra - website</a></p>
+<blockquote>
+<p>slidex</p>
+</blockquote>
+<p>slidex is aimed at making the process of converting Microsoft PowerPoint slides to beautiful HTML xaringan slides as seamless as possible, maintaining tables,figures, links, and bulleted lists. <a href="https://github.com/datalorax/slidex">slidex - github</a></p>
+</div>
+<div id="quality-control" class="section level1">
+<h1>Quality Control</h1>
+<blockquote>
+<p>SixSigma</p>
+</blockquote>
+<p>Functions and utilities to perform Statistical Analyses in the Six Sigma way.</p>
+<p><a href="http://www.sixsigmawithr.com/">SixSigma with R - ebook website</a> <a href="http://www.qualitycontrolwithr.com/">Quality Control with R - ebook</a></p>
+<blockquote>
+<p>qcc</p>
+</blockquote>
+<p>qcc is a contributed R package for statistical quality control charts</p>
+<p><a href="https://cran.r-project.org/web/packages/qcc/vignettes/qcc_a_quick_tour.html">qcc - vignettes</a></p>
+</div>
+<div id="r-api" class="section level1">
+<h1>R API</h1>
+<blockquote>
+<p>dockerfiler</p>
+</blockquote>
+<p>dockerfiler is a package that comes with a simple, object oriented API for Dockerfile creation, straight from your R session.</p>
+<p><a href="http://colinfay.me/dockerfiler-cran/">tutorial</a></p>
+<blockquote>
+<p>cloudML</p>
+</blockquote>
+<p>cloudml provides an R interface to Google Cloud Machine Learning Engine <a href="https://tensorflow.rstudio.com/tools/cloudml/articles/getting_started.html">cloudML - website</a></p>
+<blockquote>
+<p>googleComputeEngineR</p>
+</blockquote>
+<p>provides an R interface to the Google Cloud Compute Engine API, for launching virtual machines. <a href="https://github.com/cloudyr/googleComputeEngineR">googleComputeEngineR - github</a></p>
+</div>
+<div id="ide" class="section level1">
+<h1>IDE</h1>
+<blockquote>
+<p>Rcode</p>
+</blockquote>
+<blockquote>
+<p>R Analyticflow</p>
+</blockquote>
+</div>
+<div id="productivity" class="section level1">
+<h1>PRoductivity</h1>
+<blockquote>
+<p>packagefinder</p>
+</blockquote>
+<p>With ‘packagefinder’ you can search for multiple keywords in the name, title and description of the CRAN package, either case-sensitive or insensitive and define your own weighting scheme for the search results, if you like. <a href="https://cloud.r-project.org/web/packages/packagefinder/index.html">packagefinder - CRAN</a></p>
+</div>
+<div id="rstudio-addin" class="section level1">
+<h1>RStudio Addin</h1>
+<blockquote>
+<p>caretTuneGrid</p>
+</blockquote>
+<p>The caretTuneGrid is the RStudio addin for inserting tune parameters code for the caret package.</p>
+<p><a href="https://github.com/milosvil/caretTuneGrid">caretTuneGrid - github</a>.</p>
+<blockquote>
+<p>esquisse</p>
+</blockquote>
+<p>RStudio add-in to make plots with ggplot2</p>
+<p><a href="https://github.com/dreamRs/esquisse">esquisse - github</a></p>
+<blockquote>
+<p>editData</p>
+</blockquote>
+<p>RStudio addin for editing a ‘data.frame’ or a ‘tibble’</p>
+<p><a href="https://cran.r-project.org/web/packages/editData/vignettes/editData.html">Editing A ‘data.frame’</a></p>
+<blockquote>
+<p>Rcade</p>
+</blockquote>
+<p>The goal of Rcade is to provide access to games in order to waste some times in RStudio. You can play 2048, Tetris, Mario, Pacman, Spider Solitaire and others.</p>
+<blockquote>
+<p>taskscheduleR</p>
+</blockquote>
+<p>Schedule R scripts/processes with the Windows task scheduler.</p>
+<p><a href="https://cran.r-project.org/web/packages/taskscheduleR/README.html">taskscheduleR - vignettes</a></p>
+</div>
+<div id="r-for-fun" class="section level1">
+<h1>R for FUN</h1>
+<blockquote>
+<p>hexSticker</p>
+</blockquote>
+<p>Create hexagon sticker in R</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+
+</body>
+</html>

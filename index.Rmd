@@ -1,0 +1,8 @@
+---
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+All about R: tutorials, ebook, readings, libraries, courses, videos

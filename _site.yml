@@ -1,0 +1,25 @@
+name: R-DataSCience-Resources
+output_dir: '.'
+navbar:
+  title: R Resources
+  left:
+  - text: "Home"
+    href: index.html
+  - text: "Library"
+    href: library.html
+  - text: "E-book & Course"
+    href: ebook.html
+  - text: "Readings"
+    href: readings.html
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    mathjax: ~
+    toc_depth: 3
+    toc_float:
+      collapsed: no
+    css: css/rmarkdown.css
+    lib_dir: site_libs
+    self_contained: no
+

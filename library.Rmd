@@ -1,0 +1,458 @@
+---
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+In this page, I reported my package collection ispired by the following posts:
+
+* [Quick list of useful R packages](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages?mobile_site=true)
+* [Great R packages for data import, wrangling and visualization](https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html#tk.drr_mlt)
+* [R resources (free courses, books, tutorials, & cheat sheets)](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
+* [Top 20 R Libraries for Data Science in 2018 ](https://activewizards.com/blog/top-20-r-libraries-for-data-science-in-2018-infographic/)
+* [Data Science Links](http://jasdumas.com/ds-resources/)
+
+# Get the data
+
+This [manual](https://cran.r-project.org/doc/manuals/r-release/R-data.html)  describes the import and export facilities available either in R itself or via packages which are available from CRAN or elsewhere.  
+
+> readr
+
+the goal of `readr` is to provide a fast and friendly way to read rectangular data. 
+[readr - vignettes](https://cran.r-project.org/web/packages/readr/vignettes/readr.html)
+
+> rio
+
+The idea behind rio is to simplify the process of importing data into R and exporting data from R. 
+
+[rio - vignettes](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
+
+> dplyr
+
+`dplyr` is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges
+
+[dbplyr - website](https://dplyr.tidyverse.org/)
+
+[dbplyr - vignettes](https://cran.r-project.org/web/packages/dbplyr/vignettes/dbplyr.html)
+
+> MonetDBLite
+
+MonetDBLite for R, a fully embedded version of MonetDB that installs like any other R package.
+
+
+
+# Data Trasformation
+
+> forcats
+
+The goal of the forcats package is to provide a suite of useful tools that solve common problems with factors.
+
+[forcats - website](http://forcats.tidyverse.org/)
+
+
+
+# Explorative data analysis
+
+
+> SmartEDA
+
+Summarize and Explore the Data 
+
+[SmartEDA - vignettes](https://cran.r-project.org/web/packages/SmartEDA/vignettes/Report_r1.html)
+
+> FunModeling
+
+`funModeling`: data cleaning, importance variable analysis and model perfomance
+
+[funModeling - github](funModeling)
+
+> DataExplorer
+
+Data exploration process for data analysis and model building, so that users could focus on understanding data and extracting insights. The package automatically scans through each variable and does data profiling. 
+
+[DataExplorer - vignettes](https://cran.r-project.org/web/packages/DataExplorer/vignettes/dataexplorer-intro.html)
+
+
+> naniar
+
+`naniar` provides data structures and functions that facilitate the plotting of missing values and examination of imputations.
+
+[naniar - website](http://naniar.njtierney.com/articles/naniar-visualisation.html)
+[naniar - github](https://github.com/njtierney/naniar)
+
+
+# Dimension Reduction (PCA)
+
+> FactoMineR
+
+`FactoMineR` is an R package dedicated to multivariate Exploratory Data Analysis.
+
+[FactoMineR - website](http://factominer.free.fr/)
+
+# Clustering
+
+> fpc
+
+Various methods for clustering and cluster validation.
+
+
+
+> gower
+
+Gower’s distance can be used to measure how different two records are.
+
+[gower - vignettes](https://cran.r-project.org/web/packages/gower/vignettes/intro.html)
+
+# Visualization
+
+> ggplot2
+
+`ggplot2` is a system for declaratively creating graphics, based on The Grammar of Graphics.
+
+[ggplot2 - website](http://ggplot2.tidyverse.org/)
+
+> GGally
+
+`GGally` extends ggplot2 by adding several functions to reduce the complexity of combining geoms with transformed data.
+
+[GGally - website](https://ggobi.github.io/ggally/)
+
+> ggpubr
+
+The `ggpubr` package provides some easy-to-use functions for creating and customizing ‘ggplot2’- based publication ready plots.
+
+[ggpubr - sthda website](http://www.sthda.com/english/rpkgs/ggpubr/index.html)
+
+> ggrepel
+
+Repel overlapping text labels away from each other
+
+[ggrepel - vignettes](https://github.com/slowkow/ggrepel)
+
+> tabplot
+
+The tableplot is a powerful visualization method to explore and analyse large multivariate datasets
+
+[tabplot - vignettes](https://cran.r-project.org/web/packages/tabplot/vignettes/tabplot-vignette.html)
+
+> ggstatsplot
+
+creates graphics with details from statistical tests
+[ggstatsplot - github](https://github.com/IndrajeetPatil/ggstatsplot)
+
+> plotly
+
+An R package for creating interactive web graphics.
+
+[plotly - github](https://github.com/ropensci/plotly)
+
+> patchwork
+
+The goal of `patchwork` is to make it ridiculously simple to combine separate ggplots into the same graphic. 
+[patchwork - github](https://github.com/thomasp85/patchwork/blob/master/README.md) 
+
+> factoextra
+
+`factoextra` is an R package making easy to extract and visualize the output of exploratory multivariate data analyses
+
+[factoextra - sthda website](http://www.sthda.com/english/wiki/factoextra-r-package-easy-multivariate-data-analyses-and-elegant-visualization)
+
+> ggiraphExtra
+
+`ggiraphExtra` contains many useful functions for exploratoty plots.
+
+[ggiraphExtra - vignettes](http://rpubs.com/cardiomoon/231820)
+
+# Machine Learning
+
+
+> caret
+
+The `caret` package (short for Classification And REgression Training) contains functions to streamline the model training process for complex regression and classification problems.
+[caret - vignettes](https://cran.r-project.org/web/packages/caret/vignettes/caret.html)
+
+> mlr
+
+`mlr` is a framework for machine learning experiments in R.
+[mlr - website](https://mlr-org.github.io/mlr-tutorial/release/html/index.html)
+[mlr - blog](https://mlr-org.github.io/)
+
+> Metrics
+
+An R package for common supervised machine learning metrics 
+[Metrics - github](https://github.com/mfrasco/Metrics)
+
+
+> iml
+
+The `iml` package provides tools for analysing any black box machine learning model.
+[iml - vignettes](https://cran.r-project.org/web/packages/iml/vignettes/intro.html)
+
+> lime
+
+The purpose of `lime` is to explain the predictions of black box classifiers
+[lime - vignettes](https://cran.r-project.org/web/packages/lime/vignettes/Understanding_lime.html)
+[lime - github](https://github.com/thomasp85/lime)
+
+> xgboostExplaine
+
+An R package that makes xgboost models fully interpretable
+[xgboostExplainer - tutorial](https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211) 
+
+
+> shinyMlr
+
+Integration of the mlr package into shiny.
+With help of this package mlr can be accessed via a shiny interface.
+
+[shinyMlr - github](https://github.com/mlr-org/shinyMlr)
+[shinyMlr - video tutorial](https://www.youtube.com/watch?v=VZuRSQZdayY&list=PLcTJ-34ghaH2QGL73DWfQvIdacW01Nvtp)
+
+> bounceR
+
+`bounceR` provides methods and tools for automated feature selection for Machine Learning models. The methods are fit for situation in which the data scientists faces an exceedingly high number of features.
+
+[bounceR - github](https://github.com/STATWORX/bounceR) )
+
+> recipes
+
+`recipes` is an alternative method for creating and preprocessing design matrices that can be used for modeling or visualization.
+[recipes - github](https://github.com/topepo/recipes)
+
+> modelDown
+
+`modelDown` generates a website with HTML summaries for predictive models 
+[modelDown - vignettes](modelDown generates a website with HTML summaries for predictive models)
+
+# Time series
+
+> tsfknn
+
+The package allows, with only a function, to specify the KNN model and to generate the forecasts. 
+[tsfknn - vignettes](https://cran.r-project.org/web/packages/tsfknn/vignettes/tsfknn.html)
+
+> prophet
+
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
+[prohet - website](https://facebook.github.io/prophet/) 
+
+# R Interface
+
+> sparkryl
+
+`sparklyr` is an R interface for Apache Spark
+
+[sparklyr - website](http://spark.rstudio.com/)
+
+
+> RWeka
+
+An R interface to Weka. Weka is a collection of machine learning algorithms for data mining tasks written in Java.
+
+> rbokeh
+
+rbokeh is an R Interface for Bokeh. Bokeh is a visualization library that provides a flexible and powerful declarative framework for creating web-based plots
+[rbokeh - vignettes ](http://hafen.github.io/rbokeh/#background)
+
+
+## Deep Learning interface
+
+> h2o
+
+R scripting functionality for 'H2O', the open source math engine for big data that computes parallel distributed machine learning algorithms such as generalized linear models, gradient boosting machines, random forests, and neural networks (deep learning) within various cluster environments.
+
+[h2o - website](http://docs.h2o.ai/h2o/latest-stable/h2o-r/docs/index.html)
+
+
+[h2o - tutorial](https://github.com/h2oai/h2o-tutorials/tree/master/tutorials/deeplearning)
+
+
+> Keras
+
+R interface to Keras
+[keras - website](https://tensorflow.rstudio.com/keras/)
+
+
+# Big-Data
+
+> ff
+
+The ff package provides data structures that are stored on disk but behave (almost) as if they were in RAM.
+[ff - website](http://ff.r-forge.r-project.org/)
+
+> replyr
+
+The `replyr` package attempts to provide practical data manipulation affordances to make code perform similarly on local or remote (big) data.
+[replyr - github](https://github.com/WinVector/replyr)
+
+
+
+# Deploy
+
+> aurelius
+
+Provides tools for converting R objects and syntax into the Portable Format for Analytics (PFA). 
+
+[aurelius - vignettes](https://cran.r-project.org/web/packages/aurelius/vignettes/basic-usage.html)
+
+
+# Shiny
+
+> shiny
+
+`shiny` makes it easy to build interactive web apps straight from R
+[shiny - website](https://shiny.rstudio.com/)
+
+> shinydashboard
+
+`shinydashboard` makes it easy to use Shiny to create dashboards
+[shinydashboard - website](https://rstudio.github.io/shinydashboard/)
+
+> shinyproxy
+
+ShinyProxy is your favourite way to deploy Shiny apps in an enterprise context.
+[shinyproxy - website](https://www.shinyproxy.io/#what-is-shinyproxy)
+
+> shinyLP
+
+A R package for Bootstrap Components to make Landing Home Pages for Shiny
+[shinyLP - github](https://github.com/jasdumas/shinyLP)
+
+> shinytemplate
+
+RStudio Project Templates for Shinyapps
+[shinytemplate - github](https://github.com/ThinkR-open/shinytemplate)
+
+> shinymodule
+
+A Shiny module is a piece of a Shiny app.
+[shinymodules - shiny website](https://shiny.rstudio.com/articles/modules.html)
+
+> dashboardthemes
+
+custom theme support for R Shinydashboard applications
+[ dashboardthemes - github](https://github.com/nik01010/dashboardthemes)
+
+# Reporting & Publishing results
+
+> rmarkdorwn
+
+Convert R Markdown documents into a variety of formats.
+
+[rmarkdown - website](https://rmarkdown.rstudio.com/)
+
+> icon
+
+web icons for rmarkdown
+
+[icon - website](https://ropensci.org/technotes/2018/05/15/icon/)
+
+> officer
+
+Access and manipulate 'Microsoft Word' and 'Microsoft PowerPoint' documents from R. 
+[officer - vignettes](https://cran.r-project.org/web/packages/officer/vignettes/officer_reader.html)
+
+> kableExtra
+
+The goal of kableExtra is to help you build common complex tables and manipulate table styles.
+
+[kableExtra - website](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html)
+
+> slidex
+
+slidex is aimed at making the process of converting Microsoft PowerPoint slides to beautiful HTML xaringan slides as seamless as possible, maintaining tables,figures, links, and bulleted lists.
+[slidex - github](https://github.com/datalorax/slidex)
+
+# Quality Control
+
+> SixSigma
+
+Functions and utilities to perform Statistical Analyses in the Six Sigma way.
+
+[SixSigma with R - ebook website](http://www.sixsigmawithr.com/)
+[Quality Control with R - ebook](http://www.qualitycontrolwithr.com/)
+
+
+> qcc
+
+qcc is a contributed R package for statistical quality control charts
+
+[qcc - vignettes](https://cran.r-project.org/web/packages/qcc/vignettes/qcc_a_quick_tour.html)
+
+
+# R API
+
+> dockerfiler
+
+dockerfiler is a package that comes with a simple, object oriented API for Dockerfile creation, straight from your R session.
+
+[tutorial](http://colinfay.me/dockerfiler-cran/)
+
+> cloudML
+
+cloudml provides an R interface to Google Cloud Machine Learning Engine
+[cloudML - website](https://tensorflow.rstudio.com/tools/cloudml/articles/getting_started.html)
+
+
+> googleComputeEngineR 
+
+
+provides an R interface to the Google Cloud Compute Engine API, for launching virtual machines.
+[googleComputeEngineR - github](https://github.com/cloudyr/googleComputeEngineR)
+
+
+# IDE
+
+> Rcode
+
+
+> R Analyticflow
+
+# PRoductivity
+
+> packagefinder
+
+With 'packagefinder' you can search for multiple keywords in the name, title and description of the CRAN package, either case-sensitive or insensitive and define your own weighting scheme for the search results, if you like.
+[ packagefinder - CRAN](https://cloud.r-project.org/web/packages/packagefinder/index.html)
+
+# RStudio Addin
+
+> caretTuneGrid
+
+The caretTuneGrid is the RStudio addin for inserting tune parameters code for the caret package. 
+
+[caretTuneGrid - github](https://github.com/milosvil/caretTuneGrid).
+
+> esquisse
+
+RStudio add-in to make plots with ggplot2 
+
+[esquisse - github](https://github.com/dreamRs/esquisse)
+
+> editData
+
+RStudio addin for editing a ‘data.frame’ or a ‘tibble’
+
+[Editing A ‘data.frame’](https://cran.r-project.org/web/packages/editData/vignettes/editData.html)
+
+> Rcade
+
+The goal of Rcade is to provide access to games in order to waste some times in RStudio. You can play 2048, Tetris, Mario, Pacman, Spider Solitaire and others.
+
+> taskscheduleR
+
+Schedule R scripts/processes with the Windows task scheduler. 
+
+[taskscheduleR - vignettes ](https://cran.r-project.org/web/packages/taskscheduleR/README.html)
+
+# R for FUN
+
+> hexSticker
+
+Create hexagon sticker in R
+
+
+
+
+

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css\rmarkdown.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">R Resources</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="library.html">Library</a>
+</li>
+<li>
+  <a href="ebook.html">E-book &amp; Course</a>
+</li>
+<li>
+  <a href="readings.html">Readings</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="readings" class="section level1">
+<h1>Readings</h1>
+<div id="data-munging" class="section level2">
+<h2>Data Munging</h2>
+<ul>
+<li><a href="https://www.listendata.com/2016/08/dplyr-tutorial.html">Data Manipulation with dpylyr</a> – <code>dplyr</code></li>
+<li><a href="https://datascienceplus.com/working-on-data-warehouse-sql-with-r/">Working on Data-Warehouse (SQL) with R</a> – <code>dplyr</code></li>
+<li><a href="https://rviews.rstudio.com/2017/10/18/database-queries-with-r/">Database Queries With R</a> – <code>dplyr</code></li>
+<li><a href="http://perso.ens-lyon.fr/lise.vaudor/manipulation-de-facteurs-avec-forcats/">Manipulation de facteurs avec forcats</a> – <code>forcats</code></li>
+<li><a href="https://datashenanigan.wordpress.com/2015/05/18/getting-started-with-postgresql-in-r/">Getting started with PostgreSQL in R</a> – <code>RPostgreSQL</code></li>
+<li><a href="http://genomicsclass.github.io/book/pages/dplyr_tutorial.html">dplyr tutorial</a> – <code>dplyr</code></li>
+<li><a href="https://github.com/trinker/dplyr_in_a_nutshell">dplyr In a Nutshell</a> – <code>dplyr</code></li>
+<li><a href="https://nsaunders.wordpress.com/2010/08/20/a-brief-introduction-to-apply-in-r/">Introduction to apply</a></li>
+<li><a href="https://rpubs.com/bradleyboehmke/data_wrangling">Data Processing with dplyr &amp; tidyr</a> – <code>dplyr</code></li>
+</ul>
+</div>
+<div id="data-preparation" class="section level2">
+<h2>Data Preparation</h2>
+<ul>
+<li><a href="https://blogs.msdn.microsoft.com/microsoftrservertigerteam/2017/03/23/feature-engineering-using-r/">Feature Engineering using R</a></li>
+</ul>
+</div>
+<div id="explorative-data-aanalysis" class="section level2">
+<h2>Explorative Data Aanalysis</h2>
+<ul>
+<li><a href="https://datascienceplus.com/six-sigma-dmaic-series-in-r-part-1/">Six Sigma DMAIC Series in R – Part 1</a> – <code>DMAIC</code></li>
+<li><a href="https://neuropsychology.github.io/psycho.R/2018/05/20/correlation.html">Beautiful and Powerful Correlation Tables in R</a></li>
+</ul>
+</div>
+<div id="visualization" class="section level2">
+<h2>Visualization</h2>
+<ul>
+<li><a href="http://shinyapps.org/apps/RGraphCompendium/index.php?licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-object&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B0F0dQBL5QtektJ0RziXCww%3D%3D">A Compendium of Clean Graphs in R</a></li>
+<li><a href="http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html">R graphics</a> – <code>ggplot2</code></li>
+<li><a href="https://rddj.info/?utm_content=bufferc7064&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer#publication-quality-graphics">high quality resources for doing data journalism with R</a></li>
+<li><a href="http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html">Top 50 ggplot2 Visualizations</a> – <code>ggplot2</code></li>
+<li><a href="https://www.data-to-viz.com/#dendrogram">from Data to Viz</a></li>
+<li><a href="https://talks.andrewheiss.com/utah-rug-dataviz/">Introduction to data visualization with R</a> – <code>ggplot2</code></li>
+</ul>
+</div>
+<div id="unsupervised-learning" class="section level2">
+<h2>Unsupervised Learning</h2>
+<ul>
+<li><a href="https://www.r-statistics.com/2015/08/dendextend-a-package-for-visualizing-adjusting-and-comparing-dendrograms-from-the-journal-bioinformatics/">A package for visualizing dendrograms</a> – <code>dendextend</code></li>
+<li><a href="https://stepupanalytics.com/difference-between-k-means-clustering-and-hierarchical-clustering/">Difference Between K-Means And Hierarchical</a> – <code>kmeans</code></li>
+<li><a href="https://data-flair.training/blogs/r-clustering-tutorial/">R Clustering</a> – <code>kmeans</code></li>
+<li><a href="http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/#compute-pca-in-r-using-prcomp">Principal Component Methods in R</a> – <code>factoextra</code></li>
+</ul>
+</div>
+<div id="machine-learning" class="section level2">
+<h2>Machine Learning</h2>
+<ul>
+<li><a href="https://educationalresearchtechniques.com/2017/12/18/principal-component-regression-in-r/">Principal component regression in R</a> – <code>pls</code></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2016/12/practical-guide-to-implement-machine-learning-with-caret-package-in-r-with-practice-problem/">machine learning with CARET package in R</a> – <code>caret</code></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/">Going Deeper into Regression Analysis</a></li>
+<li><a href="https://insightr.wordpress.com/2018/05/17/tuning-xgboost-in-r-part-i/#more-809">Tuning xgboost in R</a> – <code>xgboost</code></li>
+<li><a href="https://amunategui.github.io/binary-outcome-modeling/">Predicting Binary Outcomes with R, gbm, glmnet</a> – <code>caret</code></li>
+<li><a href="https://datascienceplus.com/time-dependent-roc-for-survival-prediction-models-in-r/">Survival Prediction Models in R</a> – <code>survival</code></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2017/03/imbalanced-classification-problem/">How to handle Imbalanced Classification</a></li>
+<li><a href="https://www.machinelearningplus.com/machine-learning/caret-package/">Caret Package – A Practical</a> – <code>caret</code></li>
+<li><a href="http://uc-r.github.io/lime">Visualizing ML Models with LIME</a> – <code>lime</code>|</li>
+<li><a href="https://github.com/pablo14/post_cluster_tsne/blob/master/post.Rmd">Playing with dimensions</a> – <code>Rtsne</code></li>
+<li><a href="https://towardsdatascience.com/a-tour-of-the-top-10-algorithms-for-machine-learning-newbies-dde4edffae11">Top 10 Algorithms for Newbies</a></li>
+<li><a href="https://www.statworx.com/de/blog/data-science/bouncer-0-1-2-automated-feature-selection/">Automated Feature Selection</a> – <code>bounceR</code></li>
+<li><a href="https://www.listendata.com/2017/12/k-nearest-neighbor-step-by-step-tutorial.html">K NEAREST NEIGHBOR</a> – <code>caret</code></li>
+<li><a href="https://longhowlam.wordpress.com/2017/08/30/the-one-function-call-you-need-to-know-as-a-data-scientist-h2o-automl/">The one function call you need to know as a data scientist: h2o.automl</a> – <code>h2o</code></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/">7 Types of Regression Techniques you should know!</a></li>
+<li><a href="https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-guide-regression-analysis-plot-interpretations/tutorial/">Beginners Guide to Regression Analysis and Plot Interpretations</a></li>
+<li><a href="https://www.datacamp.com/community/tutorials/logistic-regression-R">Logistic Regression in R Tutorial</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2015/11/beginners-guide-on-logistic-regression-in-r/">Simple Guide to Logistic Regression in R</a></li>
+<li><a href="https://shirinsplayground.netlify.com/2018/06/intro_to_ml_workshop_heidelberg/">Code for Workshop: Introduction to Machine Learning with R</a></li>
+<li><a href="http://smarterpoland.pl/index.php/2018/06/modeldown-a-website-generator-for-your-predictive-models/">modelDown: a website generator for your predictive models</a> – <code>modelDown</code></li>
+<li><a href="http://rpubs.com/prcuny/161764">Metric Functions in a Classification Dataset</a> – <code>caret</code></li>
+<li>[caret machine learning repository])(<a href="https://github.com/tobigithub/caret-machine-learning/wiki" class="uri">https://github.com/tobigithub/caret-machine-learning/wiki</a>) – <code>caret</code></li>
+</ul>
+</div>
+<div id="sparklyr" class="section level2">
+<h2>Sparklyr</h2>
+<ul>
+<li><a href="https://shiring.github.io/machine_learning/2017/02/19/food_spark">Predicting food preferences with sparklyr</a></li>
+<li><a href="https://eddjberry.netlify.com/post/2017-11-02-sparklyr/">Machine learning and k-fold cross validation with sparklyr</a></li>
+<li><a href="https://databricks.com/session/r-and-spark-how-to-analyze-data-using-rstudios-sparklyr-and-h2os-rsparkling-packages">R and Spark: How to Analyze Data Using RStudio’s Sparklyr and H2O’s Rsparkling Packages</a></li>
+<li><a href="https://beta.rstudioconnect.com/content/2025/dplyr.nb.html">Manipulating Data with dplyr</a></li>
+<li><a href="https://github.com/rstudio/sparkDemos/blob/master/prod/presentations/sparkSummitEast/taxiDemoH2O.Rmd">taxiDemoH2O.Rmd</a></li>
+<li><a href="http://www.brodrigues.co/blog/2018-02-16-importing_30gb_of_data/">Importing 30GB of data into R with sparklyr</a></li>
+<li><a href="https://beta.rstudioconnect.com/content/1518/notebook-classification.html">Comparison of ML Classifiers Using Sparklyr</a></li>
+<li><a href="https://rstudio-pubs-static.s3.amazonaws.com/244135_7fdd3eb63ef24e62be0e037e293ac95f.html">Analyzing US flight map with sparklyr</a></li>
+<li><a href="http://colorado.rstudio.com:3939/content/420/taxiDemo.nb.html">Data Science Toolchain with Spark and R</a></li>
+</ul>
+</div>
+<div id="deep-learning" class="section level2">
+<h2>Deep Learning</h2>
+<ul>
+<li><a href="https://tsmatz.wordpress.com/2017/05/25/image-classification-and-matching-with-r-microsoftml-featurizeimage/">Pre-trained model on R</a> – <code>MicrosoftML</code></li>
+<li><a href="https://tensorflow.rstudio.com/keras/articles/applications.html">Using Pre-Trained Models</a></li>
+<li><a href="http://www.rblog.uni-freiburg.de/2017/02/07/deep-learning-in-r/">Deep Learning in R</a></li>
+<li><a href="http://jasdumas.com/2018-02-20-deep-learning-img-classifier/">Deep Learning with Keras and Shiny</a> – <code>keras</code></li>
+<li><a href="https://github.com/longhowlam/I_LOVE_IKEA_SHINY_APP">I_LOVE_IKEA_SHINY_APP</a> – <code>keras</code></li>
+<li><a href="https://tensorflow.rstudio.com/blog/keras-image-classification-on-small-datasets.html">Image Classification with Keras</a> – <code>keras</code></li>
+<li><a href="https://github.com/jjallaire/deep-learning-with-r-notebooks">Deep Learning with R</a> – <code>keras</code></li>
+<li><a href="https://shirinsplayground.netlify.com/2018/06/keras_fruits/">Image classification with keras</a> –<code>keras</code></li>
+<li><a href="https://shirinsplayground.netlify.com/2018/06/keras_fruits_lime/">Explaining Keras image classification models with lime</a> – <code>keras</code></li>
+<li><a href="https://medium.com/@shridhar743/kaggle-1-winning-approach-for-image-classification-challenge-9c1188157a86">Kaggle #1 Winning Approach for Image Classification Challenge</a></li>
+<li><a href="https://www.kaggle.com/dkoops/keras-r-vgg16-base">Example code Keras in R - VGG16 Base - Kaggle Kernel</a> – <code>keras</code></li>
+<li><a href="https://www.kaggle.com/bonovandoo/advanced-gardening-with-convolutional-nns">Advanced GaRdening with Convolutional NNs – Kaggle kernel</a> – <code>mxnet</code></li>
+</ul>
+</div>
+<div id="time-series-analysis" class="section level2">
+<h2>Time series analysis</h2>
+<ul>
+<li><a href="http://www.christophsax.com/2018/05/15/tsbox/">Time Series of the World, Unite!</a> – <code>tsbox</code></li>
+<li><a href="https://tensorflow.rstudio.com/blog/sunspots-lstm.html">Deep Learning for Time Series Forecasting</a> – <code>keras</code></li>
+<li><a href="https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm">Introduction to Time Series Analysis</a></li>
+<li><a href="https://robjhyndman.com/talks/MelbourneRUG.pdf">Forecasting time series using R</a></li>
+<li><a href="http://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html">Using R for Time Series Analysis</a></li>
+<li><a href="https://uc-r.github.io/ts_exploration">Exploring &amp; Visualizing Time Series</a></li>
+<li><a href="http://www.sthda.com/english/articles/32-r-graphics-essentials/128-plot-time-series-data-using-ggplot/">Plot Time Series Data Using GGPlot</a></li>
+<li><a href="https://edwinth.github.io/blog/padr-examples/">Preparing Datetime Data for Analysis with padr and dplyr</a></li>
+<li><a href="http://uc-r.github.io/ts_moving_averages">Moving Averages</a></li>
+<li><a href="https://www.datascience.com/blog/introduction-to-forecasting-with-arima-in-r-learn-data-science-tutorials">Introduction to Forecasting with ARIMA in R</a></li>
+<li><a href="https://redoakstrategic.com/time_series_forecasting_machine_learning/">Time Series Forecasting with Machine Learning: An example from Kaggle</a></li>
+<li><a href="https://www.displayr.com/how-to-add-trend-lines-in-r-using-plotly/?utm_medium=Feed&amp;utm_source=Syndication">How to add Trend Lines in R Using Plotly</a></li>
+</ul>
+</div>
+<div id="reporting" class="section level2">
+<h2>Reporting</h2>
+<ul>
+<li><a href="https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html">Getting Started with R Markdown</a> – <code>rmarkdown</code></li>
+<li><a href="https://github.com/barryclark/jekyll-now">Build a Jekyll blog in minutes</a></li>
+<li><a href="https://www.worksmarter.pl/en/post/job-automation-r-1/">Job automation in R</a> – <code>rmarkdown</code></li>
+<li><a href="http://www.pzhao.org/en/post/bookdown-cheatsheet/">bookdown cheatsheet</a> – <code>bookdown</code></li>
+<li><a href="https://github.com/holtzy/epuRate">A clean R Markdown template for your reports</a> – <code>rmarkdown</code></li>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> – <code>rmarkdown</code></li>
+</ul>
+</div>
+<div id="shiny" class="section level2">
+<h2>Shiny</h2>
+<ul>
+<li><a href="https://grabear.github.io/awesome-rshiny/">An awesome R-shiny list!</a> – <code>shiny</code></li>
+<li><a href="https://rtask.thinkr.fr/blog/our-shiny-template-to-design-a-prod-ready-app/">A Shiny application in a package R</a> – <code>shiny</code></li>
+<li><a href="https://appsilondatascience.com/blog/rstats/2018/05/30/user-authentication-in-r-shiny.html">User authentication in R Shiny</a> – <code>shiny</code></li>
+<li><a href="https://appsilondatascience.com/blog/rstats/2018/06/11/dashboard-tutorial.html">Create dashboards with semantic.dashboard</a> – <code>semantic.dashboard</code></li>
+<li><a href="https://www.sitepoint.com/shiny-r-and-html-merging-data-science-and-web-development/">Shiny, R and HTML</a> – <code>shiny</code></li>
+<li><a href="https://ipub.com/shiny-crud-app/">Shiny Database App (CRUD)</a></li>
+</ul>
+</div>
+<div id="shiny-code" class="section level2">
+<h2>Shiny Code</h2>
+<ul>
+<li><a href="http://shiny.webpopix.org/dashboard/absorption/">Shiny Dashboard example</a></li>
+<li><a href="https://paula-moraga.github.io/tutorial-shiny-spatial/">Building a Shiny web application to visualize spatial and spatio-temporal data</a></li>
+</ul>
+</div>
+<div id="deploy" class="section level2">
+<h2>Deploy</h2>
+<ul>
+<li><a href="https://github.com/ColinFay/erum2018">Building a Package that Lasts</a> – <code>package</code></li>
+<li><a href="https://stevenmortimer.com/a-scalable-predictive-api-with-pfa-and-aws-lambda/">A Scalable Predictive API with PFA</a> – <code>aurelius</code></li>
+<li><a href="https://aws.amazon.com/it/blogs/machine-learning/using-r-with-amazon-sagemaker/">Using R with Amazon</a></li>
+</ul>
+<div id="aws-tutorial" class="section level3">
+<h3>AWS Tutorial</h3>
+<ul>
+<li><a href="https://spark.rstudio.com/examples/yarn-cluster-emr/">Using sparklyr with an Apache Spark cluster</a></li>
+<li><a href="https://redoakstrategic.com/h2oaws/">Analytics at Scale: h2o, Apache Spark and R on AWS EMR</a></li>
+<li><a href="http://amunategui.github.io/h2o-on-aws/">H2O &amp; RStudio Server on Amazon Web Services (AWS), the Easy Way!</a></li>
+</ul>
+</div>
+</div>
+<div id="api-ide" class="section level2">
+<h2>API &amp; IDE</h2>
+<ul>
+<li><a href="http://www.ryanpraski.com/google-analytics-r-tutorial/">Google Analytics R Tutorial</a> – <code>googleAnalyticsR</code></li>
+<li><a href="http://www.rdatamining.com/big-data/big-data-platforms">Big Data Platforms</a></li>
+<li><a href="http://stagraph.com/Post?Id=31&amp;Title=Powered+By+R#r_online">Powered By R</a></li>
+<li><a href="http://blog.revolutionanalytics.com/2018/01/r-cloud-tools.html">Services and tools for building intelligent R applications in the cloud</a></li>
+<li><a href="https://stevenmortimer.com/presentations/working-with-apis-from-r/">Working with APIs from R</a></li>
+<li><a href="http://jaehyeon-kim.github.io/2017/11/API-Development-with-R-Part-I.html">API Development with R Part-I</a> – <code>plumber</code> , <code>rApache</code></li>
+</ul>
+</div>
+<div id="teaching-r" class="section level2">
+<h2>Teaching R</h2>
+<ul>
+<li><a href="http://rstatistics.net/r-lang-practice-exercises-level-1-beginners/">R PRACTICE EXERCISES: LEVEL 1</a></li>
+<li><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-r-data-science/">LeaRning Path on R</a></li>
+<li><a href="https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/">Some datasets for teaching data science</a></li>
+<li><a href="https://github.com/skranz/RTutor">RTutor: Interactive R Problem Sets</a></li>
+<li><a href="https://github.com/FavioVazquez/awesome-datascience" class="uri">https://github.com/FavioVazquez/awesome-datascience</a></li>
+<li><a href="http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/rexercises.pdf">Programming Exercises for R</a></li>
+</ul>
+</div>
+</div>
+<div id="rpubs-must-read" class="section level1">
+<h1>RPubs must read</h1>
+<div id="basic" class="section level2">
+<h2>Basic</h2>
+<ul>
+<li><a href="https://rpubs.com/moeransm/intro-iris">Learning R on iris</a></li>
+<li><a href="http://rstudio-pubs-static.s3.amazonaws.com/233370_56612580566d4c46a10ff2f70fa858a4.html">Missing Value Treatment</a></li>
+<li><a href="https://rstudio-pubs-static.s3.amazonaws.com/33876_1d7794d9a86647ca90c4f182df93f0e8.html">Cluster Analysis with R</a></li>
+<li><a href="http://rpubs.com/kjmazidi/195428">Classification with Decision Trees</a></li>
+<li><a href="https://rpubs.com/njvijay/16444">kNN Using caret R package</a></li>
+<li><a href="http://rpubs.com/cardiomoon/398623">Pie Chart Revisited</a></li>
+<li><a href="https://rpubs.com/riazakhan94/naive_bayes_classifier_e1071">Naive Bayes Classifier: theory and R example</a></li>
+</ul>
+</div>
+<div id="advanced" class="section level2">
+<h2>Advanced</h2>
+<ul>
+<li><a href="http://www.rpubs.com/arifulmondal/scoring">Classifications in R</a></li>
+<li><a href="https://rpubs.com/sbushmanov/180410">Market basket analysis</a></li>
+<li><a href="https://rpubs.com/kieroneil/321413">Fraud Detection with Machine Learning</a></li>
+<li><a href="https://rpubs.com/m3cinc/machine_learning_key_to_your_formulation_challenges">Machine Learning, Key to Your Formulation Challenges</a></li>
+</ul>
+</div>
+</div>
+<div id="kaggle-kernel" class="section level1">
+<h1>Kaggle kernel</h1>
+<ul>
+<li><a href="https://www.kaggle.com/javadzabihi/happiness-2017-visualization-prediction/notebook?utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=Weekly-Kernel-Awards">Happiness 2017 (Visualization + Prediction)</a></li>
+<li><a href="https://www.kaggle.com/heesoo37/stack-overflow-2018-survey-age-gender-sexuality?utm_medium=social&amp;utm_source=linkedin.com&amp;utm_campaign=Weekly-Kernel-Awards">Stack Overflow 2018 survey: age, gender, sexuality</a></li>
+<li><a href="https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml">Breast Cancer or Not (with 15 ML)</a></li>
+<li><a href="https://www.kaggle.com/mrisdal/exploring-survival-on-the-titanic">Exploring Survival on the Titanic</a></li>
+<li><a href="https://www.kaggle.com/tannercarbonati/detailed-data-analysis-ensemble-modeling">Detailed Data Analysis &amp; Ensemble Modeling</a> – <code>caret</code></li>
+<li><a href="https://www.kaggle.com/philippsp/exploratory-analysis-instacart">Exploratory Analysis - Instacart</a> – <code>ggplot2</code></li>
+<li><a href="https://www.kaggle.com/kernels?group=everyone&amp;language=R&amp;pageSize=20&amp;sortBy=votes">R/rmd kaggle Kernels ordered by votes</a></li>
+</ul>
+</div>
+<div id="github-repository" class="section level1">
+<h1>Github repository</h1>
+<ul>
+<li><a href="https://github.com/susanli2016/Data-Analysis-with-R">Data Analysis with R</a></li>
+<li><a href="https://github.com/h2oai/h2o-meetups">Presentations from H2O meetups &amp; conferences by the H2O.ai team</a></li>
+<li><a href="https://github.com/h2oai/h2o-meetups/tree/master/2016_10_10_Data_Science_Milan">H2O for Internet of Things + Deep Water project</a></li>
+</ul>
+</div>
+<div id="datasets" class="section level1">
+<h1>Datasets</h1>
+<ul>
+<li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a></li>
+<li><a href="https://elitedatascience.com/machine-learning-projects-for-beginners?utm_content=buffere966c&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer&amp;lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BlUa9rTKnSle%2FhXzYuGdA6Q%3D%3D">8 Fun Machine Learning Projects for Beginners</a></li>
+<li><a href="Datasets%20to%20Practice%20Your%20Data%20Mining">Datasets to Practice Your Data Mining</a></li>
+<li><a href="https://github.com/trinker/wakefield">Generate random data sets</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/">Data Science Projects</a></li>
+<li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a></li>
+<li><a href="https://gengo.ai/articles/16-strange-datasets-for-machine-learning/">16 Strange Datasets for Machine Learning</a></li>
+</ul>
+<div id="datasets-for-smart-factory" class="section level2">
+<h2>Datasets for smart factory</h2>
+<ul>
+<li><a href="https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant">Combined Cycle Power Plant Data Set</a></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+
+</body>
+</html>

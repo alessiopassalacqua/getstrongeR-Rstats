@@ -1,0 +1,88 @@
+---
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+# Ebook 
+
+* [Happy Git and GitHub for the useR](http://happygitwithr.com/)
+
+* [Just Enough R](https://benwhalley.github.io/just-enough-r/)
+
+* [An Introduction to Statistical and Data Sciences via R](http://moderndive.com/index.html)
+
+* [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/)
+
+* [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
+
+* [A gRadual intRoduction to Shiny](https://laderast.github.io/gradual_shiny/)
+
+* [Functional programming and unit testing for data munging with R](https://b-rodrigues.github.io/fput/)
+
+* [Passion Driven Statistics](https://alanarnholt.github.io/PDS-Bookdown2/)
+
+* [Introduction to Data Science](https://rafalab.github.io/dsbook/)
+
+* [plotly for R](https://plotly-book.cpsievert.me/index.html)
+
+* [Writing R extensions](https://colinfay.me/writing-r-extensions/index.html)
+
+* [Foundations of Data Science](http://www.cs.cornell.edu/jeh/book.pdf)
+
+* [Materials to accompany the book Learning from Data: An Introductory Handbook Using R](https://github.com/kjmazidi/Learning_from_Data)
+
+* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+* [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/)
+
+* [Forecasting: Principles and Practice](https://otexts.org/fpp2/)
+
+
+
+# Ebook Collection
+
+
+
+* [Top R language resources to improve your data skills](https://www.computerworld.com/article/2497464/business-intelligence/top-r-language-resources-to-improve-your-data-skills.html?nsdr=true&page=2)
+
+* [A curated list of awesome R packages, frameworks and software](https://awesome-r.com/)
+
+
+* [100 Free R Tutorials and Resources in University webpages](https://pairach.com/2012/02/26/r-tutorials-from-universities-around-the-world/)
+
+
+* [Top 6 Free E-Books To Learn R At Beginner And Advanced Levels](https://analyticsindiamag.com/top-6-free-e-books-to-learn-r-at-beginner-and-advanced-levels/)
+
+* [What are some good resources for learning R?](https://www.quora.com/What-are-some-good-resources-for-learning-R-1)
+
+# Course
+
+
+|   Focus on |      Course      |  Made by |
+|---------|:------------------:|---------:|
+|Data Science |[Intro to Data Science](https://www2.stat.duke.edu/courses/Spring18/Sta199/) | RStudio|
+|Data Science|[Data Science course in a box](https://github.com/rstudio-education/datascience-box)|RStudio|
+|Data Science|[Data Science for Social Science](http://datascience.tntlab.org/schedule-materials/)|RICHARD N. LANDERS|
+|R|[Introduction to R](https://ramnathv.github.io/pycon2014-r/)|idocs|
+|R|[R course material](http://stcorp.nl/R_course/)|Paul Hiemstra|
+|R|[Introduction to R](http://uc-r.github.io/introduction)|UC|
+|R | [Intro to R](https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP)|google|
+|Data Science|[Statistical Computing with R](http://rstatistics.net/)|RStatistics.Net|
+|Biomedical|[Biomedical Data Science](http://genomicsclass.github.io/book/)|R. Irizarry and M. Love|
+|Shiny|[Learn Shiny](https://shiny.rstudio.com/tutorial/)|RStudio|
+|Data Science|[Data science in R](http://courses.had.co.nz/12-oscon/)|Hadley Wickham|
+|Programming|[R development master class](http://courses.had.co.nz/12-devtools/)|Hadley Wickham|
+|Data Science|[Big data summer institute](http://courses.had.co.nz/12-rice-bdsi/)|Hadley Wickham|
+|Programming|[Package development](http://courses.had.co.nz/11-csiro/)|Hadley Wickham|
+|Visualisation|[Data visualisation in R with ggplot2 and plyr](http://courses.had.co.nz/11-rice/)|Hadley Wickham| 
+|Data Science|[Introduction to data analysis](http://had.co.nz/stat405/)|Hadley Wickham|
+|R|[Introduction to R & RStudio](https://github.com/AmeliaMN/IntroToR)|McNamara|
+|Data Analysis|[Data Analysis and Visualization Using R](http://varianceexplained.org/RData/)|David Robinson|
+|R|[Data wrangling, exploration, and analysis with R](http://stat545.com/)|UBC|
+|Data Science|[Statistics and R](http://rafalab.github.io/pages/harvardx.html)|Harvard|
+|Bioconductor|[Bioconductor for Genomic Data Science](https://kasperdanielhansen.github.io/genbioconductor/)|K. D. Hansen|
+|Data Analysis|[R for data analysis and visualization of Ecological Data](https://datacarpentry.org/R-ecology-lesson/index.html#chapters)|Data Carpentry|
+|Data Science|[Earth Data Science Tutorials in R](https://www.earthdatascience.org/tutorials/r/)|University of Colorado|
+
