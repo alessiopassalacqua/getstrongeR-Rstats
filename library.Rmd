@@ -12,6 +12,7 @@ In this page, I reported my package collection ispired by the following posts:
 * [R resources (free courses, books, tutorials, & cheat sheets)](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
 * [Top 20 R Libraries for Data Science in 2018 ](https://activewizards.com/blog/top-20-r-libraries-for-data-science-in-2018-infographic/)
 * [Data Science Links](http://jasdumas.com/ds-resources/)
+* [AWESOME R](https://awesome-r.com/)
 
 # Get the data
 
@@ -81,6 +82,12 @@ Data exploration process for data analysis and model building, so that users cou
 [naniar - website](http://naniar.njtierney.com/articles/naniar-visualisation.html)
 [naniar - github](https://github.com/njtierney/naniar)
 
+> dataMaid
+
+Generating codebooks in R
+
+* [dataMaid - vignettes](https://cran.r-project.org/web/packages/dataMaid/vignettes/extending_dataMaid.html#a-datamaid-report-with-user-defined-functions-documenting-artdata)
+
 
 # Dimension Reduction (PCA)
 
@@ -97,12 +104,18 @@ Data exploration process for data analysis and model building, so that users cou
 Various methods for clustering and cluster validation.
 
 
-
 > gower
 
 Gower’s distance can be used to measure how different two records are.
 
 [gower - vignettes](https://cran.r-project.org/web/packages/gower/vignettes/intro.html)
+
+> ggbiplot
+
+An implementation of the biplot using `ggplot2`. The package provides two functions: `ggscreeplot()` and `ggbiplot()`. 
+
+[ggbiplot - github](https://github.com/vqv/ggbiplot)
+
 
 # Visualization
 
@@ -129,6 +142,12 @@ The `ggpubr` package provides some easy-to-use functions for creating and custom
 Repel overlapping text labels away from each other
 
 [ggrepel - vignettes](https://github.com/slowkow/ggrepel)
+
+> ggrough
+
+’ggrough’ is an R package that converts your ggplot2 plots to rough/sketchy charts, using the excellent javascript roughjs library
+
+[ggrough -- website](https://xvrdm.github.io/ggrough/)
 
 > tabplot
 
@@ -409,12 +428,17 @@ provides an R interface to the Google Cloud Compute Engine API, for launching vi
 
 > R Analyticflow
 
-# PRoductivity
+# Productivity
 
 > packagefinder
 
 With 'packagefinder' you can search for multiple keywords in the name, title and description of the CRAN package, either case-sensitive or insensitive and define your own weighting scheme for the search results, if you like.
 [ packagefinder - CRAN](https://cloud.r-project.org/web/packages/packagefinder/index.html)
+
+> fs
+
+fs provides a cross-platform, uniform interface to file system operations. fs uses libuv under the hood, which gives a rock solid cross-platform interface to the filesystem.
+[ fs - website](https://www.tidyverse.org/articles/2018/01/fs-1.0.0/)
 
 # RStudio Addin
 

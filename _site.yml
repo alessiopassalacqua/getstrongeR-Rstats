@@ -11,6 +11,8 @@ navbar:
     href: ebook.html
   - text: "Readings"
     href: readings.html
+  - text: "Course"
+    href: course.html
 output:
   html_document:
     theme: paper
