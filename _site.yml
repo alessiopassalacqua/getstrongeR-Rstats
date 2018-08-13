@@ -7,10 +7,12 @@ navbar:
     href: index.html
   - text: "Library"
     href: library.html
-  - text: "E-book & Course"
+  - text: "E-book"
     href: ebook.html
   - text: "Readings"
     href: readings.html
+  - text: "Course"
+    href: course.html
 output:
   html_document:
     theme: paper

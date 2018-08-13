@@ -18,13 +18,15 @@ output:
 * [dplyr In a Nutshell](https://github.com/trinker/dplyr_in_a_nutshell) -- `dplyr`
 * [Introduction to apply](https://nsaunders.wordpress.com/2010/08/20/a-brief-introduction-to-apply-in-r/) 
 * [Data Processing with dplyr & tidyr](https://rpubs.com/bradleyboehmke/data_wrangling) -- `dplyr`
+* [How to explore and manipulate a dataset from the fivethirtyeight package in R](http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/)
+* [Repository for dplyr tutorials by Suzan Beart](https://github.com/suzanbaert/Dplyr_Tutorials) -- `dplyr`
 
 
 ## Data Preparation
 
 * [Feature Engineering using R](https://blogs.msdn.microsoft.com/microsoftrservertigerteam/2017/03/23/feature-engineering-using-r/)
 
-## Explorative Data Aanalysis
+## Explorative Data Analysis
 
 
 * [Six Sigma DMAIC Series in R – Part 1](https://datascienceplus.com/six-sigma-dmaic-series-in-r-part-1/) -- `DMAIC`
@@ -39,7 +41,9 @@ output:
 * [Top 50 ggplot2 Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html) -- `ggplot2`
 * [from Data to Viz](https://www.data-to-viz.com/#dendrogram)
 * [Introduction to data visualization with R](https://talks.andrewheiss.com/utah-rug-dataviz/) -- `ggplot2` 
-
+* [Visualising spatial data: from R to shiny - workshop](https://github.com/Robinlovelace/Creating-maps-in-R/blob/master/vignettes/vspd-base-shiny.md)
+* [Highlighting with ggplot2](https://www.littlemissdata.com/blog/highlight)
+* [Happy collaboration with Rmd to docx](https://rmarkdown.rstudio.com/articles_docx.html)
 
 ## Unsupervised Learning
 
@@ -47,7 +51,7 @@ output:
 * [Difference Between K-Means And Hierarchical](https://stepupanalytics.com/difference-between-k-means-clustering-and-hierarchical-clustering/) -- `kmeans`
 * [R Clustering](https://data-flair.training/blogs/r-clustering-tutorial/) -- `kmeans`
 * [Principal Component Methods in R](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/#compute-pca-in-r-using-prcomp) -- `factoextra`
-
+* [Principal Component Analysis in R](https://www.datacamp.com/community/tutorials/pca-analysis-r)
 
 ## Machine Learning
 
@@ -100,6 +104,7 @@ output:
 * [Kaggle #1 Winning Approach for Image Classification Challenge](https://medium.com/@shridhar743/kaggle-1-winning-approach-for-image-classification-challenge-9c1188157a86)
 * [Example code Keras in R - VGG16 Base - Kaggle Kernel](https://www.kaggle.com/dkoops/keras-r-vgg16-base) -- `keras`
 * [Advanced GaRdening with Convolutional NNs -- Kaggle kernel](https://www.kaggle.com/bonovandoo/advanced-gardening-with-convolutional-nns) -- `mxnet`
+* [Deep Neural Networks](https://github.com/MarkEdmondson1234/useR-machine-learning-tutorial/blob/master/deep-neural-networks.Rmd)
 
 
 ## Time series analysis
@@ -127,6 +132,9 @@ output:
 * [bookdown cheatsheet](http://www.pzhao.org/en/post/bookdown-cheatsheet/) -- `bookdown`
 * [A clean R Markdown template for your reports](https://github.com/holtzy/epuRate) -- `rmarkdown`
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) -- `rmarkdown`
+* [Automatically knit R Markdown documents, build them with Jekyll, and serve the website with servr locally](https://github.com/yihui/blogdown-jekyll) -- `blogdown`
+* [Deploying to Github pages with Travis](https://backendtea.github.io/deploy-travis-to-github)
+* [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html) -- `rmarkdown`
 
 ## Shiny
 
@@ -136,6 +144,9 @@ output:
 * [Create dashboards with semantic.dashboard](https://appsilondatascience.com/blog/rstats/2018/06/11/dashboard-tutorial.html) -- `semantic.dashboard`
 * [Shiny, R and HTML](https://www.sitepoint.com/shiny-r-and-html-merging-data-science-and-web-development/) -- `shiny`
 * [Shiny Database App (CRUD)](https://ipub.com/shiny-crud-app/)
+* [DOCKERIZED SHINY APP DEVELOPMENT](http://tamaszilagyi.com/blog/dockerized-shiny-app-development/?utm_content=buffer2d92f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+* [Creating Tools for Winning Teams](https://www.positiveresidual.com/) -- `shiny`
+* [Building interface for you and your data](https://www.cultureofinsight.com/)
 
 
 ## Shiny Code
@@ -173,6 +184,9 @@ output:
 * [RTutor: Interactive R Problem Sets](https://github.com/skranz/RTutor)
 * [https://github.com/FavioVazquez/awesome-datascience](https://github.com/FavioVazquez/awesome-datascience)
 * [Programming Exercises for R](http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/rexercises.pdf)
+* [Beyond Basic R - Introduction and Best Practices](https://owi.usgs.gov/blog/intro-best-practices/)
+* [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html)
+* [Structuring R projects](https://chrisvoncsefalvay.com/structuring-r-projects/)
 
 
 
@@ -206,6 +220,7 @@ output:
 * [Detailed Data Analysis & Ensemble Modeling](https://www.kaggle.com/tannercarbonati/detailed-data-analysis-ensemble-modeling) -- `caret`
 * [Exploratory Analysis -  Instacart](https://www.kaggle.com/philippsp/exploratory-analysis-instacart) -- `ggplot2`
 * [R/rmd kaggle Kernels ordered by votes](https://www.kaggle.com/kernels?group=everyone&language=R&pageSize=20&sortBy=votes)
+* [Resources for R](http://edrub.in/ARE212/resources.html)
 
 
 # Github repository
@@ -213,6 +228,7 @@ output:
 * [Data Analysis with R](https://github.com/susanli2016/Data-Analysis-with-R)
 * [Presentations from H2O meetups & conferences by the H2O.ai team](https://github.com/h2oai/h2o-meetups)
 * [H2O for Internet of Things + Deep Water project](https://github.com/h2oai/h2o-meetups/tree/master/2016_10_10_Data_Science_Milan)
+* [hex-stickers](https://github.com/mkearney/hex-stickers)
 
 
 # Datasets
@@ -224,6 +240,7 @@ output:
 * [Data Science Projects](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/)
 * [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 * [16 Strange Datasets for Machine Learning](https://gengo.ai/articles/16-strange-datasets-for-machine-learning/)
+* [UKgrid](https://github.com/RamiKrispin/UKgrid)
 
 ## Datasets for smart factory
 
