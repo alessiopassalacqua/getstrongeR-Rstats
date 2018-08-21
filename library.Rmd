@@ -353,6 +353,13 @@ A Shiny module is a piece of a Shiny app.
 custom theme support for R Shinydashboard applications
 [ dashboardthemes - github](https://github.com/nik01010/dashboardthemes)
 
+> fontawesome
+
+The fontawesome package makes it very easy to insert FontAwesome icons within R Markdown documents and Shiny apps.
+[fontawesome - github](https://github.com/rstudio/fontawesome)
+
+
+
 # Reporting & Publishing results
 
 > rmarkdorwn

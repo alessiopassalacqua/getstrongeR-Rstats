@@ -135,6 +135,8 @@ output:
 * [Automatically knit R Markdown documents, build them with Jekyll, and serve the website with servr locally](https://github.com/yihui/blogdown-jekyll) -- `blogdown`
 * [Deploying to Github pages with Travis](https://backendtea.github.io/deploy-travis-to-github)
 * [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html) -- `rmarkdown`
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Up and running with blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/) -- `blogdown`
 
 ## Shiny
 
@@ -153,6 +155,8 @@ output:
 
 * [Shiny Dashboard example](http://shiny.webpopix.org/dashboard/absorption/)
 * [Building a Shiny web application to visualize spatial and spatio-temporal data](https://paula-moraga.github.io/tutorial-shiny-spatial/)
+* [Basic Insurer Dashboard](https://github.com/Tychobra/shiny-insurance-examples/tree/master/basic-insurer-dashboard)
+
 
 ## Deploy
 
@@ -187,7 +191,7 @@ output:
 * [Beyond Basic R - Introduction and Best Practices](https://owi.usgs.gov/blog/intro-best-practices/)
 * [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html)
 * [Structuring R projects](https://chrisvoncsefalvay.com/structuring-r-projects/)
-
+* [R for Data Science Solutions](https://jrnold.github.io/r4ds-exercise-solutions/)
 
 
 
@@ -229,6 +233,7 @@ output:
 * [Presentations from H2O meetups & conferences by the H2O.ai team](https://github.com/h2oai/h2o-meetups)
 * [H2O for Internet of Things + Deep Water project](https://github.com/h2oai/h2o-meetups/tree/master/2016_10_10_Data_Science_Milan)
 * [hex-stickers](https://github.com/mkearney/hex-stickers)
+* [BuzzFeedNews/everything](https://github.com/BuzzFeedNews/everything#standalone-datasets)
 
 
 # Datasets

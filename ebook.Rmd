@@ -13,8 +13,6 @@ output:
 
 * [An Introduction to Statistical and Data Sciences via R](http://moderndive.com/index.html)
 
-* [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/)
-
 * [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
 
 * [A gRadual intRoduction to Shiny](https://laderast.github.io/gradual_shiny/)
@@ -46,6 +44,10 @@ output:
 * [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html)
 
 * [Intro to GIS and Spatial Analysis](https://mgimond.github.io/Spatial/index.html)
+
+* [Spatial Data Analysis and Modeling with R](http://www.rspatial.org/index.html)
+
+* [h2o tutorials](http://docs.h2o.ai/h2o-tutorials/latest-stable/)
 
 
 
