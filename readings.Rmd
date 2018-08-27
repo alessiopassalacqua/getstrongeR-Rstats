@@ -20,6 +20,8 @@ output:
 * [Data Processing with dplyr & tidyr](https://rpubs.com/bradleyboehmke/data_wrangling) -- `dplyr`
 * [How to explore and manipulate a dataset from the fivethirtyeight package in R](http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/)
 * [Repository for dplyr tutorials by Suzan Beart](https://github.com/suzanbaert/Dplyr_Tutorials) -- `dplyr`
+* [Data Analysis exampple with ggplot and dplyr](https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/)
+* [Data Processing with dplyr & tidyr](https://rpubs.com/bradleyboehmke/data_wrangling)
 
 
 ## Data Preparation
@@ -45,13 +47,14 @@ output:
 * [Highlighting with ggplot2](https://www.littlemissdata.com/blog/highlight)
 * [Happy collaboration with Rmd to docx](https://rmarkdown.rstudio.com/articles_docx.html)
 
-## Unsupervised Learning
+## Clustering and PCA
 
 * [A package for visualizing dendrograms](https://www.r-statistics.com/2015/08/dendextend-a-package-for-visualizing-adjusting-and-comparing-dendrograms-from-the-journal-bioinformatics/) --  `dendextend`
 * [Difference Between K-Means And Hierarchical](https://stepupanalytics.com/difference-between-k-means-clustering-and-hierarchical-clustering/) -- `kmeans`
 * [R Clustering](https://data-flair.training/blogs/r-clustering-tutorial/) -- `kmeans`
 * [Principal Component Methods in R](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/#compute-pca-in-r-using-prcomp) -- `factoextra`
 * [Principal Component Analysis in R](https://www.datacamp.com/community/tutorials/pca-analysis-r)
+* [Hierarchical Clustering in R](https://www.datacamp.com/community/tutorials/hierarchical-clustering-R)
 
 ## Machine Learning
 
@@ -121,6 +124,8 @@ output:
 * [Introduction to Forecasting with ARIMA in R](https://www.datascience.com/blog/introduction-to-forecasting-with-arima-in-r-learn-data-science-tutorials)
 * [Time Series Forecasting with Machine Learning: An example from Kaggle](https://redoakstrategic.com/time_series_forecasting_machine_learning/)
 * [How to add Trend Lines in R Using Plotly](https://www.displayr.com/how-to-add-trend-lines-in-r-using-plotly/?utm_medium=Feed&utm_source=Syndication)
+* [EDA+Prophet+ MLP Neural Network Forecasting](https://www.kaggle.com/arindamgot/eda-prophet-mlp-neural-network-forecasting) -- `prophet`
+* [Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet](https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/) -- `prophet`
 
 
 
@@ -137,6 +142,8 @@ output:
 * [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html) -- `rmarkdown`
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Up and running with blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/) -- `blogdown`
+* [How to self-publish a book](https://blog.datascienceheroes.com/how-to-self-publish-a-book/)
+* [Writing your thesis with bookdown](https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/)
 
 ## Shiny
 
@@ -149,6 +156,7 @@ output:
 * [DOCKERIZED SHINY APP DEVELOPMENT](http://tamaszilagyi.com/blog/dockerized-shiny-app-development/?utm_content=buffer2d92f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 * [Creating Tools for Winning Teams](https://www.positiveresidual.com/) -- `shiny`
 * [Building interface for you and your data](https://www.cultureofinsight.com/)
+* [Build your first web app dashboard using Shiny and R <kbd>*</kbd>](https://medium.freecodecamp.org/build-your-first-web-app-dashboard-using-shiny-and-r-ec433c9f3f6c)
 
 
 ## Shiny Code
@@ -192,6 +200,7 @@ output:
 * [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html)
 * [Structuring R projects](https://chrisvoncsefalvay.com/structuring-r-projects/)
 * [R for Data Science Solutions](https://jrnold.github.io/r4ds-exercise-solutions/)
+* [Animations of tidyverse verbs using R, the tidyverse, and gganimate](https://github.com/gadenbuie/tidy-animated-verbs/#tidy-data)
 
 
 
@@ -246,6 +255,8 @@ output:
 * [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 * [16 Strange Datasets for Machine Learning](https://gengo.ai/articles/16-strange-datasets-for-machine-learning/)
 * [UKgrid](https://github.com/RamiKrispin/UKgrid)
+* [Data & Code at FiveThirtyEightabc news](https://data.fivethirtyeight.com/)
+* [Cool Datasets](https://www.cooldatasets.com/)
 
 ## Datasets for smart factory
 

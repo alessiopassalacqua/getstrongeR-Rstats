@@ -49,6 +49,8 @@ output:
 
 * [h2o tutorials](http://docs.h2o.ai/h2o-tutorials/latest-stable/)
 
+* [Geocomputation with R](https://geocompr.robinlovelace.net/)
+
 
 
 # Ebook Collection

@@ -41,7 +41,11 @@ The idea behind rio is to simplify the process of importing data into R and expo
 
 MonetDBLite for R, a fully embedded version of MonetDB that installs like any other R package.
 
+> bigreadr
 
+Convert a CSV to SQLite by parts
+
+[bigreadr - website](https://privefl.github.io/bigreadr/index.html)
 
 # Data Trasformation
 
@@ -255,6 +259,12 @@ The package allows, with only a function, to specify the KNN model and to genera
 
 Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
 [prohet - website](https://facebook.github.io/prophet/) 
+
+> breakDown
+
+Model Agnostic Explainers for Individual Predictions
+
+[breakdown - website](https://pbiecek.github.io/breakDown/index.html)
 
 # R Interface
 
