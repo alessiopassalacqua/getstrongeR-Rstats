@@ -5,4 +5,17 @@ output:
     toc_float: true
 ---
 
+<br>
+
 All about R: tutorials, ebook, readings, libraries, courses, videos
+
+<br>
+
+In this website I reported my resources collection ispired by the following posts:
+
+* [Quick list of useful R packages](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages?mobile_site=true)
+* [Great R packages for data import, wrangling and visualization](https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html#tk.drr_mlt)
+* [R resources (free courses, books, tutorials, & cheat sheets)](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
+* [Top 20 R Libraries for Data Science in 2018 ](https://activewizards.com/blog/top-20-r-libraries-for-data-science-in-2018-infographic/)
+* [Data Science Links](http://jasdumas.com/ds-resources/)
+* [AWESOME R](https://awesome-r.com/)

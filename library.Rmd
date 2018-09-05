@@ -5,14 +5,7 @@ output:
     toc_float: true
 ---
 
-In this page, I reported my package collection ispired by the following posts:
 
-* [Quick list of useful R packages](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages?mobile_site=true)
-* [Great R packages for data import, wrangling and visualization](https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html#tk.drr_mlt)
-* [R resources (free courses, books, tutorials, & cheat sheets)](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
-* [Top 20 R Libraries for Data Science in 2018 ](https://activewizards.com/blog/top-20-r-libraries-for-data-science-in-2018-infographic/)
-* [Data Science Links](http://jasdumas.com/ds-resources/)
-* [AWESOME R](https://awesome-r.com/)
 
 # Get the data
 
@@ -284,8 +277,15 @@ An R interface to Weka. Weka is a collection of machine learning algorithms for 
 rbokeh is an R Interface for Bokeh. Bokeh is a visualization library that provides a flexible and powerful declarative framework for creating web-based plots
 [rbokeh - vignettes ](http://hafen.github.io/rbokeh/#background)
 
+# Spatial Analysis
 
-## Deep Learning interface
+> cartography
+
+This package allows various cartographic representations such as proportional symbols, choropleth, typology, flows or discontinuities maps.
+[cartography -- github](https://github.com/riatelab/cartography)
+
+
+# Deep Learning interface
 
 > h2o
 
@@ -399,6 +399,10 @@ The goal of kableExtra is to help you build common complex tables and manipulate
 
 slidex is aimed at making the process of converting Microsoft PowerPoint slides to beautiful HTML xaringan slides as seamless as possible, maintaining tables,figures, links, and bulleted lists.
 [slidex - github](https://github.com/datalorax/slidex)
+
+> xaringan
+
+[xaringan - github](https://github.com/yihui/xaringan)
 
 # Quality Control
 

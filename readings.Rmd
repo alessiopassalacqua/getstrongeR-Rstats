@@ -5,9 +5,9 @@ output:
     toc_float: true
 ---
 
-# Readings
 
-## Data Munging
+
+# Data Munging
 
 * [Data Manipulation with dpylyr](https://www.listendata.com/2016/08/dplyr-tutorial.html) -- `dplyr`
 * [Working on Data-Warehouse (SQL) with R](https://datascienceplus.com/working-on-data-warehouse-sql-with-r/) -- `dplyr`
@@ -21,21 +21,19 @@ output:
 * [How to explore and manipulate a dataset from the fivethirtyeight package in R](http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/)
 * [Repository for dplyr tutorials by Suzan Beart](https://github.com/suzanbaert/Dplyr_Tutorials) -- `dplyr`
 * [Data Analysis exampple with ggplot and dplyr](https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/)
-* [Data Processing with dplyr & tidyr](https://rpubs.com/bradleyboehmke/data_wrangling)
 
-
-## Data Preparation
+# Data Preparation
 
 * [Feature Engineering using R](https://blogs.msdn.microsoft.com/microsoftrservertigerteam/2017/03/23/feature-engineering-using-r/)
 
-## Explorative Data Analysis
+# Explorative Data Analysis
 
 
 * [Six Sigma DMAIC Series in R – Part 1](https://datascienceplus.com/six-sigma-dmaic-series-in-r-part-1/) -- `DMAIC`
 * [Beautiful and Powerful Correlation Tables in R](https://neuropsychology.github.io/psycho.R/2018/05/20/correlation.html)
 
 
-## Visualization
+# Visualization
 
 * [A Compendium of Clean Graphs in R](http://shinyapps.org/apps/RGraphCompendium/index.php?licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-object&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B0F0dQBL5QtektJ0RziXCww%3D%3D)
 * [R graphics](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html) -- `ggplot2`
@@ -46,8 +44,9 @@ output:
 * [Visualising spatial data: from R to shiny - workshop](https://github.com/Robinlovelace/Creating-maps-in-R/blob/master/vignettes/vspd-base-shiny.md)
 * [Highlighting with ggplot2](https://www.littlemissdata.com/blog/highlight)
 * [Happy collaboration with Rmd to docx](https://rmarkdown.rstudio.com/articles_docx.html)
+* [Laying out multiple plots on a page](https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html?utm_content=buffer44f79&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) -- `ggplot2`
 
-## Clustering and PCA
+# Clustering and PCA
 
 * [A package for visualizing dendrograms](https://www.r-statistics.com/2015/08/dendextend-a-package-for-visualizing-adjusting-and-comparing-dendrograms-from-the-journal-bioinformatics/) --  `dendextend`
 * [Difference Between K-Means And Hierarchical](https://stepupanalytics.com/difference-between-k-means-clustering-and-hierarchical-clustering/) -- `kmeans`
@@ -56,7 +55,7 @@ output:
 * [Principal Component Analysis in R](https://www.datacamp.com/community/tutorials/pca-analysis-r)
 * [Hierarchical Clustering in R](https://www.datacamp.com/community/tutorials/hierarchical-clustering-R)
 
-## Machine Learning
+# Machine Learning
 
 * [Principal component regression in R](https://educationalresearchtechniques.com/2017/12/18/principal-component-regression-in-r/) -- `pls`
 * [machine learning with CARET package in R ](https://www.analyticsvidhya.com/blog/2016/12/practical-guide-to-implement-machine-learning-with-caret-package-in-r-with-practice-problem/) --  `caret`
@@ -79,9 +78,11 @@ output:
 * [Code for Workshop: Introduction to Machine Learning with R](https://shirinsplayground.netlify.com/2018/06/intro_to_ml_workshop_heidelberg/)
 * [modelDown: a website generator for your predictive models](http://smarterpoland.pl/index.php/2018/06/modeldown-a-website-generator-for-your-predictive-models/) -- `modelDown`
 * [Metric Functions in a Classification Dataset](http://rpubs.com/prcuny/161764) -- `caret`
-* [caret machine learning repository])(https://github.com/tobigithub/caret-machine-learning/wiki) -- `caret`
+* [caret machine learning repository](https://github.com/tobigithub/caret-machine-learning/wiki) -- `caret`
+* [H2O GBM Tuning Tutorial for R](https://blog.h2o.ai/2016/06/h2o-gbm-tuning-tutorial-for-r/)  -- `h2o`
+* [Unbox the Black Box: Part #1](https://www.kaggle.com/ankur310794/unbox-the-black-box-part-1) -- `lime`
 
-## Sparklyr
+# Sparklyr
 
 * [Predicting food preferences with sparklyr](https://shiring.github.io/machine_learning/2017/02/19/food_spark)
 * [Machine learning and k-fold cross validation with sparklyr](https://eddjberry.netlify.com/post/2017-11-02-sparklyr/)
@@ -93,7 +94,7 @@ output:
 * [Analyzing US flight map with sparklyr](https://rstudio-pubs-static.s3.amazonaws.com/244135_7fdd3eb63ef24e62be0e037e293ac95f.html)
 * [Data Science Toolchain with Spark and R](http://colorado.rstudio.com:3939/content/420/taxiDemo.nb.html)
 
-## Deep Learning
+# Deep Learning
 
 * [Pre-trained model on R](https://tsmatz.wordpress.com/2017/05/25/image-classification-and-matching-with-r-microsoftml-featurizeimage/) -- `MicrosoftML`
 * [Using Pre-Trained Models](https://tensorflow.rstudio.com/keras/articles/applications.html)
@@ -108,9 +109,10 @@ output:
 * [Example code Keras in R - VGG16 Base - Kaggle Kernel](https://www.kaggle.com/dkoops/keras-r-vgg16-base) -- `keras`
 * [Advanced GaRdening with Convolutional NNs -- Kaggle kernel](https://www.kaggle.com/bonovandoo/advanced-gardening-with-convolutional-nns) -- `mxnet`
 * [Deep Neural Networks](https://github.com/MarkEdmondson1234/useR-machine-learning-tutorial/blob/master/deep-neural-networks.Rmd)
+* [Deep Learning With Keras To Predict Customer Churn](http://blogs.rstudio.com/tensorflow/posts/2018-01-11-keras-customer-churn/) -- `keras`
 
 
-## Time series analysis
+# Time series analysis
 
 * [Time Series of the World, Unite!](http://www.christophsax.com/2018/05/15/tsbox/) -- `tsbox`
 * [Deep Learning for Time Series Forecasting](https://tensorflow.rstudio.com/blog/sunspots-lstm.html) -- `keras`
@@ -128,8 +130,7 @@ output:
 * [Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet](https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/) -- `prophet`
 
 
-
-## Reporting
+# Reporting
 
 * [Getting Started with R Markdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html) -- `rmarkdown`
 * [Build a Jekyll blog in minutes](https://github.com/barryclark/jekyll-now)
@@ -144,8 +145,9 @@ output:
 * [Up and running with blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/) -- `blogdown`
 * [How to self-publish a book](https://blog.datascienceheroes.com/how-to-self-publish-a-book/)
 * [Writing your thesis with bookdown](https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/)
+* [How to self-publish a book: Customizing Bookdown](https://blog.datascienceheroes.com/how-to-self-publish-a-book-customizing-bookdown/)
 
-## Shiny
+# Shiny
 
 * [An awesome R-shiny list!](https://grabear.github.io/awesome-rshiny/) -- `shiny`
 * [A Shiny application in a package R](https://rtask.thinkr.fr/blog/our-shiny-template-to-design-a-prod-ready-app/) -- `shiny`
@@ -159,27 +161,27 @@ output:
 * [Build your first web app dashboard using Shiny and R <kbd>*</kbd>](https://medium.freecodecamp.org/build-your-first-web-app-dashboard-using-shiny-and-r-ec433c9f3f6c)
 
 
-## Shiny Code
+# Shiny Code
 
 * [Shiny Dashboard example](http://shiny.webpopix.org/dashboard/absorption/)
 * [Building a Shiny web application to visualize spatial and spatio-temporal data](https://paula-moraga.github.io/tutorial-shiny-spatial/)
 * [Basic Insurer Dashboard](https://github.com/Tychobra/shiny-insurance-examples/tree/master/basic-insurer-dashboard)
 
 
-## Deploy
+# Deploy
 
 * [Building a Package that Lasts](https://github.com/ColinFay/erum2018) -- `package`
 * [A Scalable Predictive API with PFA](https://stevenmortimer.com/a-scalable-predictive-api-with-pfa-and-aws-lambda/) -- `aurelius`
 * [Using R with Amazon](https://aws.amazon.com/it/blogs/machine-learning/using-r-with-amazon-sagemaker/) 
 
-### AWS Tutorial
+## AWS Tutorial
 
 * [Using sparklyr with an Apache Spark cluster](https://spark.rstudio.com/examples/yarn-cluster-emr/)
 * [Analytics at Scale: h2o, Apache Spark and R on AWS EMR](https://redoakstrategic.com/h2oaws/)
 * [H2O & RStudio Server on Amazon Web Services (AWS), the Easy Way!](http://amunategui.github.io/h2o-on-aws/)
 
 
-## API & IDE
+# API & IDE
 
 * [Google Analytics R Tutorial](http://www.ryanpraski.com/google-analytics-r-tutorial/) -- `googleAnalyticsR`
 * [Big Data Platforms](http://www.rdatamining.com/big-data/big-data-platforms)
@@ -188,7 +190,7 @@ output:
 * [Working with APIs from R](https://stevenmortimer.com/presentations/working-with-apis-from-r/)
 * [API Development with R Part-I](http://jaehyeon-kim.github.io/2017/11/API-Development-with-R-Part-I.html) -- `plumber` , `rApache`
 
-## Teaching R
+# Teaching R
 
 * [R PRACTICE EXERCISES: LEVEL 1](http://rstatistics.net/r-lang-practice-exercises-level-1-beginners/) 
 * [LeaRning Path on R](https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-r-data-science/)
@@ -201,12 +203,14 @@ output:
 * [Structuring R projects](https://chrisvoncsefalvay.com/structuring-r-projects/)
 * [R for Data Science Solutions](https://jrnold.github.io/r4ds-exercise-solutions/)
 * [Animations of tidyverse verbs using R, the tidyverse, and gganimate](https://github.com/gadenbuie/tidy-animated-verbs/#tidy-data)
+* [A review of functions to get started simulating data in R](https://github.com/aosmith16/simulation-helper-functions)
+* [50 ways to show your data - r script](https://github.com/SQLThomas/Conferences/blob/master/SatRdayAms2018/50%20ways.R)
 
 
 
 # RPubs must read
 
-## Basic
+# Basic
 
 * [Learning R on iris](https://rpubs.com/moeransm/intro-iris)
 * [Missing Value Treatment](http://rstudio-pubs-static.s3.amazonaws.com/233370_56612580566d4c46a10ff2f70fa858a4.html)
@@ -216,7 +220,7 @@ output:
 * [Pie Chart Revisited](http://rpubs.com/cardiomoon/398623)
 * [Naive Bayes Classifier: theory and R example](https://rpubs.com/riazakhan94/naive_bayes_classifier_e1071)
 
-## Advanced
+# Advanced
 
 * [Classifications in R](http://www.rpubs.com/arifulmondal/scoring)
 * [Market basket analysis](https://rpubs.com/sbushmanov/180410)
@@ -244,6 +248,10 @@ output:
 * [hex-stickers](https://github.com/mkearney/hex-stickers)
 * [BuzzFeedNews/everything](https://github.com/BuzzFeedNews/everything#standalone-datasets)
 
+# R Programming
+
+* [Writing an R package from scratch](https://r-mageddon.netlify.com/post/writing-an-r-package-from-scratch/)
+* [R Code – Best practices](http://www.thertrader.com/2018/09/01/r-code-best-practices/)
 
 # Datasets
 
@@ -257,7 +265,10 @@ output:
 * [UKgrid](https://github.com/RamiKrispin/UKgrid)
 * [Data & Code at FiveThirtyEightabc news](https://data.fivethirtyeight.com/)
 * [Cool Datasets](https://www.cooldatasets.com/)
+* [Google dataset search](https://toolbox.google.com/datasetsearch)
+* [Global spending on R&D](http://uis.unesco.org/apps/visualisations/research-and-development-spending/)
+* [Retrieve oil price data from eia.gov](https://github.com/eafpres/oil_prices)
 
-## Datasets for smart factory
+# Datasets for smart factory
 
 * [Combined Cycle Power Plant Data Set](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
