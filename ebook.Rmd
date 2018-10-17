@@ -51,6 +51,13 @@ output:
 
 * [Geocomputation with R](https://geocompr.robinlovelace.net/)
 
+* [Hands-on Machine Learning with R](https://bradleyboehmke.github.io/hands-on-machine-learning-with-r/)
+
+* [A gRadual intRoduction to Shiny](https://laderast.github.io/gradual_shiny/)
+
+* [Technical Foundations of Informatics](https://info201.github.io/)
+
+* [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
 
 # Ebook Collection

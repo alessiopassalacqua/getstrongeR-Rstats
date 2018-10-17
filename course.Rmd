@@ -36,4 +36,5 @@ output:
 |Data Science|[An Introduction to Statistical Learning](https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)|Stanford University|
 |Social Science|[2018 Summer Institute in Computational Social Science](https://compsocialscience.github.io/summer-institute/2018/teaching-learning-materials)|Duke University|
 |Data Science|[Data Science in a Box](https://rstudio-education.github.io/datascience-box/)|RStudio|
+|Journalism|[R for journalists](https://learn.r-journalism.com/en/)|Andrew Ba Tran|
 

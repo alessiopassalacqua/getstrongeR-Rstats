@@ -128,6 +128,7 @@ output:
 * [How to add Trend Lines in R Using Plotly](https://www.displayr.com/how-to-add-trend-lines-in-r-using-plotly/?utm_medium=Feed&utm_source=Syndication)
 * [EDA+Prophet+ MLP Neural Network Forecasting](https://www.kaggle.com/arindamgot/eda-prophet-mlp-neural-network-forecasting) -- `prophet`
 * [Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet](https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/) -- `prophet`
+* [Time series animation](https://github.com/thomasp85/gganimate/wiki/Temperature-time-series?utm_campaign=Data_Elixir&utm_medium=email&utm_source=Data_Elixir_198)
 
 
 # Reporting
@@ -252,6 +253,7 @@ output:
 
 * [Writing an R package from scratch](https://r-mageddon.netlify.com/post/writing-an-r-package-from-scratch/)
 * [R Code – Best practices](http://www.thertrader.com/2018/09/01/r-code-best-practices/)
+* [usethis workflow for package development](https://www.hvitfeldt.me/2018/09/usethis-workflow-for-package-development/)
 
 # Datasets
 

@@ -11,6 +11,8 @@ output:
 
 This [manual](https://cran.r-project.org/doc/manuals/r-release/R-data.html)  describes the import and export facilities available either in R itself or via packages which are available from CRAN or elsewhere.  
 
+--------------------------------------------
+
 > readr
 
 the goal of `readr` is to provide a fast and friendly way to read rectangular data. 
@@ -180,6 +182,14 @@ The goal of `patchwork` is to make it ridiculously simple to combine separate gg
 
 [ggiraphExtra - vignettes](http://rpubs.com/cardiomoon/231820)
 
+> r2d3
+
+R Interface to D3 Visualizations
+
+[r2d3 -- webiste](https://rstudio.github.io/r2d3/index.html)
+
+
+
 # Machine Learning
 
 
@@ -258,6 +268,12 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 Model Agnostic Explainers for Individual Predictions
 
 [breakdown - website](https://pbiecek.github.io/breakDown/index.html)
+
+
+> ggTimeSeries
+
+This R package offers novel time series visualisations. It is based on ggplot2 and offers geoms and pre-packaged functions for easily creating any of the offered charts. Some examples are listed below.
+[ggTimeSeries - vignettes](https://cran.r-project.org/web/packages/ggTimeSeries/vignettes/ggTimeSeries.html)
 
 # R Interface
 
@@ -368,7 +384,22 @@ custom theme support for R Shinydashboard applications
 The fontawesome package makes it very easy to insert FontAwesome icons within R Markdown documents and Shiny apps.
 [fontawesome - github](https://github.com/rstudio/fontawesome)
 
+> shinyWidgets 
 
+Extend widgets available in shiny
+
+[shinyWidgets - website](https://dreamrs.github.io/shinyWidgets/index.html)
+
+> shinydashboardPlus
+
+Extensions for shinydashboard
+[shinydashbordpPlus -- website](https://divadnojnarg.github.io/shinydashboardPlus/index.html)
+
+
+> bs4Dash
+
+Bootstrap 4 shinydashboard using AdminLTE3
+[bs4Dash -- website](https://divadnojnarg.github.io/bs4Dash/index.html)
 
 # Reporting & Publishing results
 
