@@ -37,4 +37,6 @@ output:
 |Social Science|[2018 Summer Institute in Computational Social Science](https://compsocialscience.github.io/summer-institute/2018/teaching-learning-materials)|Duke University|
 |Data Science|[Data Science in a Box](https://rstudio-education.github.io/datascience-box/)|RStudio|
 |Journalism|[R for journalists](https://learn.r-journalism.com/en/)|Andrew Ba Tran|
-
+|Visualization|[From Data to Insight](http://www2.stat.duke.edu/~mc301/ARTSCI101_Su16/)|MINE ÇETINKAYA-RUNDEL|
+|Programming|[Programming with R](https://swcarpentry.github.io/r-novice-inflammation/)|Carpentries|
+|Visualization|[R graphics with ggplot2 workshop notes](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#geometric_objects_and_aesthetics)|Harvard University|

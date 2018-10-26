@@ -9,9 +9,6 @@ output:
 
 # Get the data
 
-This [manual](https://cran.r-project.org/doc/manuals/r-release/R-data.html)  describes the import and export facilities available either in R itself or via packages which are available from CRAN or elsewhere.  
-
---------------------------------------------
 
 > readr
 
@@ -95,6 +92,12 @@ Generating codebooks in R
 `FactoMineR` is an R package dedicated to multivariate Exploratory Data Analysis.
 
 [FactoMineR - website](http://factominer.free.fr/)
+
+> umap
+
+R implementation of Uniform Manifold Approximation and Projection
+
+[umap - github](https://github.com/tkonopka/umap)
 
 # Clustering
 
@@ -188,6 +191,11 @@ R Interface to D3 Visualizations
 
 [r2d3 -- webiste](https://rstudio.github.io/r2d3/index.html)
 
+> xda
+
+R package for exploratory data analysis 
+
+[xda - github](https://github.com/ujjwalkarn/xda)
 
 
 # Machine Learning
@@ -274,6 +282,12 @@ Model Agnostic Explainers for Individual Predictions
 
 This R package offers novel time series visualisations. It is based on ggplot2 and offers geoms and pre-packaged functions for easily creating any of the offered charts. Some examples are listed below.
 [ggTimeSeries - vignettes](https://cran.r-project.org/web/packages/ggTimeSeries/vignettes/ggTimeSeries.html)
+
+>
+
+tsbox: Class-Agnostic Time Series in R
+
+[tsbox - website](https://www.tsbox.help/index.html)
 
 # R Interface
 

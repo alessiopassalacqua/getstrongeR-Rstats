@@ -59,6 +59,14 @@ output:
 
 * [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
+* [The tidyverse style guide](http://style.tidyverse.org/)
+
+* [R Models - Quick reference](https://m-clark.github.io/R-models/#introduction)
+
+* [Analytics with R](http://analyticswithr.com/index.html)
+
+* [AVML 2012: ggplot2](https://www.ling.upenn.edu/~joseff/avml2012/)
+
 
 # Ebook Collection
 
@@ -76,3 +84,4 @@ output:
 
 * [What are some good resources for learning R?](https://www.quora.com/What-are-some-good-resources-for-learning-R-1)
 
+* [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)

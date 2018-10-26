@@ -21,6 +21,7 @@ output:
 * [How to explore and manipulate a dataset from the fivethirtyeight package in R](http://www.storybench.org/how-to-explore-a-dataset-from-the-fivethirtyeight-package-in-r/)
 * [Repository for dplyr tutorials by Suzan Beart](https://github.com/suzanbaert/Dplyr_Tutorials) -- `dplyr`
 * [Data Analysis exampple with ggplot and dplyr](https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/)
+* [Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454) -- `dplyr`
 
 # Data Preparation
 
@@ -147,6 +148,7 @@ output:
 * [How to self-publish a book](https://blog.datascienceheroes.com/how-to-self-publish-a-book/)
 * [Writing your thesis with bookdown](https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/)
 * [How to self-publish a book: Customizing Bookdown](https://blog.datascienceheroes.com/how-to-self-publish-a-book-customizing-bookdown/)
+* [Pimp my RMD: a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
 
 # Shiny
 
@@ -160,6 +162,7 @@ output:
 * [Creating Tools for Winning Teams](https://www.positiveresidual.com/) -- `shiny`
 * [Building interface for you and your data](https://www.cultureofinsight.com/)
 * [Build your first web app dashboard using Shiny and R <kbd>*</kbd>](https://medium.freecodecamp.org/build-your-first-web-app-dashboard-using-shiny-and-r-ec433c9f3f6c)
+* [Shiny tips & tricks for improving your apps and solving common problems](https://github.com/daattali/advanced-shiny)
 
 
 # Shiny Code
@@ -206,6 +209,7 @@ output:
 * [Animations of tidyverse verbs using R, the tidyverse, and gganimate](https://github.com/gadenbuie/tidy-animated-verbs/#tidy-data)
 * [A review of functions to get started simulating data in R](https://github.com/aosmith16/simulation-helper-functions)
 * [50 ways to show your data - r script](https://github.com/SQLThomas/Conferences/blob/master/SatRdayAms2018/50%20ways.R)
+* [Rpubs collection by William Surles](https://rpubs.com/williamsurles)
 
 
 
@@ -270,6 +274,7 @@ output:
 * [Google dataset search](https://toolbox.google.com/datasetsearch)
 * [Global spending on R&D](http://uis.unesco.org/apps/visualisations/research-and-development-spending/)
 * [Retrieve oil price data from eia.gov](https://github.com/eafpres/oil_prices)
+* [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 
 # Datasets for smart factory
 
