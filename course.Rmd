@@ -40,3 +40,6 @@ output:
 |Visualization|[From Data to Insight](http://www2.stat.duke.edu/~mc301/ARTSCI101_Su16/)|MINE ÇETINKAYA-RUNDEL|
 |Programming|[Programming with R](https://swcarpentry.github.io/r-novice-inflammation/)|Carpentries|
 |Visualization|[R graphics with ggplot2 workshop notes](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#geometric_objects_and_aesthetics)|Harvard University|
+|Visualization|[Introduction to Data Visualization](http://paldhous.github.io/ucb/2016/dataviz/index.html)|Peter Aldhous|
+|Data Analysis|[Business Analytics in R](http://lab.rady.ucsd.edu/sawtooth/business_analytics_in_r/index.html)|Karsten T. Hansen|
+|Bioconductor|[RNA-Seq Analysis with R and Bioconductor](http://girke.bioinformatics.ucr.edu/CSHL_RNAseq/)|UC Riverside|

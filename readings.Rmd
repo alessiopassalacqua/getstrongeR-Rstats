@@ -46,6 +46,9 @@ output:
 * [Highlighting with ggplot2](https://www.littlemissdata.com/blog/highlight)
 * [Happy collaboration with Rmd to docx](https://rmarkdown.rstudio.com/articles_docx.html)
 * [Laying out multiple plots on a page](https://cran.r-project.org/web/packages/egg/vignettes/Ecosystem.html?utm_content=buffer44f79&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer) -- `ggplot2`
+* [Chapter 1. Data Visualization with ggplot2](https://www.oreilly.com/library/view/r-for-data/9781491910382/ch01.html)  -- `ggplot2`
+* [ggplot2](http://kbroman.org/Workshop_DataCarpNSBE/ggplot2.html)
+* [Tutorial 5.2 - The Grammar of Graphics in R (ggplot2)](http://www.flutterbys.com.au/stats/tut/tut5.2.html)
 
 # Clustering and PCA
 
@@ -111,7 +114,7 @@ output:
 * [Advanced GaRdening with Convolutional NNs -- Kaggle kernel](https://www.kaggle.com/bonovandoo/advanced-gardening-with-convolutional-nns) -- `mxnet`
 * [Deep Neural Networks](https://github.com/MarkEdmondson1234/useR-machine-learning-tutorial/blob/master/deep-neural-networks.Rmd)
 * [Deep Learning With Keras To Predict Customer Churn](http://blogs.rstudio.com/tensorflow/posts/2018-01-11-keras-customer-churn/) -- `keras`
-
+* [How to create a sequential model in Keras for R](https://blog.datascienceheroes.com/how-to-create-a-sequential-model-in-keras-for-r/) -- `keras`
 
 # Time series analysis
 
@@ -131,6 +134,9 @@ output:
 * [Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet](https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/) -- `prophet`
 * [Time series animation](https://github.com/thomasp85/gganimate/wiki/Temperature-time-series?utm_campaign=Data_Elixir&utm_medium=email&utm_source=Data_Elixir_198)
 
+# Maps
+
+* [Drawing beautiful maps programmatically with R, sf and ggplot2](https://www.r-spatial.org//r/2018/10/25/ggplot2-sf.html)
 
 # Reporting
 
@@ -194,6 +200,10 @@ output:
 * [Working with APIs from R](https://stevenmortimer.com/presentations/working-with-apis-from-r/)
 * [API Development with R Part-I](http://jaehyeon-kim.github.io/2017/11/API-Development-with-R-Part-I.html) -- `plumber` , `rApache`
 
+# RSTUDIO TIPS
+
+* [Code Snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?mobile_site=true)
+
 # Teaching R
 
 * [R PRACTICE EXERCISES: LEVEL 1](http://rstatistics.net/r-lang-practice-exercises-level-1-beginners/) 
@@ -210,6 +220,9 @@ output:
 * [A review of functions to get started simulating data in R](https://github.com/aosmith16/simulation-helper-functions)
 * [50 ways to show your data - r script](https://github.com/SQLThomas/Conferences/blob/master/SatRdayAms2018/50%20ways.R)
 * [Rpubs collection by William Surles](https://rpubs.com/williamsurles)
+* [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
+* [Teaching Data Science: A Short Course for Instructors](https://github.com/matrixds/teachingdatascience)
+* [Introducing the Grammar of Graphics Plotting Concept](https://www.science-craft.com/2014/07/08/introducing-the-grammar-of-graphics-plotting-concept/)
 
 
 
