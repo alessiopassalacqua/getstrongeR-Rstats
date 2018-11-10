@@ -67,9 +67,14 @@ output:
 
 * [AVML 2012: ggplot2](https://www.ling.upenn.edu/~joseff/avml2012/)
 
+* [R for Statistical Learning](https://daviddalpiaz.github.io/r4sl/)
+
+* [ComplexHeatmap Complete Reference](https://jokergoo.github.io/ComplexHeatmap-reference/book/)
+
 
 # Ebook Collection
 
+* [Books related to R](https://www.r-project.org/doc/bib/R-books.html)
 
 
 * [Top R language resources to improve your data skills](https://www.computerworld.com/article/2497464/business-intelligence/top-r-language-resources-to-improve-your-data-skills.html?nsdr=true&page=2)

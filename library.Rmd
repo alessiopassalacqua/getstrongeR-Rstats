@@ -415,6 +415,22 @@ Extensions for shinydashboard
 Bootstrap 4 shinydashboard using AdminLTE3
 [bs4Dash -- website](https://divadnojnarg.github.io/bs4Dash/index.html)
 
+> yonder
+
+A Reactive Web Framework Built on Shiny
+[yonder - website](https://nteetor.github.io/yonder/)
+
+> auth0
+
+The goal of auth0 is to implement an authentication scheme to Shiny using OAuth Apps through the freemium service Auth0.
+[auth0 - website](https://curso-r.github.io/auth0/) 
+
+> shinyEffects
+
+Customize your shiny apps with these nice CSS effects
+[shinyEffects - github](https://github.com/DivadNojnarg/shinyEffects)
+
+
 # Reporting & Publishing results
 
 > rmarkdorwn
@@ -462,9 +478,13 @@ Functions and utilities to perform Statistical Analyses in the Six Sigma way.
 > qcc
 
 qcc is a contributed R package for statistical quality control charts
-
 [qcc - vignettes](https://cran.r-project.org/web/packages/qcc/vignettes/qcc_a_quick_tour.html)
 
+
+> ggQC
+
+Plot single and multi-facet quality control charts within the ggplot framework using stat_QC and stat_mR. Calculate quality control limits using QC_Lines.
+[ggQC - github](https://github.com/kenithgrey/ggQC)
 
 # R API
 

@@ -32,6 +32,7 @@ output:
 
 * [Six Sigma DMAIC Series in R – Part 1](https://datascienceplus.com/six-sigma-dmaic-series-in-r-part-1/) -- `DMAIC`
 * [Beautiful and Powerful Correlation Tables in R](https://neuropsychology.github.io/psycho.R/2018/05/20/correlation.html)
+* [Explore Your Dataset in R](https://www.littlemissdata.com/blog/simple-eda)
 
 
 # Visualization
@@ -49,6 +50,7 @@ output:
 * [Chapter 1. Data Visualization with ggplot2](https://www.oreilly.com/library/view/r-for-data/9781491910382/ch01.html)  -- `ggplot2`
 * [ggplot2](http://kbroman.org/Workshop_DataCarpNSBE/ggplot2.html)
 * [Tutorial 5.2 - The Grammar of Graphics in R (ggplot2)](http://www.flutterbys.com.au/stats/tut/tut5.2.html)
+* [ggplot2 extentions](http://www.ggplot2-exts.org/)
 
 # Clustering and PCA
 
@@ -58,6 +60,8 @@ output:
 * [Principal Component Methods in R](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/#compute-pca-in-r-using-prcomp) -- `factoextra`
 * [Principal Component Analysis in R](https://www.datacamp.com/community/tutorials/pca-analysis-r)
 * [Hierarchical Clustering in R](https://www.datacamp.com/community/tutorials/hierarchical-clustering-R)
+* [Where Kmeans clustering fails
+Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmeans.html)
 
 # Machine Learning
 
@@ -156,6 +160,7 @@ output:
 * [How to self-publish a book: Customizing Bookdown](https://blog.datascienceheroes.com/how-to-self-publish-a-book-customizing-bookdown/)
 * [Pimp my RMD: a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
 
+
 # Shiny
 
 * [An awesome R-shiny list!](https://grabear.github.io/awesome-rshiny/) -- `shiny`
@@ -183,6 +188,9 @@ output:
 * [Building a Package that Lasts](https://github.com/ColinFay/erum2018) -- `package`
 * [A Scalable Predictive API with PFA](https://stevenmortimer.com/a-scalable-predictive-api-with-pfa-and-aws-lambda/) -- `aurelius`
 * [Using R with Amazon](https://aws.amazon.com/it/blogs/machine-learning/using-r-with-amazon-sagemaker/) 
+* [R can API and So Can You!](https://medium.com/@heathernolis/r-can-api-c184951a24a3)
+* [Docker for R user](https://github.com/noamross/nyhackr-docker-talk)
+* [Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
 
 ## AWS Tutorial
 
@@ -223,6 +231,10 @@ output:
 * [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
 * [Teaching Data Science: A Short Course for Instructors](https://github.com/matrixds/teachingdatascience)
 * [Introducing the Grammar of Graphics Plotting Concept](https://www.science-craft.com/2014/07/08/introducing-the-grammar-of-graphics-plotting-concept/)
+* [reproducible workflows workshop - github repository](https://github.com/bapalmer/reproducible-workflows) --`tidyverse` 
+* [teachthat - gather,spread, pipe](https://github.com/apreshill/teachthat)
+* [Data Science en production avec R ](https://speakerdeck.com/colinfay/data-science-en-production-avec-r-quels-enjeux-quelles-solutions)
+* [Data Manipulation with dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
 
 
 
@@ -256,6 +268,7 @@ output:
 * [Exploratory Analysis -  Instacart](https://www.kaggle.com/philippsp/exploratory-analysis-instacart) -- `ggplot2`
 * [R/rmd kaggle Kernels ordered by votes](https://www.kaggle.com/kernels?group=everyone&language=R&pageSize=20&sortBy=votes)
 * [Resources for R](http://edrub.in/ARE212/resources.html)
+* [Woggler- The Women Kaggler](https://www.kaggle.com/farazrahman/woggler-the-women-kaggler)
 
 
 # Github repository
