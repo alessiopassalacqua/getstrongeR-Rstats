@@ -1,15 +1,22 @@
 ---
 output:
   html_document: 
-    toc: true
-    toc_float: true
+    toc: false
 ---
 
 <br>
 
-All about R: tutorials, ebook, readings, libraries, courses, videos
+This is an attempt to curate  my favorite resources for learning data science with R. 
+The organization is as follows:: 
+
+* libraries,
+* ebook,
+* courses,
+* readings/tutorials
+
 
 <br>
+
 
 In this website I reported my resources collection ispired by the following posts:
 

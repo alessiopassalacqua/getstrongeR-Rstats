@@ -101,6 +101,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Comparison of ML Classifiers Using Sparklyr](https://beta.rstudioconnect.com/content/1518/notebook-classification.html)
 * [Analyzing US flight map with sparklyr](https://rstudio-pubs-static.s3.amazonaws.com/244135_7fdd3eb63ef24e62be0e037e293ac95f.html)
 * [Data Science Toolchain with Spark and R](http://colorado.rstudio.com:3939/content/420/taxiDemo.nb.html)
+* [Data Science with Spark and R](https://github.com/edgararuiz/bigdatalondon2018)
 
 # Deep Learning
 
@@ -211,6 +212,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 # RSTUDIO TIPS
 
 * [Code Snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?mobile_site=true)
+* [4 ways to be more efficient using RStudio's Code Snippets](https://jozefhajnala.gitlab.io/r/r906-rstudio-snippets/)
 
 # Teaching R
 
@@ -235,7 +237,11 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [teachthat - gather,spread, pipe](https://github.com/apreshill/teachthat)
 * [Data Science en production avec R ](https://speakerdeck.com/colinfay/data-science-en-production-avec-r-quels-enjeux-quelles-solutions)
 * [Data Manipulation with dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
+* [Intro to the Tidyverse Workshops](https://github.com/OmaymaS/datafest_tidyverse_workshop)
 
+## Teaching Shiny
+
+[Shiny Tutorials](https://github.com/debruine/shiny-tutorials)
 
 
 # RPubs must read

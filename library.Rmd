@@ -118,6 +118,12 @@ An implementation of the biplot using `ggplot2`. The package provides two functi
 
 [ggbiplot - github](https://github.com/vqv/ggbiplot)
 
+> dimRed
+
+A collection of dimensionality reduction techniques from R packages and a common interface for calling the methods.
+
+[dimRed - CRAN](https://cran.r-project.org/web/packages/dimRed/index.html)
+
 
 # Visualization
 

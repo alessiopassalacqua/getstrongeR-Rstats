@@ -43,3 +43,4 @@ output:
 |Visualization|[Introduction to Data Visualization](http://paldhous.github.io/ucb/2016/dataviz/index.html)|Peter Aldhous|
 |Data Analysis|[Business Analytics in R](http://lab.rady.ucsd.edu/sawtooth/business_analytics_in_r/index.html)|Karsten T. Hansen|
 |Bioconductor|[RNA-Seq Analysis with R and Bioconductor](http://girke.bioinformatics.ucr.edu/CSHL_RNAseq/)|UC Riverside|
+|Data Analysis|[The Research Cycle](https://rgup.gitlab.io/research_cycle/index.html)| D. Barr and L. DeBruine|
