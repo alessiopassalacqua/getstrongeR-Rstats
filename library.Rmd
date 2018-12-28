@@ -51,6 +51,11 @@ The goal of the forcats package is to provide a suite of useful tools that solve
 
 # Explorative data analysis
 
+> skimr
+
+display summary statistics that the user can skim quickly to understand their data.
+
+[skimr - githun](https://github.com/ropensci/skimr)
 
 > SmartEDA
 
@@ -265,6 +270,13 @@ With help of this package mlr can be accessed via a shiny interface.
 `modelDown` generates a website with HTML summaries for predictive models 
 [modelDown - vignettes](modelDown generates a website with HTML summaries for predictive models)
 
+# Association rules
+
+> arules
+
+Mining Association Rules and Frequent Itemsets with R
+[arules - github](https://github.com/mhahsler/arules)
+
 # Time series
 
 > tsfknn
@@ -351,7 +363,12 @@ The ff package provides data structures that are stored on disk but behave (almo
 The `replyr` package attempts to provide practical data manipulation affordances to make code perform similarly on local or remote (big) data.
 [replyr - github](https://github.com/WinVector/replyr)
 
+> disk.frame
 
+
+Fast disk-based parallelized data manipulation framework for larger-than-RAM data
+
+[disk.frame - github](https://github.com/xiaodaigh/disk.frame)
 
 # Deploy
 
@@ -470,6 +487,12 @@ slidex is aimed at making the process of converting Microsoft PowerPoint slides 
 > xaringan
 
 [xaringan - github](https://github.com/yihui/xaringan)
+
+> gt
+
+Make wonderful-looking tables with the gt package
+
+[gt- github](https://rstudio.github.io/gt/)
 
 # Quality Control
 

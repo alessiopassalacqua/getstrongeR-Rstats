@@ -32,6 +32,7 @@ output:
 |Data Science|[Statistics and R](http://rafalab.github.io/pages/harvardx.html)|Harvard|
 |Bioconductor|[Bioconductor for Genomic Data Science](https://kasperdanielhansen.github.io/genbioconductor/)|K. D. Hansen|
 |Data Analysis <kbd>*</kbd>|[R for data analysis and visualization of Ecological Data](https://datacarpentry.org/R-ecology-lesson/index.html#chapters)|Data Carpentry|
+|Data Analysis<kbd>*</kbd>|[Data Analysis and Visualization in R](https://datacarpentry.org/R-genomics/index.html)|Data Carpentry|
 |Data Science|[Earth Data Science Tutorials in R](https://www.earthdatascience.org/tutorials/r/)|University of Colorado|
 |Data Science|[An Introduction to Statistical Learning](https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)|Stanford University|
 |Social Science|[2018 Summer Institute in Computational Social Science](https://compsocialscience.github.io/summer-institute/2018/teaching-learning-materials)|Duke University|
@@ -44,3 +45,11 @@ output:
 |Data Analysis|[Business Analytics in R](http://lab.rady.ucsd.edu/sawtooth/business_analytics_in_r/index.html)|Karsten T. Hansen|
 |Bioconductor|[RNA-Seq Analysis with R and Bioconductor](http://girke.bioinformatics.ucr.edu/CSHL_RNAseq/)|UC Riverside|
 |Data Analysis|[The Research Cycle](https://rgup.gitlab.io/research_cycle/index.html)| D. Barr and L. DeBruine|
+|Data Analysis|[R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/)|Carpentries|
+Data Analysis|[Analyzing large-scale biomedical data with R](https://bims.fun/index.html)|Virginia University|
+|R|[INTRODUCTION TO R](http://usepa.github.io/introR/)|Jeff Hollister|
+|Data Analysis|[Reproducible Science](https://gupsych.github.io/data_skills/index.html)|D. Barr and L. DeBruine|
+
+Other website like this:
+
+* [rstats-ed](https://github.com/rstudio-education/rstats-ed)

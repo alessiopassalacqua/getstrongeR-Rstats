@@ -22,6 +22,8 @@ output:
 * [Repository for dplyr tutorials by Suzan Beart](https://github.com/suzanbaert/Dplyr_Tutorials) -- `dplyr`
 * [Data Analysis exampple with ggplot and dplyr](https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/)
 * [Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454) -- `dplyr`
+* [Connect to Database in R](http://rprogramming.net/connect-to-database-in-r/)
+* [How do I make my own dplyr-style functions?](https://thisisnic.github.io/2018/04/16/how-do-i-make-my-own-dplyr-style-functions/) -- `dplyr`
 
 # Data Preparation
 
@@ -51,6 +53,7 @@ output:
 * [ggplot2](http://kbroman.org/Workshop_DataCarpNSBE/ggplot2.html)
 * [Tutorial 5.2 - The Grammar of Graphics in R (ggplot2)](http://www.flutterbys.com.au/stats/tut/tut5.2.html)
 * [ggplot2 extentions](http://www.ggplot2-exts.org/)
+* [Animating Your Data Visualizations Like a Boss Using R](https://towardsdatascience.com/animating-your-data-visualizations-like-a-boss-using-r-f94ae20843e3)
 
 # Clustering and PCA
 
@@ -62,6 +65,11 @@ output:
 * [Hierarchical Clustering in R](https://www.datacamp.com/community/tutorials/hierarchical-clustering-R)
 * [Where Kmeans clustering fails
 Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmeans.html)
+* [Understanding PCA using stack overglow data](https://juliasilge.com/blog/stack-overflow-pca/)
+* [Principal component analysis : the basics you should read - R software and data mining](http://www.sthda.com/english/wiki/print.php?id=206#infos)
+* [Introduzione al trattamento Statistico dei Dati](http://www.uniroma2.it/didattica/Sensori_ed_applic_2/deposito/lez5.pdf)
+* [PRINCIPAL COMPONENT ANALYSIS (PCA)](http://rinterested.github.io/statistics/PCA.html)
+
 
 # Machine Learning
 
@@ -102,6 +110,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Analyzing US flight map with sparklyr](https://rstudio-pubs-static.s3.amazonaws.com/244135_7fdd3eb63ef24e62be0e037e293ac95f.html)
 * [Data Science Toolchain with Spark and R](http://colorado.rstudio.com:3939/content/420/taxiDemo.nb.html)
 * [Data Science with Spark and R](https://github.com/edgararuiz/bigdatalondon2018)
+* [Sparklyr Resources](https://beta.rstudioconnect.com/content/3046/Sparklyr_Resources.html)
 
 # Deep Learning
 
@@ -120,6 +129,8 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Deep Neural Networks](https://github.com/MarkEdmondson1234/useR-machine-learning-tutorial/blob/master/deep-neural-networks.Rmd)
 * [Deep Learning With Keras To Predict Customer Churn](http://blogs.rstudio.com/tensorflow/posts/2018-01-11-keras-customer-churn/) -- `keras`
 * [How to create a sequential model in Keras for R](https://blog.datascienceheroes.com/how-to-create-a-sequential-model-in-keras-for-r/) -- `keras`
+* [Code for case study - Customer Churn with Keras/TensorFlow and H2O](https://shirinsplayground.netlify.com/2018/12/customer_churn_code/)
+
 
 # Time series analysis
 
@@ -138,6 +149,8 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [EDA+Prophet+ MLP Neural Network Forecasting](https://www.kaggle.com/arindamgot/eda-prophet-mlp-neural-network-forecasting) -- `prophet`
 * [Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet](https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/) -- `prophet`
 * [Time series animation](https://github.com/thomasp85/gganimate/wiki/Temperature-time-series?utm_campaign=Data_Elixir&utm_medium=email&utm_source=Data_Elixir_198)
+* [Tidy forecasting in R](https://github.com/mitchelloharawild/fable-tfeam-2018)
+* [Time Series Analysis for Business Forecasting with Artificial Neural Networks](https://www.business-science.io/business/2018/12/04/time-series-forecasting.html)
 
 # Maps
 
@@ -160,7 +173,10 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Writing your thesis with bookdown](https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/)
 * [How to self-publish a book: Customizing Bookdown](https://blog.datascienceheroes.com/how-to-self-publish-a-book-customizing-bookdown/)
 * [Pimp my RMD: a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
-
+* [R Markdown](https://uc-r.github.io/r_markdown)
+* [Getting Started with R Markdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
+* [Introduction to R Markdown](https://rpubs.com/brandonkopp/RMarkdown)
+* [Render reports directly from R scripts](http://brooksandrew.github.io/simpleblog/articles/render-reports-directly-from-R-scripts/)
 
 # Shiny
 
@@ -182,6 +198,10 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Shiny Dashboard example](http://shiny.webpopix.org/dashboard/absorption/)
 * [Building a Shiny web application to visualize spatial and spatio-temporal data](https://paula-moraga.github.io/tutorial-shiny-spatial/)
 * [Basic Insurer Dashboard](https://github.com/Tychobra/shiny-insurance-examples/tree/master/basic-insurer-dashboard)
+
+# Flexdashboard
+
+* [Automated Dashboard with various correlation visualizations in R](https://www.r-bloggers.com/automated-dashboard-with-various-correlation-visualizations-in-r/amp/)
 
 
 # Deploy
@@ -213,6 +233,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 
 * [Code Snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?mobile_site=true)
 * [4 ways to be more efficient using RStudio's Code Snippets](https://jozefhajnala.gitlab.io/r/r906-rstudio-snippets/)
+* [Discover and install useful RStudio addins](https://github.com/daattali/addinslist)
 
 # Teaching R
 
@@ -238,6 +259,8 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Data Science en production avec R ](https://speakerdeck.com/colinfay/data-science-en-production-avec-r-quels-enjeux-quelles-solutions)
 * [Data Manipulation with dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
 * [Intro to the Tidyverse Workshops](https://github.com/OmaymaS/datafest_tidyverse_workshop)
+* [Learn R Programming](https://www.tutorialspoint.com/r/index.htm)
+* [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets)
 
 ## Teaching Shiny
 
@@ -290,6 +313,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Writing an R package from scratch](https://r-mageddon.netlify.com/post/writing-an-r-package-from-scratch/)
 * [R Code – Best practices](http://www.thertrader.com/2018/09/01/r-code-best-practices/)
 * [usethis workflow for package development](https://www.hvitfeldt.me/2018/09/usethis-workflow-for-package-development/)
+* [Code Smells and Feels](https://github.com/jennybc/code-smells-and-feels#readme)
 
 # Datasets
 
@@ -307,6 +331,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Global spending on R&D](http://uis.unesco.org/apps/visualisations/research-and-development-spending/)
 * [Retrieve oil price data from eia.gov](https://github.com/eafpres/oil_prices)
 * [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+* [Formatted datasets for Machine Learning With R by Brett Lantz](https://github.com/stedy/Machine-Learning-with-R-datasets)
 
 # Datasets for smart factory
 

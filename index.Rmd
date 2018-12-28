@@ -7,12 +7,12 @@ output:
 <br>
 
 This is an attempt to curate  my favorite resources for learning data science with R. 
-The organization is as follows:: 
+The organization is as follows:
 
 * libraries,
 * ebook,
 * courses,
-* readings/tutorials
+* readings/tutorials.
 
 
 <br>
@@ -26,3 +26,4 @@ In this website I reported my resources collection ispired by the following post
 * [Top 20 R Libraries for Data Science in 2018 ](https://activewizards.com/blog/top-20-r-libraries-for-data-science-in-2018-infographic/)
 * [Data Science Links](http://jasdumas.com/ds-resources/)
 * [AWESOME R](https://awesome-r.com/)
+* [Top R libraries for Data Science](https://medium.com/@Mr.dhariwal/top-r-libraries-for-data-science-9b24f658e243)

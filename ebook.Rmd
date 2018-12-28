@@ -71,6 +71,11 @@ output:
 
 * [ComplexHeatmap Complete Reference](https://jokergoo.github.io/ComplexHeatmap-reference/book/)
 
+* [ggplot2 graphics companion](https://www.trafforddatalab.io/graphics_companion/#ggplot2_graphics_companion)
+
+* [Statistical Thinking for the 21st Century](http://thinkstats.org/)
+
+* [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
 
 # Ebook Collection
 

@@ -100,6 +100,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -114,7 +117,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -134,6 +136,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -155,18 +194,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -326,6 +424,8 @@ div.tocify {
 <li><a href="https://github.com/suzanbaert/Dplyr_Tutorials">Repository for dplyr tutorials by Suzan Beart</a> – <code>dplyr</code></li>
 <li><a href="https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/">Data Analysis exampple with ggplot and dplyr</a></li>
 <li><a href="https://rpubs.com/williamsurles/293454">Joining Data in R with dplyr</a> – <code>dplyr</code></li>
+<li><a href="http://rprogramming.net/connect-to-database-in-r/">Connect to Database in R</a></li>
+<li><a href="https://thisisnic.github.io/2018/04/16/how-do-i-make-my-own-dplyr-style-functions/">How do I make my own dplyr-style functions?</a> – <code>dplyr</code></li>
 </ul>
 </div>
 <div id="data-preparation" class="section level1">
@@ -359,6 +459,7 @@ div.tocify {
 <li><a href="http://kbroman.org/Workshop_DataCarpNSBE/ggplot2.html">ggplot2</a></li>
 <li><a href="http://www.flutterbys.com.au/stats/tut/tut5.2.html">Tutorial 5.2 - The Grammar of Graphics in R (ggplot2)</a></li>
 <li><a href="http://www.ggplot2-exts.org/">ggplot2 extentions</a></li>
+<li><a href="https://towardsdatascience.com/animating-your-data-visualizations-like-a-boss-using-r-f94ae20843e3">Animating Your Data Visualizations Like a Boss Using R</a></li>
 </ul>
 </div>
 <div id="clustering-and-pca" class="section level1">
@@ -371,6 +472,10 @@ div.tocify {
 <li><a href="https://www.datacamp.com/community/tutorials/pca-analysis-r">Principal Component Analysis in R</a></li>
 <li><a href="https://www.datacamp.com/community/tutorials/hierarchical-clustering-R">Hierarchical Clustering in R</a></li>
 <li><a href="https://datascience-enthusiast.com/Python/DBSCAN_Kmeans.html">Where Kmeans clustering fails Can DBSCAN be a solution?</a></li>
+<li><a href="https://juliasilge.com/blog/stack-overflow-pca/">Understanding PCA using stack overglow data</a></li>
+<li><a href="http://www.sthda.com/english/wiki/print.php?id=206#infos">Principal component analysis : the basics you should read - R software and data mining</a></li>
+<li><a href="http://www.uniroma2.it/didattica/Sensori_ed_applic_2/deposito/lez5.pdf">Introduzione al trattamento Statistico dei Dati</a></li>
+<li><a href="http://rinterested.github.io/statistics/PCA.html">PRINCIPAL COMPONENT ANALYSIS (PCA)</a></li>
 </ul>
 </div>
 <div id="machine-learning" class="section level1">
@@ -415,6 +520,7 @@ div.tocify {
 <li><a href="https://rstudio-pubs-static.s3.amazonaws.com/244135_7fdd3eb63ef24e62be0e037e293ac95f.html">Analyzing US flight map with sparklyr</a></li>
 <li><a href="http://colorado.rstudio.com:3939/content/420/taxiDemo.nb.html">Data Science Toolchain with Spark and R</a></li>
 <li><a href="https://github.com/edgararuiz/bigdatalondon2018">Data Science with Spark and R</a></li>
+<li><a href="https://beta.rstudioconnect.com/content/3046/Sparklyr_Resources.html">Sparklyr Resources</a></li>
 </ul>
 </div>
 <div id="deep-learning" class="section level1">
@@ -435,6 +541,7 @@ div.tocify {
 <li><a href="https://github.com/MarkEdmondson1234/useR-machine-learning-tutorial/blob/master/deep-neural-networks.Rmd">Deep Neural Networks</a></li>
 <li><a href="http://blogs.rstudio.com/tensorflow/posts/2018-01-11-keras-customer-churn/">Deep Learning With Keras To Predict Customer Churn</a> – <code>keras</code></li>
 <li><a href="https://blog.datascienceheroes.com/how-to-create-a-sequential-model-in-keras-for-r/">How to create a sequential model in Keras for R</a> – <code>keras</code></li>
+<li><a href="https://shirinsplayground.netlify.com/2018/12/customer_churn_code/">Code for case study - Customer Churn with Keras/TensorFlow and H2O</a></li>
 </ul>
 </div>
 <div id="time-series-analysis" class="section level1">
@@ -455,6 +562,8 @@ div.tocify {
 <li><a href="https://www.kaggle.com/arindamgot/eda-prophet-mlp-neural-network-forecasting">EDA+Prophet+ MLP Neural Network Forecasting</a> – <code>prophet</code></li>
 <li><a href="https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/">Generate Quick and Accurate Time Series Forecasts using Facebook’s Prophet</a> – <code>prophet</code></li>
 <li><a href="https://github.com/thomasp85/gganimate/wiki/Temperature-time-series?utm_campaign=Data_Elixir&amp;utm_medium=email&amp;utm_source=Data_Elixir_198">Time series animation</a></li>
+<li><a href="https://github.com/mitchelloharawild/fable-tfeam-2018">Tidy forecasting in R</a></li>
+<li><a href="https://www.business-science.io/business/2018/12/04/time-series-forecasting.html">Time Series Analysis for Business Forecasting with Artificial Neural Networks</a></li>
 </ul>
 </div>
 <div id="maps" class="section level1">
@@ -481,6 +590,10 @@ div.tocify {
 <li><a href="https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/">Writing your thesis with bookdown</a></li>
 <li><a href="https://blog.datascienceheroes.com/how-to-self-publish-a-book-customizing-bookdown/">How to self-publish a book: Customizing Bookdown</a></li>
 <li><a href="https://holtzy.github.io/Pimp-my-rmd/">Pimp my RMD: a few tips for R Markdown</a></li>
+<li><a href="https://uc-r.github.io/r_markdown">R Markdown</a></li>
+<li><a href="https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html">Getting Started with R Markdown</a></li>
+<li><a href="https://rpubs.com/brandonkopp/RMarkdown">Introduction to R Markdown</a></li>
+<li><a href="http://brooksandrew.github.io/simpleblog/articles/render-reports-directly-from-R-scripts/">Render reports directly from R scripts</a></li>
 </ul>
 </div>
 <div id="shiny" class="section level1">
@@ -505,6 +618,12 @@ div.tocify {
 <li><a href="http://shiny.webpopix.org/dashboard/absorption/">Shiny Dashboard example</a></li>
 <li><a href="https://paula-moraga.github.io/tutorial-shiny-spatial/">Building a Shiny web application to visualize spatial and spatio-temporal data</a></li>
 <li><a href="https://github.com/Tychobra/shiny-insurance-examples/tree/master/basic-insurer-dashboard">Basic Insurer Dashboard</a></li>
+</ul>
+</div>
+<div id="flexdashboard" class="section level1">
+<h1>Flexdashboard</h1>
+<ul>
+<li><a href="https://www.r-bloggers.com/automated-dashboard-with-various-correlation-visualizations-in-r/amp/">Automated Dashboard with various correlation visualizations in R</a></li>
 </ul>
 </div>
 <div id="deploy" class="section level1">
@@ -542,6 +661,7 @@ div.tocify {
 <ul>
 <li><a href="https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?mobile_site=true">Code Snippets</a></li>
 <li><a href="https://jozefhajnala.gitlab.io/r/r906-rstudio-snippets/">4 ways to be more efficient using RStudio’s Code Snippets</a></li>
+<li><a href="https://github.com/daattali/addinslist">Discover and install useful RStudio addins</a></li>
 </ul>
 </div>
 <div id="teaching-r" class="section level1">
@@ -569,6 +689,8 @@ div.tocify {
 <li><a href="https://speakerdeck.com/colinfay/data-science-en-production-avec-r-quels-enjeux-quelles-solutions">Data Science en production avec R</a></li>
 <li><a href="https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps">Data Manipulation with dplyr</a></li>
 <li><a href="https://github.com/OmaymaS/datafest_tidyverse_workshop">Intro to the Tidyverse Workshops</a></li>
+<li><a href="https://www.tutorialspoint.com/r/index.htm">Learn R Programming</a></li>
+<li><a href="https://github.com/FavioVazquez/ds-cheatsheets">Data Science Cheatsheets</a></li>
 </ul>
 <div id="teaching-shiny" class="section level2">
 <h2>Teaching Shiny</h2>
@@ -629,6 +751,7 @@ div.tocify {
 <li><a href="https://r-mageddon.netlify.com/post/writing-an-r-package-from-scratch/">Writing an R package from scratch</a></li>
 <li><a href="http://www.thertrader.com/2018/09/01/r-code-best-practices/">R Code – Best practices</a></li>
 <li><a href="https://www.hvitfeldt.me/2018/09/usethis-workflow-for-package-development/">usethis workflow for package development</a></li>
+<li><a href="https://github.com/jennybc/code-smells-and-feels#readme">Code Smells and Feels</a></li>
 </ul>
 </div>
 <div id="datasets" class="section level1">
@@ -648,6 +771,7 @@ div.tocify {
 <li><a href="http://uis.unesco.org/apps/visualisations/research-and-development-spending/">Global spending on R&amp;D</a></li>
 <li><a href="https://github.com/eafpres/oil_prices">Retrieve oil price data from eia.gov</a></li>
 <li><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a></li>
+<li><a href="https://github.com/stedy/Machine-Learning-with-R-datasets">Formatted datasets for Machine Learning With R by Brett Lantz</a></li>
 </ul>
 </div>
 <div id="datasets-for-smart-factory" class="section level1">
