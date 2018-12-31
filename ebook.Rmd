@@ -77,7 +77,13 @@ output:
 
 * [R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
 
+* [Creating APIs in R with Plumber](https://www.rplumber.io/docs/index.html)
+
+* [Learning statistics with R](https://learningstatisticswithr-bookdown.netlify.com/) [website](https://learningstatisticswithr.com/)
+
 # Ebook Collection
+
+* [Useful books by Suzan Baert](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/1_R_Books.md)
 
 * [Books related to R](https://www.r-project.org/doc/bib/R-books.html)
 

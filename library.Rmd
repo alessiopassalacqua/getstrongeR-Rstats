@@ -208,6 +208,11 @@ R package for exploratory data analysis
 
 [xda - github](https://github.com/ujjwalkarn/xda)
 
+> gghighlight
+
+Highlight points and lines in ggplot2
+
+[gghighlight -- github](https://github.com/yutannihilation/gghighlight)
 
 # Machine Learning
 

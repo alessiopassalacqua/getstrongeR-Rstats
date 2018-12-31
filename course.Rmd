@@ -49,6 +49,8 @@ output:
 Data Analysis|[Analyzing large-scale biomedical data with R](https://bims.fun/index.html)|Virginia University|
 |R|[INTRODUCTION TO R](http://usepa.github.io/introR/)|Jeff Hollister|
 |Data Analysis|[Reproducible Science](https://gupsych.github.io/data_skills/index.html)|D. Barr and L. DeBruine|
+|Programming|[Introduction to R Programming <kbd>*</kbd>](https://github.com/jameslamb/teaching/tree/master/mu_rprog)|Marquette University|
+|Data Analysis|[Data management and manipulation using R](https://ozanj.github.io/rclass/)|University of California|
 
 Other website like this:
 

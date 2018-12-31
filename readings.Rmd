@@ -24,10 +24,12 @@ output:
 * [Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454) -- `dplyr`
 * [Connect to Database in R](http://rprogramming.net/connect-to-database-in-r/)
 * [How do I make my own dplyr-style functions?](https://thisisnic.github.io/2018/04/16/how-do-i-make-my-own-dplyr-style-functions/) -- `dplyr`
+* [Setting up a database connection](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/2_Useful_blogposts.md)
 
 # Data Preparation
 
 * [Feature Engineering using R](https://blogs.msdn.microsoft.com/microsoftrservertigerteam/2017/03/23/feature-engineering-using-r/)
+* [Tutorial on 5 Powerful R Packages used for imputing missing values](https://www.analyticsvidhya.com/blog/2016/03/tutorial-powerful-packages-imputing-missing-values/)
 
 # Explorative Data Analysis
 
@@ -97,6 +99,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [caret machine learning repository](https://github.com/tobigithub/caret-machine-learning/wiki) -- `caret`
 * [H2O GBM Tuning Tutorial for R](https://blog.h2o.ai/2016/06/h2o-gbm-tuning-tutorial-for-r/)  -- `h2o`
 * [Unbox the Black Box: Part #1](https://www.kaggle.com/ankur310794/unbox-the-black-box-part-1) -- `lime`
+* [Using Linear Regression to Predict Energy Output of a Power Plant](https://datascienceplus.com/linear-regression-predict-energy-output-power-plant/amp/)
 
 # Sparklyr
 
@@ -114,22 +117,29 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 
 # Deep Learning
 
-* [Pre-trained model on R](https://tsmatz.wordpress.com/2017/05/25/image-classification-and-matching-with-r-microsoftml-featurizeimage/) -- `MicrosoftML`
-* [Using Pre-Trained Models](https://tensorflow.rstudio.com/keras/articles/applications.html)
+
 * [Deep Learning in R](http://www.rblog.uni-freiburg.de/2017/02/07/deep-learning-in-r/)
 * [Deep Learning with Keras and Shiny](http://jasdumas.com/2018-02-20-deep-learning-img-classifier/) -- `keras`
 * [I_LOVE_IKEA_SHINY_APP](https://github.com/longhowlam/I_LOVE_IKEA_SHINY_APP) -- `keras`
-* [Image Classification with Keras](https://tensorflow.rstudio.com/blog/keras-image-classification-on-small-datasets.html) -- `keras`
 * [Deep Learning with R](https://github.com/jjallaire/deep-learning-with-r-notebooks) -- `keras`
 * [Image classification with keras](https://shirinsplayground.netlify.com/2018/06/keras_fruits/) --`keras`
 * [Explaining Keras image classification models with lime](https://shirinsplayground.netlify.com/2018/06/keras_fruits_lime/) -- `keras`
 * [Kaggle #1 Winning Approach for Image Classification Challenge](https://medium.com/@shridhar743/kaggle-1-winning-approach-for-image-classification-challenge-9c1188157a86)
-* [Example code Keras in R - VGG16 Base - Kaggle Kernel](https://www.kaggle.com/dkoops/keras-r-vgg16-base) -- `keras`
 * [Advanced GaRdening with Convolutional NNs -- Kaggle kernel](https://www.kaggle.com/bonovandoo/advanced-gardening-with-convolutional-nns) -- `mxnet`
 * [Deep Neural Networks](https://github.com/MarkEdmondson1234/useR-machine-learning-tutorial/blob/master/deep-neural-networks.Rmd)
 * [Deep Learning With Keras To Predict Customer Churn](http://blogs.rstudio.com/tensorflow/posts/2018-01-11-keras-customer-churn/) -- `keras`
 * [How to create a sequential model in Keras for R](https://blog.datascienceheroes.com/how-to-create-a-sequential-model-in-keras-for-r/) -- `keras`
 * [Code for case study - Customer Churn with Keras/TensorFlow and H2O](https://shirinsplayground.netlify.com/2018/12/customer_churn_code/)
+
+## Image classification
+
+* [Concepts in object detection](https://blogs.rstudio.com/tensorflow/posts/2018-12-18-object-detection-concepts/)
+* [Example code Keras in R - VGG16 Base - Kaggle Kernel](https://www.kaggle.com/dkoops/keras-r-vgg16-base) -- `keras`
+* [Image Classification with Keras](https://tensorflow.rstudio.com/blog/keras-image-classification-on-small-datasets.html) -- `keras`
+* [Pre-trained model on R](https://tsmatz.wordpress.com/2017/05/25/image-classification-and-matching-with-r-microsoftml-featurizeimage/) -- `MicrosoftML`
+* [Using Pre-Trained Models](https://tensorflow.rstudio.com/keras/articles/applications.html)
+
+
 
 
 # Time series analysis
@@ -177,6 +187,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Getting Started with R Markdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
 * [Introduction to R Markdown](https://rpubs.com/brandonkopp/RMarkdown)
 * [Render reports directly from R scripts](http://brooksandrew.github.io/simpleblog/articles/render-reports-directly-from-R-scripts/)
+* [Pimp my RMD: a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
 
 # Shiny
 
@@ -203,6 +214,14 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 
 * [Automated Dashboard with various correlation visualizations in R](https://www.r-bloggers.com/automated-dashboard-with-various-correlation-visualizations-in-r/amp/)
 
+# Programming
+
+* [Learning Functional Programming & purrr](https://paulvanderlaken.com/2018/12/05/learning-functional-programming-purrr/amp/)
+
+# Making packages
+
+* [Useful links by Suzan Baert: making packages](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/2_Useful_blogposts.md)
+
 
 # Deploy
 
@@ -212,6 +231,8 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [R can API and So Can You!](https://medium.com/@heathernolis/r-can-api-c184951a24a3)
 * [Docker for R user](https://github.com/noamross/nyhackr-docker-talk)
 * [Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
+* [Beta release of SparkR job types in Cloud Dataproc](https://gweb-cloudblog-publish.appspot.com/products/ai-machine-learning/announcing-the-beta-release-of-sparkr-job-types-in-cloud-dataproc/amp/)
+
 
 ## AWS Tutorial
 
@@ -228,39 +249,55 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Services and tools for building intelligent R applications in the cloud](http://blog.revolutionanalytics.com/2018/01/r-cloud-tools.html)
 * [Working with APIs from R](https://stevenmortimer.com/presentations/working-with-apis-from-r/)
 * [API Development with R Part-I](http://jaehyeon-kim.github.io/2017/11/API-Development-with-R-Part-I.html) -- `plumber` , `rApache`
+*  [Iterative testing with plumber](https://irene.rbind.io/post/iterative-testing-plumber/)
 
 # RSTUDIO TIPS
 
 * [Code Snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets?mobile_site=true)
 * [4 ways to be more efficient using RStudio's Code Snippets](https://jozefhajnala.gitlab.io/r/r906-rstudio-snippets/)
 * [Discover and install useful RStudio addins](https://github.com/daattali/addinslist)
+* [RStudio IDE Easy Tricks You Might've Missed](https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/)
 
-# Teaching R
+# Teaching  
 
-* [R PRACTICE EXERCISES: LEVEL 1](http://rstatistics.net/r-lang-practice-exercises-level-1-beginners/) 
-* [LeaRning Path on R](https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-r-data-science/)
+## DataScience
+* [Machine Learning cheatsheets for Stanford's CS 229](https://github.com/afshinea/stanford-cs-229-machine-learning)
+* [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets)
+* [Visual Introduction to probability and statistics](https://seeing-theory.brown.edu/index.html#firstPage)
 * [Some datasets for teaching data science](https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/)
-* [RTutor: Interactive R Problem Sets](https://github.com/skranz/RTutor)
-* [https://github.com/FavioVazquez/awesome-datascience](https://github.com/FavioVazquez/awesome-datascience)
-* [Programming Exercises for R](http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/rexercises.pdf)
+* [Awesome Data Science repository](https://github.com/FavioVazquez/awesome-datascience)
+* [Financial Times Visual Vocabulary](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/2_Useful_blogposts.md)
+* [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
+* [Teaching Data Science: A Short Course for Instructors](https://github.com/matrixds/teachingdatascience)
+
+## R
+
+* [Learn R Programming](https://www.tutorialspoint.com/r/index.htm)
 * [Beyond Basic R - Introduction and Best Practices](https://owi.usgs.gov/blog/intro-best-practices/)
 * [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html)
 * [Structuring R projects](https://chrisvoncsefalvay.com/structuring-r-projects/)
 * [R for Data Science Solutions](https://jrnold.github.io/r4ds-exercise-solutions/)
-* [Animations of tidyverse verbs using R, the tidyverse, and gganimate](https://github.com/gadenbuie/tidy-animated-verbs/#tidy-data)
-* [A review of functions to get started simulating data in R](https://github.com/aosmith16/simulation-helper-functions)
+* [Getting Started in R](https://github.com/eddelbuettel/gsir-te)
+* [LeaRning Path on R](https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-r-data-science/)
+* [RTutor: Interactive R Problem Sets](https://github.com/skranz/RTutor)
+* [R PRACTICE EXERCISES: LEVEL 1](http://rstatistics.net/r-lang-practice-exercises-level-1-beginners/)
+* [Programming Exercises for R](http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/rexercises.pdf)
+* [reproducible workflows workshop - github repository](https://github.com/bapalmer/reproducible-workflows) --`tidyverse` 
+* [Data Science en production avec R](https://speakerdeck.com/colinfay/data-science-en-production-avec-r-quels-enjeux-quelles-solutions)
 * [50 ways to show your data - r script](https://github.com/SQLThomas/Conferences/blob/master/SatRdayAms2018/50%20ways.R)
 * [Rpubs collection by William Surles](https://rpubs.com/williamsurles)
-* [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
-* [Teaching Data Science: A Short Course for Instructors](https://github.com/matrixds/teachingdatascience)
+* [A review of functions to get started simulating data in R](https://github.com/aosmith16/simulation-helper-functions)
+
+## Tidyverse
+
+* [Tidyverse for beginners](https://learningstatisticswithr.com/)
+* [Animations of tidyverse verbs using R, the tidyverse, and gganimate](https://github.com/gadenbuie/tidy-animated-verbs/#tidy-data)
 * [Introducing the Grammar of Graphics Plotting Concept](https://www.science-craft.com/2014/07/08/introducing-the-grammar-of-graphics-plotting-concept/)
-* [reproducible workflows workshop - github repository](https://github.com/bapalmer/reproducible-workflows) --`tidyverse` 
 * [teachthat - gather,spread, pipe](https://github.com/apreshill/teachthat)
-* [Data Science en production avec R ](https://speakerdeck.com/colinfay/data-science-en-production-avec-r-quels-enjeux-quelles-solutions)
 * [Data Manipulation with dplyr](https://speakerdeck.com/omaymas/data-manipulation-with-dplyr-first-steps)
 * [Intro to the Tidyverse Workshops](https://github.com/OmaymaS/datafest_tidyverse_workshop)
-* [Learn R Programming](https://www.tutorialspoint.com/r/index.htm)
-* [Data Science Cheatsheets](https://github.com/FavioVazquez/ds-cheatsheets)
+
+
 
 ## Teaching Shiny
 
@@ -269,7 +306,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 
 # RPubs must read
 
-# Basic
+## Basic
 
 * [Learning R on iris](https://rpubs.com/moeransm/intro-iris)
 * [Missing Value Treatment](http://rstudio-pubs-static.s3.amazonaws.com/233370_56612580566d4c46a10ff2f70fa858a4.html)
@@ -279,12 +316,13 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Pie Chart Revisited](http://rpubs.com/cardiomoon/398623)
 * [Naive Bayes Classifier: theory and R example](https://rpubs.com/riazakhan94/naive_bayes_classifier_e1071)
 
-# Advanced
+## Advanced
 
 * [Classifications in R](http://www.rpubs.com/arifulmondal/scoring)
 * [Market basket analysis](https://rpubs.com/sbushmanov/180410)
 * [Fraud Detection with Machine Learning](https://rpubs.com/kieroneil/321413)
 * [Machine Learning, Key to Your Formulation Challenges](https://rpubs.com/m3cinc/machine_learning_key_to_your_formulation_challenges)
+* [Data Analysis in Semiconductor Manufacturing ](https://rpubs.com/jeff_datascience/Semiconductor_Manufacturing)
 
 # Kaggle kernel
 
@@ -332,7 +370,9 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Retrieve oil price data from eia.gov](https://github.com/eafpres/oil_prices)
 * [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 * [Formatted datasets for Machine Learning With R by Brett Lantz](https://github.com/stedy/Machine-Learning-with-R-datasets)
+* [Applied Predictive Modeling](http://appliedpredictivemodeling.com/data/)
+* [R dataset](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 
-# Datasets for smart factory
+## Datasets for smart factory
 
 * [Combined Cycle Power Plant Data Set](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
