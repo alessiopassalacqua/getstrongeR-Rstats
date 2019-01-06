@@ -55,29 +55,51 @@ output:
 * [ggplot2](http://kbroman.org/Workshop_DataCarpNSBE/ggplot2.html)
 * [Tutorial 5.2 - The Grammar of Graphics in R (ggplot2)](http://www.flutterbys.com.au/stats/tut/tut5.2.html)
 * [ggplot2 extentions](http://www.ggplot2-exts.org/)
-* [Animating Your Data Visualizations Like a Boss Using R](https://towardsdatascience.com/animating-your-data-visualizations-like-a-boss-using-r-f94ae20843e3)
+* [Plotly in R: How to make ggplot2 charts interactive with ggplotly](http://www.musgraveanalytics.com/blog/2018/8/24/how-to-make-ggplot2-charts-interactive-with-plotly) -- `ggplot2`, `plotly`  
 
-# Clustering and PCA
+## Animation
+
+* [Animating Your Data Visualizations Like a Boss Using R](https://towardsdatascience.com/animating-your-data-visualizations-like-a-boss-using-r-f94ae20843e3)
+* [Factfulness](https://davidsmale.netlify.com/portfolio/factfulness/)
+* [Using ggplot2 for functional time series](https://robjhyndman.com/hyndsight/ftsviz/)
+
+# Clustering 
 
 * [A package for visualizing dendrograms](https://www.r-statistics.com/2015/08/dendextend-a-package-for-visualizing-adjusting-and-comparing-dendrograms-from-the-journal-bioinformatics/) --  `dendextend`
 * [Difference Between K-Means And Hierarchical](https://stepupanalytics.com/difference-between-k-means-clustering-and-hierarchical-clustering/) -- `kmeans`
 * [R Clustering](https://data-flair.training/blogs/r-clustering-tutorial/) -- `kmeans`
-* [Principal Component Methods in R](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/#compute-pca-in-r-using-prcomp) -- `factoextra`
-* [Principal Component Analysis in R](https://www.datacamp.com/community/tutorials/pca-analysis-r)
+* [Hierarchical Cluster Analysis](https://afit-r.github.io/hc_clustering)
 * [Hierarchical Clustering in R](https://www.datacamp.com/community/tutorials/hierarchical-clustering-R)
 * [Where Kmeans clustering fails
 Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmeans.html)
 * [Understanding PCA using stack overglow data](https://juliasilge.com/blog/stack-overflow-pca/)
+* [Determining The Optimal Number Of Clusters: 3 Must Know Methods](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/)
+* [Hierarchical Cluster Analysis](https://afit-r.github.io/hc_clustering)
+
+
+# PCA
+
+* [Principal Component Methods in R](http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/#compute-pca-in-r-using-prcomp) -- `factoextra`
+* [Principal Component Analysis in R](https://www.datacamp.com/community/tutorials/pca-analysis-r)
 * [Principal component analysis : the basics you should read - R software and data mining](http://www.sthda.com/english/wiki/print.php?id=206#infos)
 * [Introduzione al trattamento Statistico dei Dati](http://www.uniroma2.it/didattica/Sensori_ed_applic_2/deposito/lez5.pdf)
 * [PRINCIPAL COMPONENT ANALYSIS (PCA)](http://rinterested.github.io/statistics/PCA.html)
 
-
 # Machine Learning
+* [modelDown: a website generator for your predictive models](http://smarterpoland.pl/index.php/2018/06/modeldown-a-website-generator-for-your-predictive-models/) -- `modelDown`
 
+## Regression
 * [Principal component regression in R](https://educationalresearchtechniques.com/2017/12/18/principal-component-regression-in-r/) -- `pls`
 * [machine learning with CARET package in R ](https://www.analyticsvidhya.com/blog/2016/12/practical-guide-to-implement-machine-learning-with-caret-package-in-r-with-practice-problem/) --  `caret`
-* [Going Deeper into Regression Analysis](https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/) 
+* [Going Deeper into Regression Analysis](https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/)
+* [Simple Guide to Logistic Regression in R](https://www.analyticsvidhya.com/blog/2015/11/beginners-guide-on-logistic-regression-in-r/)
+* [7 Types of Regression Techniques you should know!](https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/)
+* [Beginners Guide to Regression Analysis and Plot Interpretations](https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-guide-regression-analysis-plot-interpretations/tutorial/)
+
+
+## Classification
+
+* [Top 15 Evaluation Metrics for Classification Models](https://www.machinelearningplus.com/machine-learning/evaluation-metrics-classification-models-r/)
 * [Tuning xgboost in R](https://insightr.wordpress.com/2018/05/17/tuning-xgboost-in-r-part-i/#more-809) -- `xgboost`
 * [Predicting Binary Outcomes with R, gbm, glmnet ](https://amunategui.github.io/binary-outcome-modeling/) -- `caret`
 * [Survival Prediction Models in R](https://datascienceplus.com/time-dependent-roc-for-survival-prediction-models-in-r/) -- `survival`
@@ -89,17 +111,14 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Automated Feature Selection](https://www.statworx.com/de/blog/data-science/bouncer-0-1-2-automated-feature-selection/) -- `bounceR`
 * [K NEAREST NEIGHBOR](https://www.listendata.com/2017/12/k-nearest-neighbor-step-by-step-tutorial.html) -- `caret`
 * [The one function call you need to know as a data scientist: h2o.automl](https://longhowlam.wordpress.com/2017/08/30/the-one-function-call-you-need-to-know-as-a-data-scientist-h2o-automl/) -- `h2o`
-* [7 Types of Regression Techniques you should know!](https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/)
-* [Beginners Guide to Regression Analysis and Plot Interpretations](https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-guide-regression-analysis-plot-interpretations/tutorial/)
 * [Logistic Regression in R Tutorial](https://www.datacamp.com/community/tutorials/logistic-regression-R)
-* [Simple Guide to Logistic Regression in R](https://www.analyticsvidhya.com/blog/2015/11/beginners-guide-on-logistic-regression-in-r/)
 * [Code for Workshop: Introduction to Machine Learning with R](https://shirinsplayground.netlify.com/2018/06/intro_to_ml_workshop_heidelberg/)
-* [modelDown: a website generator for your predictive models](http://smarterpoland.pl/index.php/2018/06/modeldown-a-website-generator-for-your-predictive-models/) -- `modelDown`
 * [Metric Functions in a Classification Dataset](http://rpubs.com/prcuny/161764) -- `caret`
 * [caret machine learning repository](https://github.com/tobigithub/caret-machine-learning/wiki) -- `caret`
 * [H2O GBM Tuning Tutorial for R](https://blog.h2o.ai/2016/06/h2o-gbm-tuning-tutorial-for-r/)  -- `h2o`
 * [Unbox the Black Box: Part #1](https://www.kaggle.com/ankur310794/unbox-the-black-box-part-1) -- `lime`
 * [Using Linear Regression to Predict Energy Output of a Power Plant](https://datascienceplus.com/linear-regression-predict-energy-output-power-plant/amp/)
+* [Elegant regression results tables and plots in R: the finalfit package](http://www.datasurg.net/2018/05/16/elegant-regression-results-tables-and-plots-the-finalfit-package/)
 
 # Sparklyr
 
@@ -138,6 +157,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Image Classification with Keras](https://tensorflow.rstudio.com/blog/keras-image-classification-on-small-datasets.html) -- `keras`
 * [Pre-trained model on R](https://tsmatz.wordpress.com/2017/05/25/image-classification-and-matching-with-r-microsoftml-featurizeimage/) -- `MicrosoftML`
 * [Using Pre-Trained Models](https://tensorflow.rstudio.com/keras/articles/applications.html)
+* [Predicting Irish electricity consumption with neural networks](http://www.michaeljgrogan.com/electricity-consumption-neural/amp/)
 
 
 
@@ -188,6 +208,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Introduction to R Markdown](https://rpubs.com/brandonkopp/RMarkdown)
 * [Render reports directly from R scripts](http://brooksandrew.github.io/simpleblog/articles/render-reports-directly-from-R-scripts/)
 * [Pimp my RMD: a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
+* [Comparing huxtable with other R packages for creating tables](https://hughjonesd.github.io/huxtable/design-principles.html)
 
 # Shiny
 
@@ -202,6 +223,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Building interface for you and your data](https://www.cultureofinsight.com/)
 * [Build your first web app dashboard using Shiny and R <kbd>*</kbd>](https://medium.freecodecamp.org/build-your-first-web-app-dashboard-using-shiny-and-r-ec433c9f3f6c)
 * [Shiny tips & tricks for improving your apps and solving common problems](https://github.com/daattali/advanced-shiny)
+* [Adding Firebase Authentication to Shiny](https://www.tychobra.com/posts/2019-01-03-firebasse-auth-wtih-shiny/)
 
 
 # Shiny Code
@@ -209,6 +231,8 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Shiny Dashboard example](http://shiny.webpopix.org/dashboard/absorption/)
 * [Building a Shiny web application to visualize spatial and spatio-temporal data](https://paula-moraga.github.io/tutorial-shiny-spatial/)
 * [Basic Insurer Dashboard](https://github.com/Tychobra/shiny-insurance-examples/tree/master/basic-insurer-dashboard)
+* [Example Shiny Apps](https://www.tychobra.com/shiny/)
+* [Shinyapps Gallery](https://shinyapps-recent.appspot.com/recent.html)
 
 # Flexdashboard
 
@@ -269,6 +293,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Financial Times Visual Vocabulary](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/2_Useful_blogposts.md)
 * [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
 * [Teaching Data Science: A Short Course for Instructors](https://github.com/matrixds/teachingdatascience)
+* [Carbon: Create and share beautiful images of your source code](https://carbon.now.sh/)
 
 ## R
 
@@ -287,6 +312,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [50 ways to show your data - r script](https://github.com/SQLThomas/Conferences/blob/master/SatRdayAms2018/50%20ways.R)
 * [Rpubs collection by William Surles](https://rpubs.com/williamsurles)
 * [A review of functions to get started simulating data in R](https://github.com/aosmith16/simulation-helper-functions)
+* [Where do things live in R? R for Excel Users](http://rex-analytics.com/things-live-r-r-excel-users/?utm_content=bufferd74bd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 ## Tidyverse
 
@@ -372,6 +398,8 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Formatted datasets for Machine Learning With R by Brett Lantz](https://github.com/stedy/Machine-Learning-with-R-datasets)
 * [Applied Predictive Modeling](http://appliedpredictivemodeling.com/data/)
 * [R dataset](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
+* [Official repo for the #tidytuesday project](https://github.com/rfordatascience/tidytuesday)
+* [Outlier Detection DataSets (ODDS)](http://odds.cs.stonybrook.edu/)
 
 ## Datasets for smart factory
 

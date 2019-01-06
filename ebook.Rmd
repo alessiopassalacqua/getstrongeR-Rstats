@@ -81,6 +81,10 @@ output:
 
 * [Learning statistics with R](https://learningstatisticswithr-bookdown.netlify.com/) [website](https://learningstatisticswithr.com/)
 
+* [Data Analysis in Ecology with R and Stan](https://tobiasroth.github.io/BDAEcology/index.html)
+
+* [The Hundred-Page Machine Learning Book](http://themlbook.com/wiki/doku.php)
+
 # Ebook Collection
 
 * [Useful books by Suzan Baert](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/1_R_Books.md)

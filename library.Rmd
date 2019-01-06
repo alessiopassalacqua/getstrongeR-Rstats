@@ -48,6 +48,11 @@ The goal of the forcats package is to provide a suite of useful tools that solve
 [forcats - website](http://forcats.tidyverse.org/)
 
 
+> Xy
+
+Simulating Supervised Learning Data
+
+[Xy -- github](https://github.com/andrebleier/Xy)
 
 # Explorative data analysis
 
@@ -216,6 +221,9 @@ Highlight points and lines in ggplot2
 
 # Machine Learning
 
+> SuperML
+
+[SuperML - website](https://saraswatmks.github.io/superml/index.html)
 
 > caret
 
