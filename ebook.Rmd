@@ -85,6 +85,8 @@ output:
 
 * [The Hundred-Page Machine Learning Book](http://themlbook.com/wiki/doku.php)
 
+* [Tidy Evaluation](https://tidyeval.tidyverse.org/)
+
 # Ebook Collection
 
 * [Useful books by Suzan Baert](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/1_R_Books.md)

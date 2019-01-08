@@ -86,16 +86,20 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [PRINCIPAL COMPONENT ANALYSIS (PCA)](http://rinterested.github.io/statistics/PCA.html)
 
 # Machine Learning
+
 * [modelDown: a website generator for your predictive models](http://smarterpoland.pl/index.php/2018/06/modeldown-a-website-generator-for-your-predictive-models/) -- `modelDown`
+* [100 Days of ML Coding](Avik-Jain/100-Days-Of-ML-Code)
+* [Bias-Variance Tradeoff in Machine Learning](https://www.learnopencv.com/bias-variance-tradeoff-in-machine-learning/)
 
 ## Regression
+
 * [Principal component regression in R](https://educationalresearchtechniques.com/2017/12/18/principal-component-regression-in-r/) -- `pls`
 * [machine learning with CARET package in R ](https://www.analyticsvidhya.com/blog/2016/12/practical-guide-to-implement-machine-learning-with-caret-package-in-r-with-practice-problem/) --  `caret`
 * [Going Deeper into Regression Analysis](https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/)
 * [Simple Guide to Logistic Regression in R](https://www.analyticsvidhya.com/blog/2015/11/beginners-guide-on-logistic-regression-in-r/)
 * [7 Types of Regression Techniques you should know!](https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/)
 * [Beginners Guide to Regression Analysis and Plot Interpretations](https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-guide-regression-analysis-plot-interpretations/tutorial/)
-
+* [Understanding Regression Error Metrics](https://www.dataquest.io/blog/understanding-regression-error-metrics/)
 
 ## Classification
 
@@ -256,6 +260,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Docker for R user](https://github.com/noamross/nyhackr-docker-talk)
 * [Enterprise Web Services with Neural Networks Using R and TensorFlow](https://opensource.t-mobile.com/blog/posts/r-tensorflow-api/)
 * [Beta release of SparkR job types in Cloud Dataproc](https://gweb-cloudblog-publish.appspot.com/products/ai-machine-learning/announcing-the-beta-release-of-sparkr-job-types-in-cloud-dataproc/amp/)
+* [How to Deploy Externally Generated R Models to Azure Machine Learning Studio Web Services](https://medium.com/wandering-in-advanced-analytics/how-to-deploy-externally-generated-r-models-to-azure-machine-learning-studio-web-services-41a1a5ba9df)
 
 
 ## AWS Tutorial
@@ -263,6 +268,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Using sparklyr with an Apache Spark cluster](https://spark.rstudio.com/examples/yarn-cluster-emr/)
 * [Analytics at Scale: h2o, Apache Spark and R on AWS EMR](https://redoakstrategic.com/h2oaws/)
 * [H2O & RStudio Server on Amazon Web Services (AWS), the Easy Way!](http://amunategui.github.io/h2o-on-aws/)
+* [Scaling H2O analytics with AWS and p(f)urrr (Part 1)](https://www.daeconomist.com/post/2018-12011-aws-parti/)
 
 
 # API & IDE
@@ -281,6 +287,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [4 ways to be more efficient using RStudio's Code Snippets](https://jozefhajnala.gitlab.io/r/r906-rstudio-snippets/)
 * [Discover and install useful RStudio addins](https://github.com/daattali/addinslist)
 * [RStudio IDE Easy Tricks You Might've Missed](https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/)
+* [Motivate yourself with an .Rprofile](https://www.rostrum.blog/2019/01/04/rprofile-motivate/)
 
 # Teaching  
 
