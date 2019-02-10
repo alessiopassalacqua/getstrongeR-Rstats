@@ -47,12 +47,19 @@ The goal of the forcats package is to provide a suite of useful tools that solve
 
 [forcats - website](http://forcats.tidyverse.org/)
 
+# Create dataset
 
 > Xy
 
 Simulating Supervised Learning Data
 
 [Xy -- github](https://github.com/andrebleier/Xy)
+
+> synthpop
+
+A tool for producing synthetic versions of microdata containing confidential information
+
+[synthpop -- blogpost](http://gradientdescending.com/generating-synthetic-data-sets-with-synthpop-in-r/3456yuhjtnbf vc)
 
 # Explorative data analysis
 
@@ -314,11 +321,17 @@ Model Agnostic Explainers for Individual Predictions
 This R package offers novel time series visualisations. It is based on ggplot2 and offers geoms and pre-packaged functions for easily creating any of the offered charts. Some examples are listed below.
 [ggTimeSeries - vignettes](https://cran.r-project.org/web/packages/ggTimeSeries/vignettes/ggTimeSeries.html)
 
->
+> tsbox
 
 tsbox: Class-Agnostic Time Series in R
 
 [tsbox - website](https://www.tsbox.help/index.html)
+
+> tsutils
+
+The tsutils package for R provides functions to support various aspects of time series and forecasting modelling.
+
+[tsutils - github](https://github.com/trnnick/tsutils)
 
 # R Interface
 
@@ -466,6 +479,15 @@ The goal of auth0 is to implement an authentication scheme to Shiny using OAuth 
 Customize your shiny apps with these nice CSS effects
 [shinyEffects - github](https://github.com/DivadNojnarg/shinyEffects)
 
+> tablerDash
+
+A new super light ✨shiny dashboard template.
+[tablerDash - website](http://www.rinterface.com/shiny/tablerDash/)
+
+> dragulaR
+
+Drag’n’drop elements with dragulaR
+[dragulaR - website](https://dragular.zstat.pl/)
 
 # Reporting & Publishing results
 
@@ -507,7 +529,7 @@ Make wonderful-looking tables with the gt package
 
 [gt- github](https://rstudio.github.io/gt/)
 
-# Quality Control
+# ODE & Quality Control
 
 > SixSigma
 
@@ -527,6 +549,8 @@ qcc is a contributed R package for statistical quality control charts
 
 Plot single and multi-facet quality control charts within the ggplot framework using stat_QC and stat_mR. Calculate quality control limits using QC_Lines.
 [ggQC - github](https://github.com/kenithgrey/ggQC)
+
+
 
 # R API
 
@@ -567,6 +591,11 @@ With 'packagefinder' you can search for multiple keywords in the name, title and
 
 fs provides a cross-platform, uniform interface to file system operations. fs uses libuv under the hood, which gives a rock solid cross-platform interface to the filesystem.
 [ fs - website](https://www.tidyverse.org/articles/2018/01/fs-1.0.0/)
+
+> pacman
+
+A package management tools for R
+[pacman - github](https://github.com/trinker/pacman)
 
 # RStudio Addin
 

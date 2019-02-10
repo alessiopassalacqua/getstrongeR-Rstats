@@ -51,6 +51,8 @@ Data Analysis|[Analyzing large-scale biomedical data with R](https://bims.fun/in
 |Data Analysis|[Reproducible Science](https://gupsych.github.io/data_skills/index.html)|D. Barr and L. DeBruine|
 |Programming|[Introduction to R Programming <kbd>*</kbd>](https://github.com/jameslamb/teaching/tree/master/mu_rprog)|Marquette University|
 |Data Analysis|[Data management and manipulation using R](https://ozanj.github.io/rclass/)|University of California|
+|Data Science|[Data science for economists](https://github.com/uo-ec607/lectures)|Grant McDermott|
+|DOE|[From Data to Decisions](http://www.lithoguru.com/scientist/statistics/course.html)|Chris Mack|
 
 Other website like this:
 

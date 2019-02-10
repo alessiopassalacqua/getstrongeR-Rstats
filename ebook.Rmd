@@ -87,6 +87,12 @@ output:
 
 * [Tidy Evaluation](https://tidyeval.tidyverse.org/)
 
+* [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
+
+* [Regression Models for Data Science in R](https://leanpub.com/regmods/read#leanpub-auto-residuals)
+
+* [Pack YouR Code](https://github.com/gastonstat/plsdepot)
+
 # Ebook Collection
 
 * [Useful books by Suzan Baert](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/1_R_Books.md)
