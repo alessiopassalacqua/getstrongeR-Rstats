@@ -53,6 +53,19 @@ Data Analysis|[Analyzing large-scale biomedical data with R](https://bims.fun/in
 |Data Analysis|[Data management and manipulation using R](https://ozanj.github.io/rclass/)|University of California|
 |Data Science|[Data science for economists](https://github.com/uo-ec607/lectures)|Grant McDermott|
 |DOE|[From Data to Decisions](http://www.lithoguru.com/scientist/statistics/course.html)|Chris Mack|
+|R|[Intro to R](https://github.com/uc-r/Intro-R)|University of Cincinnati|
+|R|[Intermediate R](https://github.com/uc-r/Intermediate-R)|University of Cincinnati|
+|Data Analysis|[Advanced Analytics with R](https://github.com/uc-r/Advanced-R)|University of Cincinnati|
+|Shiny| [Shiny Workshop](https://github.com/sshawna/Shiny_workshop)|Marine Istitute|
+|Spatial Analysis | [Mapping with R](https://github.com/andrewbtran/NICAR-2019-mapping) |Andrew Tran |
+|Digital Analytics| [Digital Analytics: R and staTISTICS](http://www.dartistics.com/index.html) |M. Edmondson & T. Wilson|
+|Spatial Analysis| [Spatial Data Science with R](https://www.rspatial.org/index.html)|Robert J. Hijmans|
+
+
+
+
+
+
 
 Other website like this:
 

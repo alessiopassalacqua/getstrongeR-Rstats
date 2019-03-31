@@ -115,3 +115,7 @@ output:
 * [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
 
 * [The R Manuals](https://cran.r-project.org/manuals.html)
+
+* [Spatial Data Science](https://keen-swartz-3146c4.netlify.com/)
+
+* [A Survival Guide to Data Science with R ](https://togaware.com/onepager/)

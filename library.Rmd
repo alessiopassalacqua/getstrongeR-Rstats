@@ -226,6 +226,12 @@ Highlight points and lines in ggplot2
 
 [gghighlight -- github](https://github.com/yutannihilation/gghighlight)
 
+> bbplot
+
+It helps create and export ggplot2 charts in the style used by the BBC News data team
+
+[bbplot -- site](https://bbc.github.io/rcookbook/)
+
 # Machine Learning
 
 > SuperML
@@ -265,6 +271,11 @@ The purpose of `lime` is to explain the predictions of black box classifiers
 An R package that makes xgboost models fully interpretable
 [xgboostExplainer - tutorial](https://medium.com/applied-data-science/new-r-package-the-xgboost-explainer-51dd7d1aa211) 
 
+> shapper
+
+The SHAP method is used to calculate influences of variables on the particular observation. 
+
+[shapper - blogpost](http://smarterpoland.pl/index.php/2019/03/shapper-is-on-cran-its-an-r-wrapper-over-shap-explainer-for-black-box-models/)
 
 > shinyMlr
 
@@ -488,6 +499,16 @@ A new super light ✨shiny dashboard template.
 
 Drag’n’drop elements with dragulaR
 [dragulaR - website](https://dragular.zstat.pl/)
+
+> gglabeller
+
+Shiny gadget for labeling points on ggplot
+[gglabeller - github](https://github.com/AliciaSchep/gglabeller)
+
+> ggiraph
+
+Make ‘ggplot’ Graphics Interactive
+[ggiraph -- github](http://davidgohel.github.io/ggiraph/index.html)
 
 # Reporting & Publishing results
 
