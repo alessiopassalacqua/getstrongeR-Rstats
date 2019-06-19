@@ -73,9 +73,7 @@ h6 {
 
 <link rel="stylesheet" href="css\rmarkdown.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -193,8 +191,6 @@ $(document).ready(function () {
   menuAnchor.closest('li.dropdown').addClass('active');
 });
 </script>
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -342,8 +338,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -352,6 +346,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -408,14 +412,23 @@ div.tocify {
 </div>
 
 
+<div id="connecting-to-database" class="section level1">
+<h1>Connecting to database</h1>
+<ul>
+<li><a href="https://datascienceplus.com/working-on-data-warehouse-sql-with-r/">Working on Data-Warehouse (SQL) with R</a> – <code>dplyr</code></li>
+<li><a href="https://rviews.rstudio.com/2017/10/18/database-queries-with-r/">Database Queries With R</a> – <code>dplyr</code></li>
+<li><a href="https://datashenanigan.wordpress.com/2015/05/18/getting-started-with-postgresql-in-r/">Getting started with PostgreSQL in R</a> – <code>RPostgreSQL</code></li>
+<li><a href="http://rprogramming.net/connect-to-database-in-r/">Connect to Database in R</a></li>
+<li><a href="https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/2_Useful_blogposts.md">Setting up a database connection</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r">Introduction to MySQL with R</a></li>
+<li><a href="http://drenr.com/pages/html_files/linkedin_sql.html">SQL for LinkedIn</a></li>
+</ul>
+</div>
 <div id="data-wrangling" class="section level1">
 <h1>Data Wrangling</h1>
 <ul>
 <li><a href="https://www.listendata.com/2016/08/dplyr-tutorial.html">Data Manipulation with dpylyr</a> – <code>dplyr</code></li>
-<li><a href="https://datascienceplus.com/working-on-data-warehouse-sql-with-r/">Working on Data-Warehouse (SQL) with R</a> – <code>dplyr</code></li>
-<li><a href="https://rviews.rstudio.com/2017/10/18/database-queries-with-r/">Database Queries With R</a> – <code>dplyr</code></li>
 <li><a href="http://perso.ens-lyon.fr/lise.vaudor/manipulation-de-facteurs-avec-forcats/">Manipulation de facteurs avec forcats</a> – <code>forcats</code></li>
-<li><a href="https://datashenanigan.wordpress.com/2015/05/18/getting-started-with-postgresql-in-r/">Getting started with PostgreSQL in R</a> – <code>RPostgreSQL</code></li>
 <li><a href="http://genomicsclass.github.io/book/pages/dplyr_tutorial.html">dplyr tutorial</a> – <code>dplyr</code></li>
 <li><a href="https://github.com/trinker/dplyr_in_a_nutshell">dplyr In a Nutshell</a> – <code>dplyr</code></li>
 <li><a href="https://nsaunders.wordpress.com/2010/08/20/a-brief-introduction-to-apply-in-r/">Introduction to apply</a></li>
@@ -424,10 +437,8 @@ div.tocify {
 <li><a href="https://github.com/suzanbaert/Dplyr_Tutorials">Repository for dplyr tutorials by Suzan Beart</a> – <code>dplyr</code></li>
 <li><a href="https://www.sharpsightlabs.com/blog/data-analysis-example-r-supercars-part2/">Data Analysis exampple with ggplot and dplyr</a></li>
 <li><a href="https://rpubs.com/williamsurles/293454">Joining Data in R with dplyr</a> – <code>dplyr</code></li>
-<li><a href="http://rprogramming.net/connect-to-database-in-r/">Connect to Database in R</a></li>
 <li><a href="https://thisisnic.github.io/2018/04/16/how-do-i-make-my-own-dplyr-style-functions/">How do I make my own dplyr-style functions?</a> – <code>dplyr</code></li>
-<li><a href="https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/2_Useful_blogposts.md">Setting up a database connection</a></li>
-<li><a href="https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r">Introduction to MySQL with R</a></li>
+<li><a href="https://uc-r.github.io/pipe">Simplify Your Code with %&gt;%</a></li>
 </ul>
 </div>
 <div id="data-preparation" class="section level1">
@@ -469,6 +480,7 @@ div.tocify {
 <li><a href="https://www.yihanwu.ca/post/geoms-and-aesthetic-parameters/">Mapping ggplot geoms and aesthetic parameters</a></li>
 <li><a href="https://datatitian.com/how-to-turn-your-ggplot2-visualization-into-an-interactive-tweet/">How to Turn Your ggplot2 Visualization into an Interactive Tweet</a></li>
 <li><a href="https://nilsreimer.com/post/gwtp-themes-labels/">Themes and Labels</a> – <code>ggplot2</code></li>
+<li><a href="https://michaeltoth.me/a-detailed-guide-to-ggplot-colors.html">A Detailed Guide to ggplot colors</a></li>
 </ul>
 <div id="animation" class="section level2">
 <h2>Animation</h2>
@@ -524,6 +536,8 @@ div.tocify {
 <li><a href="https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-guide-regression-analysis-plot-interpretations/tutorial/">Beginners Guide to Regression Analysis and Plot Interpretations</a></li>
 <li><a href="https://www.dataquest.io/blog/understanding-regression-error-metrics/">Understanding Regression Error Metrics</a></li>
 <li><a href="https://rpubs.com/iabrady/residual-analysis">Residual Analysis in Linear Regression</a></li>
+<li><a href="https://datascienceplus.com/linear-regression-predict-energy-output-power-plant/amp/">Using Linear Regression to Predict Energy Output of a Power Plant</a></li>
+<li><a href="http://www.datasurg.net/2018/05/16/elegant-regression-results-tables-and-plots-the-finalfit-package/">Elegant regression results tables and plots in R: the finalfit package</a></li>
 </ul>
 </div>
 <div id="classification" class="section level2">
@@ -545,8 +559,12 @@ div.tocify {
 <li><a href="http://rpubs.com/prcuny/161764">Metric Functions in a Classification Dataset</a> – <code>caret</code></li>
 <li><a href="https://github.com/tobigithub/caret-machine-learning/wiki">caret machine learning repository</a> – <code>caret</code></li>
 <li><a href="https://www.kaggle.com/ankur310794/unbox-the-black-box-part-1">Unbox the Black Box: Part #1</a> – <code>lime</code></li>
-<li><a href="https://datascienceplus.com/linear-regression-predict-energy-output-power-plant/amp/">Using Linear Regression to Predict Energy Output of a Power Plant</a></li>
-<li><a href="http://www.datasurg.net/2018/05/16/elegant-regression-results-tables-and-plots-the-finalfit-package/">Elegant regression results tables and plots in R: the finalfit package</a></li>
+</ul>
+</div>
+<div id="tidymodel" class="section level2">
+<h2>Tidymodel</h2>
+<ul>
+<li><a href="https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/?utm_content=buffer25e57&amp;utm_medium=social&amp;utm_source=linkedin&amp;utm_campaign=buffer">A Gentle Introduction to tidymodels</a></li>
 </ul>
 </div>
 <div id="h2o" class="section level2">
@@ -640,6 +658,7 @@ div.tocify {
 <li><a href="https://github.com/thomasp85/gganimate/wiki/Temperature-time-series?utm_campaign=Data_Elixir&amp;utm_medium=email&amp;utm_source=Data_Elixir_198">Time series animation</a></li>
 <li><a href="https://github.com/mitchelloharawild/fable-tfeam-2018">Tidy forecasting in R</a></li>
 <li><a href="https://www.business-science.io/business/2018/12/04/time-series-forecasting.html">Time Series Analysis for Business Forecasting with Artificial Neural Networks</a></li>
+<li>Aautomate your kpi forecasts with only 1 line of r code using autots](<a href="https://www.remixinstitute.com/blog/automate-your-kpi-forecasts-with-only-1-line-of-r-code-using-autots/#.XO2SUogzY2w" class="uri">https://www.remixinstitute.com/blog/automate-your-kpi-forecasts-with-only-1-line-of-r-code-using-autots/#.XO2SUogzY2w</a>)</li>
 </ul>
 </div>
 <div id="maps-spatial-analysis" class="section level1">
@@ -654,6 +673,8 @@ div.tocify {
 <h1>Web Scraping</h1>
 <ul>
 <li><a href="https://www.r-bloggers.com/practical-introduction-to-web-scraping-in-r/amp/">Practical Introduction to Web Scraping using R</a></li>
+<li><a href="http://applied-r.com/web-scrapping/">Web Scraping in R</a></li>
+<li><a href="https://raw.githack.com/uo-ec607/lectures/master/06-web-css/06-web-css.html">Webscraping: (1) Server-side and CSS</a></li>
 <li><a href="http://applied-r.com/web-scrapping/">Web Scraping in R</a></li>
 </ul>
 </div>
@@ -684,6 +705,7 @@ div.tocify {
 <li><a href="https://blog.mitchelloharawild.com/blog/vitae/">Introducing vitae</a></li>
 <li><a href="https://www.garrickadenbuie.com/blog/knitr-custom-class-output/">Style knitr Code Output Appearance in HTML with Custom CSS Classes</a></li>
 <li><a href="http://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/">How to build a website with Blogdown in R</a></li>
+<li><a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/">Using R Markdown for Class Reports</a></li>
 </ul>
 </div>
 <div id="shiny" class="section level1">
@@ -751,6 +773,12 @@ div.tocify {
 <li><a href="https://colinfay.me/docker-r-reproducibility/">An Introduction to Docker for R Users</a></li>
 <li><a href="https://longhowlam.wordpress.com/2019/02/07/are-you-leaking-h2o-call-plumber/">Are you leaking h2o? Call plumber!</a></li>
 </ul>
+<div id="docker" class="section level2">
+<h2>Docker</h2>
+<ul>
+<li><a href="https://harini.blog/2019/05/25/rstudio-and-rshiny-in-docker/">RStudio in Docker – now share your R code effortlessly!</a></li>
+</ul>
+</div>
 <div id="aws-tutorial" class="section level2">
 <h2>AWS Tutorial</h2>
 <ul>
@@ -800,6 +828,10 @@ div.tocify {
 <li><a href="http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/">Everything you did and didn’t know about PCA</a></li>
 <li><a href="https://rpubs.com/JDAHAN/172473">Data Science Interview Questions &amp; Detailed Answers</a></li>
 <li><a href="https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/">6 Common Probability Distributions every data science professional should know</a></li>
+<li><a href="https://gramener.github.io/visual-vocabulary-vega/">Visual Vocabulary</a></li>
+<li><a href="http://setosa.io/ev/">ML concepts explained Visually</a></li>
+<li><a href="https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/">How to I interpret odds ratios in logistic regression</a></li>
+<li><a href="https://www.listendata.com/2019/06/free-sql-download-to-practice-queries.html?m=1">Free SQL Download to practice queries</a></li>
 </ul>
 </div>
 <div id="r" class="section level2">
@@ -823,6 +855,7 @@ div.tocify {
 <li><a href="http://rex-analytics.com/things-live-r-r-excel-users/?utm_content=bufferd74bd&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">Where do things live in R? R for Excel Users</a></li>
 <li><a href="https://michaeltoth.me/the-ultimate-opinionated-guide-to-base-r-date-format-functions.html#the-ultimate-opinionated-guide-to-base-r-date-format-functions">The Ultimate Opinionated Guide to Base R Date Format Functions</a></li>
 <li><a href="https://kdestasio.github.io/post/r_best_practices/">R Best practices</a></li>
+<li><a href="https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users">Getting Started with Git and GitHub for R Users</a></li>
 </ul>
 </div>
 <div id="tidyverse" class="section level2">
@@ -838,6 +871,8 @@ div.tocify {
 <li><a href="https://github.com/michaellevy/tidyverse_talk">tidyverse - Davis R-Users’ Group</a></li>
 <li><a href="https://michaeltoth.me/how-to-filter-in-r-a-detailed-introduction-to-the-dplyr-filter-function.html">How to Filter in R: A Detailed Introduction to the dplyr Filter Function</a></li>
 <li><a href="https://rladiessydney.org/">R-Ladies Sydney!</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2019/05/beginner-guide-tidyverse-most-powerful-collection-r-packages-data-science/">A Beginner’s Guide to Tidyverse – The Most Powerful Collection of R Packages for Data Science</a></li>
+<li>(Data Wrangling in R)[<a href="https://rstudio-pubs-static.s3.amazonaws.com/109948_876c577ae6424d47b529fce960db7bf4.html#1" class="uri">https://rstudio-pubs-static.s3.amazonaws.com/109948_876c577ae6424d47b529fce960db7bf4.html#1</a>]</li>
 </ul>
 </div>
 <div id="teaching-shiny" class="section level2">
@@ -896,7 +931,10 @@ div.tocify {
 </div>
 <div id="conference" class="section level1">
 <h1>Conference</h1>
-<p><a href="https://github.com/rstudio/rstudio-conf/blob/master/2019/workshops.md">rstudio-conf 2019 Workshop materials</a></p>
+<ul>
+<li><a href="https://github.com/rstudio/rstudio-conf/blob/master/2019/workshops.md">rstudio-conf 2019 Workshop materials</a></li>
+<li><a href="https://github.com/satRdays/newcastle2019-slides">Speaker slides and materials for SatRday Chicago 2019</a></li>
+</ul>
 </div>
 <div id="github-repository" class="section level1">
 <h1>Github repository</h1>
