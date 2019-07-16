@@ -7,6 +7,8 @@ output:
 
 # Ebook 
 
+* [R Packages](https://r-pkgs.org/)
+
 * [Happy Git and GitHub for the useR](http://happygitwithr.com/)
 
 * [Just Enough R](https://benwhalley.github.io/just-enough-r/)
@@ -93,6 +95,56 @@ output:
 
 * [Pack YouR Code](https://github.com/gastonstat/plsdepot)
 
+* [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
+
+* [The R Manuals](https://cran.r-project.org/manuals.html)
+
+* [Spatial Data Science](https://keen-swartz-3146c4.netlify.com/)
+
+* [A Survival Guide to Data Science with R ](https://togaware.com/onepager/)
+
+* [Introduction to R](https://intro-r.rsquaredacademy.com/)
+
+* [Data Wrangling with R](https://wrangle-r.rsquaredacademy.com/)
+
+* [Data Visualization with ggplot2](https://viz-ggplot2.rsquaredacademy.com/)
+
+* [Data Visualization with R](https://viz-base.rsquaredacademy.com/)
+
+* [R, Databases & SQL](https://rdbsql.rsquaredacademy.com/)
+
+* [Building Big Shiny Apps - A Workflow](https://thinkr-open.github.io/building-shiny-apps-workflow/)
+
+* [Data Wrangling with R](https://cengel.github.io/R-data-wrangling/)
+
+* [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/index.html)
+
+* [R Graphics Cookbook](https://r-graphics.org/)
+
+* [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://bookdown.org/max/FES/)
+
+* [Efficient R programming](Efficient R programming)
+
+* [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/)
+
+* [Data Visualization with R](https://cengel.github.io/R-data-viz/)
+
+* [Introduction to Open Data Science](http://ohi-science.org/data-science-training/)
+
+* [R, Databases, and Docker](https://smithjd.github.io/sql-pet/)
+
+* [Learning Statistics in R](https://ademos.people.uic.edu/index.html)
+
+* [Hands-on Machine Learning with R](https://bradleyboehmke.github.io/HOML/index.html#why-r)
+
+* [R Advanced Spatial Lessons](http://benbestphd.com/R-adv-spatial-lessons/)
+
+* [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/index.html)
+
+* [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+
+----
+
 # Ebook Collection
 
 * [Useful books by Suzan Baert](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/1_R_Books.md)
@@ -112,10 +164,4 @@ output:
 
 * [What are some good resources for learning R?](https://www.quora.com/What-are-some-good-resources-for-learning-R-1)
 
-* [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
-
-* [The R Manuals](https://cran.r-project.org/manuals.html)
-
-* [Spatial Data Science](https://keen-swartz-3146c4.netlify.com/)
-
-* [A Survival Guide to Data Science with R ](https://togaware.com/onepager/)
+----

@@ -18,16 +18,13 @@ the goal of `readr` is to provide a fast and friendly way to read rectangular da
 > rio
 
 The idea behind rio is to simplify the process of importing data into R and exporting data from R. 
-
 [rio - vignettes](https://cran.r-project.org/web/packages/rio/vignettes/rio.html)
 
 > dplyr
 
 `dplyr` is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges
-
-[dbplyr - website](https://dplyr.tidyverse.org/)
-
-[dbplyr - vignettes](https://cran.r-project.org/web/packages/dbplyr/vignettes/dbplyr.html)
+[dplyr - website](https://dplyr.tidyverse.org/)
+[dplyr - vignettes](https://cran.r-project.org/web/packages/dbplyr/vignettes/dbplyr.html)
 
 > MonetDBLite
 
@@ -52,14 +49,17 @@ The goal of the forcats package is to provide a suite of useful tools that solve
 > Xy
 
 Simulating Supervised Learning Data
-
 [Xy -- github](https://github.com/andrebleier/Xy)
 
 > synthpop
 
 A tool for producing synthetic versions of microdata containing confidential information
-
 [synthpop -- blogpost](http://gradientdescending.com/generating-synthetic-data-sets-with-synthpop-in-r/3456yuhjtnbf vc)
+
+> holodeck 
+
+A Tidy Interface For Simulating Multivariate Data
+[holodeck -- github](https://github.com/Aariq/holodeck)
 
 # Explorative data analysis
 
@@ -301,6 +301,22 @@ With help of this package mlr can be accessed via a shiny interface.
 `modelDown` generates a website with HTML summaries for predictive models 
 [modelDown - vignettes](modelDown generates a website with HTML summaries for predictive models)
 
+> dalex
+
+`DALEX` is a set of tools that help to understand how complex models are working.
+[dalex -- website](https://pbiecek.github.io/DALEX/)
+
+> iBreakDown
+
+Model Agnostic Explainers for Individual Predictions
+The `iBreakDown` package is a model agnostic tool for explanation of predictions from black boxes ML models.
+[iBreakDown -- website](https://modeloriented.github.io/iBreakDown/)
+
+> rpart.plot
+
+It extends the functions in the rpart package
+[rpart.plot -- website](http://www.milbo.org/rpart-plot/index.html)
+
 # Association rules
 
 > arules
@@ -412,9 +428,12 @@ Fast disk-based parallelized data manipulation framework for larger-than-RAM dat
 > aurelius
 
 Provides tools for converting R objects and syntax into the Portable Format for Analytics (PFA). 
-
 [aurelius - vignettes](https://cran.r-project.org/web/packages/aurelius/vignettes/basic-usage.html)
 
+> plumber
+
+It converts your existing R code to a web API using a handful of special one-line comments.
+[plumber -- website](https://github.com/Aariq/holodeck)
 
 # Shiny
 
@@ -427,6 +446,11 @@ Provides tools for converting R objects and syntax into the Portable Format for 
 
 `shinydashboard` makes it easy to use Shiny to create dashboards
 [shinydashboard - website](https://rstudio.github.io/shinydashboard/)
+
+> argonDash
+
+Argon dashboard template
+[argomDash -- website](https://rinterface.github.io/argonDash/)
 
 > shinyproxy
 
@@ -515,13 +539,11 @@ Make ‘ggplot’ Graphics Interactive
 > rmarkdorwn
 
 Convert R Markdown documents into a variety of formats.
-
 [rmarkdown - website](https://rmarkdown.rstudio.com/)
 
 > icon
 
 web icons for rmarkdown
-
 [icon - website](https://ropensci.org/technotes/2018/05/15/icon/)
 
 > officer

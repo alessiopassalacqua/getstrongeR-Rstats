@@ -27,3 +27,5 @@ In this website I reported my resources collection ispired by the following post
 * [Data Science Links](http://jasdumas.com/ds-resources/)
 * [AWESOME R](https://awesome-r.com/)
 * [Top R libraries for Data Science](https://medium.com/@Mr.dhariwal/top-r-libraries-for-data-science-9b24f658e243)
+* [100 FREE TUTORIALS FOR LEARNING R](https://www.listendata.com/p/r-programming-tutorials.html)
+* [An awesome sparklyr related package collection](https://github.com/harryprince/awesome-sparklyr)

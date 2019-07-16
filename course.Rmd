@@ -17,7 +17,6 @@ output:
 |R|[R course material](http://stcorp.nl/R_course/)|Paul Hiemstra|
 |R|[Introduction to R](http://uc-r.github.io/introduction)|UC|
 |R | [Intro to R](https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP)|google|
-|Data Science|[Statistical Computing with R](http://rstatistics.net/)|RStatistics.Net|
 |Biomedical|[Biomedical Data Science](http://genomicsclass.github.io/book/)|R. Irizarry and M. Love|
 |Shiny|[Learn Shiny](https://shiny.rstudio.com/tutorial/)|RStudio|
 |Data Science|[Data science in R](http://courses.had.co.nz/12-oscon/)|Hadley Wickham|
@@ -36,7 +35,7 @@ output:
 |Data Science|[Earth Data Science Tutorials in R](https://www.earthdatascience.org/tutorials/r/)|University of Colorado|
 |Data Science|[An Introduction to Statistical Learning](https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)|Stanford University|
 |Social Science|[2018 Summer Institute in Computational Social Science](https://compsocialscience.github.io/summer-institute/2018/teaching-learning-materials)|Duke University|
-|Data Science|[Data Science in a Box](https://rstudio-education.github.io/datascience-box/)|RStudio|
+|Data Science|[Data Science in a Box](https://datasciencebox.org/)|RStudio|
 |Journalism|[R for journalists](https://learn.r-journalism.com/en/)|Andrew Ba Tran|
 |Visualization|[From Data to Insight](http://www2.stat.duke.edu/~mc301/ARTSCI101_Su16/)|MINE ÇETINKAYA-RUNDEL|
 |Programming|[Programming with R](https://swcarpentry.github.io/r-novice-inflammation/)|Carpentries|
@@ -60,6 +59,24 @@ Data Analysis|[Analyzing large-scale biomedical data with R](https://bims.fun/in
 |Spatial Analysis | [Mapping with R](https://github.com/andrewbtran/NICAR-2019-mapping) |Andrew Tran |
 |Digital Analytics| [Digital Analytics: R and staTISTICS](http://www.dartistics.com/index.html) |M. Edmondson & T. Wilson|
 |Spatial Analysis| [Spatial Data Science with R](https://www.rspatial.org/index.html)|Robert J. Hijmans|
+|Programming|[Advanced R Course](https://privefl.github.io/advr38book/)|F. Privé|
+|Econometrics|[Data science for economists](https://github.com/uo-ec607/lectures)|G. McDermott|
+|Econometrics|[Econometrics](https://github.com/edrubin/EC525S19)| E. Rubin|
+|Visualization|[Data analytics and visualization](https://www.yan-holtz.com/teaching)|Yan Holtz|
+|Visualization| [Data Visualization in R](http://www.datavis.ca/courses/RGraphics/)|Michael Friendly|
+|Spatial Analysis| [Data wrangling visualisation and spatial analysis](http://www.seascapemodels.org/data/data-wrangling-spatial-course.html#41_data_wrangling_and_plotting_with_tidyverse) |Seascape models | 
+|Genomics |[Plotting in R for Biologists](http://marianattestad.com/blog)|Maria Nattestad|
+|Data Analysis|[Data Skills for Reproducible Science](https://gupsych.github.io/data_skills/)|Dale Barr and Lisa DeBruine|
+|Data Science|[Data Science with R](https://p8105.com/schedule.html)|Jeff Goldsmith|
+|Time Series| [Time Series Boot Camp](https://github.com/jlukito/timeseries-bootcamp)|J. Lukito and J. Foley|
+|Time Series|[
+Applied Time Series Analysis](https://newonlinecourses.science.psu.edu/stat510/)|The Pennsylvania State University|
+|Data Analysis|[Exploratory Data Analysis in R](https://mgimond.github.io/ES218/index.html)|Manny Gimond|
+|Data Science|[Tidy Data Science](https://tidy-ds.wjakethompson.com/)|Jake Thompson|
+|Shiny|[Shiny Workshop](https://osf.io/69j37/files/)|Sonja Winter & Katie Coburn|
+|Data Science|[Master Tidyverse](https://github.com/rstudio/master-the-tidyverse)|Garrett Grolemund|
+|Data Science|[R bootcamp](https://r-bootcamp.netlify.com/)|T. Laderas & J. Minnier|
+|R Docker|[A Docker tutorial for reproducible research](http://ropenscilabs.github.io/r-docker-tutorial/)|ropenscilabs|
 
 
 
