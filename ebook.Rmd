@@ -5,6 +5,7 @@ output:
     toc_float: true
 ---
 
+
 # Ebook 
 
 * [R Packages](https://r-pkgs.org/)
@@ -142,6 +143,10 @@ output:
 * [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/index.html)
 
 * [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+
+* [Data Science Practice](https://datasciencepractice.study/)
+
+* [Agile Machine Learning with R](https://bookdown.org/edwinthoen/AMLwR/)
 
 ----
 

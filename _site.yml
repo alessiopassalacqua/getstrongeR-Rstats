@@ -1,7 +1,7 @@
 name: R-DataSCience-Resources
 output_dir: '.'
 navbar:
-  title: R Resources
+  title: "&#x1F4AA; #getstrongeR #Rstats"
   left:
   - text: "Home"
     href: index.html

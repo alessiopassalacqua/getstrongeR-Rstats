@@ -539,6 +539,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Outlier Detection DataSets (ODDS)](http://odds.cs.stonybrook.edu/)
 * [UCI Machine Learning Repository in R](https://ucimlr.netlify.com/)
 * [SMS Spam Collection](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)
+* [tidytuesday.rocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/)
 
 
 
