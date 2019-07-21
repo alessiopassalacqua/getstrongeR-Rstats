@@ -2,6 +2,8 @@
 output:
   html_document: 
     toc: false
+    includes:
+      after_body: footer.Rhtml
 ---
 
 <br>
@@ -18,7 +20,7 @@ The organization is as follows:
 <br>
 
 
-In this website I reported my resources collection ispired by the following posts:
+In this website I reported my resources collection ispired by the following website/posts:
 
 * [Quick list of useful R packages](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages?mobile_site=true)
 * [Great R packages for data import, wrangling and visualization](https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html)
