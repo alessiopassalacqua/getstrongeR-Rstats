@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -248,48 +249,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -450,318 +412,328 @@ div.tocify {
 </tr>
 <tr class="odd">
 <td>R</td>
-<td align="center"><a href="http://stcorp.nl/R_course/">R course material</a></td>
-<td align="right">Paul Hiemstra</td>
-</tr>
-<tr class="even">
-<td>R</td>
 <td align="center"><a href="http://uc-r.github.io/introduction">Introduction to R</a></td>
 <td align="right">UC</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>R</td>
 <td align="center"><a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP">Intro to R</a></td>
 <td align="right">google</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Biomedical</td>
 <td align="center"><a href="http://genomicsclass.github.io/book/">Biomedical Data Science</a></td>
 <td align="right">R. Irizarry and M. Love</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Shiny</td>
 <td align="center"><a href="https://shiny.rstudio.com/tutorial/">Learn Shiny</a></td>
 <td align="right">RStudio</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Science</td>
 <td align="center"><a href="http://courses.had.co.nz/12-oscon/">Data science in R</a></td>
 <td align="right">Hadley Wickham</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Programming</td>
 <td align="center"><a href="http://courses.had.co.nz/12-devtools/">R development master class</a></td>
 <td align="right">Hadley Wickham</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Science</td>
 <td align="center"><a href="http://courses.had.co.nz/12-rice-bdsi/">Big data summer institute</a></td>
 <td align="right">Hadley Wickham</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Programming</td>
 <td align="center"><a href="http://courses.had.co.nz/11-csiro/">Package development</a></td>
 <td align="right">Hadley Wickham</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Visualisation</td>
 <td align="center"><a href="http://courses.had.co.nz/11-rice/">Data visualisation in R with ggplot2 and plyr</a></td>
 <td align="right">Hadley Wickham</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Science</td>
 <td align="center"><a href="http://had.co.nz/stat405/">Introduction to data analysis</a></td>
 <td align="right">Hadley Wickham</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>R</td>
 <td align="center"><a href="https://github.com/AmeliaMN/IntroToR">Introduction to R &amp; RStudio</a></td>
 <td align="right">McNamara</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Analysis</td>
 <td align="center"><a href="http://varianceexplained.org/RData/">Data Analysis and Visualization Using R</a></td>
 <td align="right">David Robinson</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>R</td>
 <td align="center"><a href="http://stat545.com/">Data wrangling, exploration, and analysis with R</a></td>
 <td align="right">UBC</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Science</td>
 <td align="center"><a href="http://rafalab.github.io/pages/harvardx.html">Statistics and R</a></td>
 <td align="right">Harvard</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Bioconductor</td>
 <td align="center"><a href="https://kasperdanielhansen.github.io/genbioconductor/">Bioconductor for Genomic Data Science</a></td>
 <td align="right">K. D. Hansen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Analysis <kbd>*</kbd></td>
 <td align="center"><a href="https://datacarpentry.org/R-ecology-lesson/index.html#chapters">R for data analysis and visualization of Ecological Data</a></td>
 <td align="right">Data Carpentry</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Analysis<kbd>*</kbd></td>
 <td align="center"><a href="https://datacarpentry.org/R-genomics/index.html">Data Analysis and Visualization in R</a></td>
 <td align="right">Data Carpentry</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Science</td>
 <td align="center"><a href="https://www.earthdatascience.org/tutorials/r/">Earth Data Science Tutorials in R</a></td>
 <td align="right">University of Colorado</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Science</td>
 <td align="center"><a href="https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/">An Introduction to Statistical Learning</a></td>
 <td align="right">Stanford University</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Social Science</td>
 <td align="center"><a href="https://compsocialscience.github.io/summer-institute/2018/teaching-learning-materials">2018 Summer Institute in Computational Social Science</a></td>
 <td align="right">Duke University</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Science</td>
 <td align="center"><a href="https://datasciencebox.org/">Data Science in a Box</a></td>
 <td align="right">RStudio</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Journalism</td>
 <td align="center"><a href="https://learn.r-journalism.com/en/">R for journalists</a></td>
 <td align="right">Andrew Ba Tran</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Visualization</td>
 <td align="center"><a href="http://www2.stat.duke.edu/~mc301/ARTSCI101_Su16/">From Data to Insight</a></td>
 <td align="right">MINE ÇETINKAYA-RUNDEL</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Programming</td>
 <td align="center"><a href="https://swcarpentry.github.io/r-novice-inflammation/">Programming with R</a></td>
 <td align="right">Carpentries</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Visualization</td>
 <td align="center"><a href="https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#geometric_objects_and_aesthetics">R graphics with ggplot2 workshop notes</a></td>
 <td align="right">Harvard University</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Visualization</td>
 <td align="center"><a href="http://paldhous.github.io/ucb/2016/dataviz/index.html">Introduction to Data Visualization</a></td>
 <td align="right">Peter Aldhous</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Analysis</td>
 <td align="center"><a href="http://lab.rady.ucsd.edu/sawtooth/business_analytics_in_r/index.html">Business Analytics in R</a></td>
 <td align="right">Karsten T. Hansen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Bioconductor</td>
 <td align="center"><a href="http://girke.bioinformatics.ucr.edu/CSHL_RNAseq/">RNA-Seq Analysis with R and Bioconductor</a></td>
 <td align="right">UC Riverside</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Analysis</td>
 <td align="center"><a href="https://rgup.gitlab.io/research_cycle/index.html">The Research Cycle</a></td>
 <td align="right">D. Barr and L. DeBruine</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Analysis</td>
 <td align="center"><a href="https://swcarpentry.github.io/r-novice-gapminder/">R for Reproducible Scientific Analysis</a></td>
 <td align="right">Carpentries</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Analysis</td>
 <td align="center"><a href="https://bims.fun/index.html">Analyzing large-scale biomedical data with R</a></td>
 <td align="right">Virginia University</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>R</td>
 <td align="center"><a href="http://usepa.github.io/introR/">INTRODUCTION TO R</a></td>
 <td align="right">Jeff Hollister</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Analysis</td>
 <td align="center"><a href="https://gupsych.github.io/data_skills/index.html">Reproducible Science</a></td>
 <td align="right">D. Barr and L. DeBruine</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Programming</td>
 <td align="center"><a href="https://github.com/jameslamb/teaching/tree/master/mu_rprog">Introduction to R Programming <kbd>*</kbd></a></td>
 <td align="right">Marquette University</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Analysis</td>
 <td align="center"><a href="https://ozanj.github.io/rclass/">Data management and manipulation using R</a></td>
 <td align="right">University of California</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Science</td>
 <td align="center"><a href="https://github.com/uo-ec607/lectures">Data science for economists</a></td>
 <td align="right">Grant McDermott</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>DOE</td>
 <td align="center"><a href="http://www.lithoguru.com/scientist/statistics/course.html">From Data to Decisions</a></td>
 <td align="right">Chris Mack</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>R</td>
 <td align="center"><a href="https://github.com/uc-r/Intro-R">Intro to R</a></td>
 <td align="right">University of Cincinnati</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>R</td>
 <td align="center"><a href="https://github.com/uc-r/Intermediate-R">Intermediate R</a></td>
 <td align="right">University of Cincinnati</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Analysis</td>
 <td align="center"><a href="https://github.com/uc-r/Advanced-R">Advanced Analytics with R</a></td>
 <td align="right">University of Cincinnati</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Shiny</td>
 <td align="center"><a href="https://github.com/sshawna/Shiny_workshop">Shiny Workshop</a></td>
 <td align="right">Marine Istitute</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Spatial Analysis</td>
 <td align="center"><a href="https://github.com/andrewbtran/NICAR-2019-mapping">Mapping with R</a></td>
 <td align="right">Andrew Tran</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Digital Analytics</td>
 <td align="center"><a href="http://www.dartistics.com/index.html">Digital Analytics: R and staTISTICS</a></td>
 <td align="right">M. Edmondson &amp; T. Wilson</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Spatial Analysis</td>
 <td align="center"><a href="https://www.rspatial.org/index.html">Spatial Data Science with R</a></td>
 <td align="right">Robert J. Hijmans</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Programming</td>
 <td align="center"><a href="https://privefl.github.io/advr38book/">Advanced R Course</a></td>
 <td align="right">F. Privé</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Econometrics</td>
 <td align="center"><a href="https://github.com/uo-ec607/lectures">Data science for economists</a></td>
 <td align="right">G. McDermott</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Econometrics</td>
 <td align="center"><a href="https://github.com/edrubin/EC525S19">Econometrics</a></td>
 <td align="right">E. Rubin</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Visualization</td>
 <td align="center"><a href="https://www.yan-holtz.com/teaching">Data analytics and visualization</a></td>
 <td align="right">Yan Holtz</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Visualization</td>
 <td align="center"><a href="http://www.datavis.ca/courses/RGraphics/">Data Visualization in R</a></td>
 <td align="right">Michael Friendly</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Spatial Analysis</td>
 <td align="center"><a href="http://www.seascapemodels.org/data/data-wrangling-spatial-course.html#41_data_wrangling_and_plotting_with_tidyverse">Data wrangling visualisation and spatial analysis</a></td>
 <td align="right">Seascape models</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Genomics</td>
 <td align="center"><a href="http://marianattestad.com/blog">Plotting in R for Biologists</a></td>
 <td align="right">Maria Nattestad</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Analysis</td>
 <td align="center"><a href="https://gupsych.github.io/data_skills/">Data Skills for Reproducible Science</a></td>
 <td align="right">Dale Barr and Lisa DeBruine</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Science</td>
 <td align="center"><a href="https://p8105.com/schedule.html">Data Science with R</a></td>
 <td align="right">Jeff Goldsmith</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Time Series</td>
 <td align="center"><a href="https://github.com/jlukito/timeseries-bootcamp">Time Series Boot Camp</a></td>
 <td align="right">J. Lukito and J. Foley</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Time Series</td>
 <td align="center">[</td>
 <td align="right"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Applied Time Series Analysis](<a href="https://newonlinecourses.science.psu.edu/stat510/" class="uri">https://newonlinecourses.science.psu.edu/stat510/</a>)</td>
 <td align="center">The Pennsylvania State University</td>
 <td align="right"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Analysis</td>
 <td align="center"><a href="https://mgimond.github.io/ES218/index.html">Exploratory Data Analysis in R</a></td>
 <td align="right">Manny Gimond</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Science</td>
 <td align="center"><a href="https://tidy-ds.wjakethompson.com/">Tidy Data Science</a></td>
 <td align="right">Jake Thompson</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Shiny</td>
 <td align="center"><a href="https://osf.io/69j37/files/">Shiny Workshop</a></td>
 <td align="right">Sonja Winter &amp; Katie Coburn</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Data Science</td>
 <td align="center"><a href="https://github.com/rstudio/master-the-tidyverse">Master Tidyverse</a></td>
 <td align="right">Garrett Grolemund</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Data Science</td>
 <td align="center"><a href="https://r-bootcamp.netlify.com/">R bootcamp</a></td>
 <td align="right">T. Laderas &amp; J. Minnier</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>R Docker</td>
 <td align="center"><a href="http://ropenscilabs.github.io/r-docker-tutorial/">A Docker tutorial for reproducible research</a></td>
 <td align="right">ropenscilabs</td>
+</tr>
+<tr class="odd">
+<td>Data Analysis</td>
+<td align="center"><a href="https://wiki.qcbs.ca/r">QCBS R Workshops</a></td>
+<td align="right">QCBS</td>
+</tr>
+<tr class="even">
+<td>Data Science</td>
+<td align="center"><a href="https://datasciencelabs.github.io/">Introduction to Data Science</a></td>
+<td align="right">Harvard</td>
+</tr>
+<tr class="odd">
+<td>Shiny</td>
+<td align="center"><a href="https://psyteachr.github.io/shiny-tutorials/">Shiny Tutorials</a></td>
+<td align="right">Teaching Reproducible Psychology</td>
 </tr>
 </tbody>
 </table>
@@ -789,6 +761,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 

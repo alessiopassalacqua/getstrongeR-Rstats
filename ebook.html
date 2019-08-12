@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -248,48 +249,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -420,7 +382,6 @@ div.tocify {
 <li><p><a href="https://benwhalley.github.io/just-enough-r/">Just Enough R</a></p></li>
 <li><p><a href="http://moderndive.com/index.html">An Introduction to Statistical and Data Sciences via R</a></p></li>
 <li><p><a href="http://www.feat.engineering/">Feature Engineering and Selection: A Practical Approach for Predictive Models</a></p></li>
-<li><p><a href="https://laderast.github.io/gradual_shiny/">A gRadual intRoduction to Shiny</a></p></li>
 <li><p><a href="https://b-rodrigues.github.io/fput/">Functional programming and unit testing for data munging with R</a></p></li>
 <li><p><a href="https://alanarnholt.github.io/PDS-Bookdown2/">Passion Driven Statistics</a></p></li>
 <li><p><a href="https://rafalab.github.io/dsbook/">Introduction to Data Science</a></p></li>
@@ -485,6 +446,11 @@ div.tocify {
 <li><p><a href="https://rmd4sci.njtierney.com/">RMarkdown for Scientists</a></p></li>
 <li><p><a href="https://datasciencepractice.study/">Data Science Practice</a></p></li>
 <li><p><a href="https://bookdown.org/edwinthoen/AMLwR/">Agile Machine Learning with R</a></p></li>
+<li><p><a href="https://bookdown.org/martin_monkman/DataScienceResources_book/">Data Science with R: A Resource Compendium</a></p></li>
+<li><p><a href="https://r-pedia.gitbook.io/cevi/">The wikipedia of R by me</a></p></li>
+<li><p><a href="https://psyteachr.github.io/msc-conv-f2f/">MSc Conversion in Psychological Studies/Science</a></p></li>
+<li><p><a href="https://psyteachr.github.io/msc-data-skills/">Data Skills for Reproducible Science</a></p></li>
+<li><p><a href="https://www.introregression.org/">Intro Regression</a></p></li>
 </ul>
 <hr />
 </div>
@@ -498,6 +464,7 @@ div.tocify {
 <li><p><a href="https://pairach.com/2012/02/26/r-tutorials-from-universities-around-the-world/">100 Free R Tutorials and Resources in University webpages</a></p></li>
 <li><p><a href="https://analyticsindiamag.com/top-6-free-e-books-to-learn-r-at-beginner-and-advanced-levels/">Top 6 Free E-Books To Learn R At Beginner And Advanced Levels</a></p></li>
 <li><p><a href="https://www.quora.com/What-are-some-good-resources-for-learning-R-1">What are some good resources for learning R?</a></p></li>
+<li><p><a href="https://committedtotape.shinyapps.io/freeR/">FREE R READING MATERIAL</a></p></li>
 </ul>
 <hr />
 </div>
@@ -520,6 +487,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 

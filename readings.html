@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -248,48 +249,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -424,6 +386,7 @@ div.tocify {
 <li><a href="http://drenr.com/pages/html_files/linkedin_sql.html">SQL for LinkedIn</a></li>
 <li><a href="https://rpubs.com/shivanandiyer/BigRQuery">Handling large data sets with Google BigQuery and R</a></li>
 <li><a href="https://rpubs.com/jladams/dbplyr">Introduction to dplyr for Databases</a></li>
+<li><a href="https://blog.rsquaredacademy.com/working-with-databases-using-r/">A Comprehensive Introduction to Working with Databases using R</a></li>
 </ul>
 </div>
 <div id="data-wrangling" class="section level1">
@@ -486,6 +449,7 @@ div.tocify {
 <li><a href="https://nilsreimer.com/post/gwtp-themes-labels/">Themes and Labels</a> – <code>ggplot2</code></li>
 <li><a href="https://michaeltoth.me/a-detailed-guide-to-ggplot-colors.html">A Detailed Guide to ggplot colors</a></li>
 <li><a href="https://www.tylermw.com/3d-ggplots-with-rayshader/">INTRODUCING 3D GGPLOTS WITH RAYSHADER</a> – <code>rayshader</code></li>
+<li><a href="https://www.highcharts.com/blog/data-science/highcharts-for-r-users/">Highcharts for R users</a></li>
 </ul>
 <div id="animation" class="section level2">
 <h2>Animation</h2>
@@ -510,6 +474,7 @@ div.tocify {
 <li><a href="https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/">Determining The Optimal Number Of Clusters: 3 Must Know Methods</a></li>
 <li><a href="https://afit-r.github.io/hc_clustering">Hierarchical Cluster Analysis</a></li>
 <li><a href="https://www.guru99.com/r-k-means-clustering.html">K-means Clustering in R with Example</a></li>
+<li><a href="https://datentrang.netlify.com/2019/07/10/measuring-feature-importance-in-k-means-clustering-and-variants-thereof/">Measuring feature importance in k-means clustering and variants thereof</a></li>
 </ul>
 </div>
 <div id="pca" class="section level1">
@@ -530,6 +495,13 @@ div.tocify {
 <li><a href="Avik-Jain/100-Days-Of-ML-Code">100 Days of ML Coding</a></li>
 <li><a href="https://www.learnopencv.com/bias-variance-tradeoff-in-machine-learning/">Bias-Variance Tradeoff in Machine Learning</a></li>
 </ul>
+<div id="feauture-engineering" class="section level2">
+<h2>Feauture Engineering</h2>
+<ul>
+<li><a href="https://towardsdatascience.com/my-secret-sauce-to-be-in-top-2-of-a-kaggle-competition-57cff0677d3c">My secret sauce to be in top 2% of a kaggle competition</a></li>
+<li><a href="https://www-trainindata-com.cdn.ampproject.org/c/s/www.trainindata.com/amp/feature-engineering-comprehensive-overview">Feature Engineering for Machine Learning: A Comprehensive Overview</a></li>
+</ul>
+</div>
 <div id="regression" class="section level2">
 <h2>Regression</h2>
 <ul>
@@ -592,8 +564,7 @@ div.tocify {
 <ul>
 <li><a href="https://github.com/yzhao062/pyod">A Python Toolkit for Scalable Outlier Detection (Anomaly Detection)</a></li>
 <li><a href="https://www.linkedin.com/pulse/techniques-outlier-detection-treatment-suhas-jk/">Techniques of Outlier Detection and Treatment</a></li>
-<li><a href="https://www.darkreading.com/threat-intelligence/anomaly-detection-techniques-defining-normal-/a/d-id/1334116">Anomaly Detection Techniques: Defining Normal</a></li>
-<li><a href="https://laranikalranalytics.blogspot.com/2019/03/using-r-and-h2o-to-identify-product.html">Using R and H2O to identify product anomalies during the manufacturing process.</a></li>
+<li><a href="https://laranikalranalytics.blogspot.com/2019/03/using-r-and-h2o-to-identify-product.html">Using R and H2O to identify product anomalies during the manufacturing process</a></li>
 </ul>
 </div>
 <div id="sparklyr" class="section level1">
@@ -686,6 +657,7 @@ div.tocify {
 <li><a href="http://applied-r.com/web-scrapping/">Web Scraping in R</a></li>
 <li><a href="https://raw.githack.com/uo-ec607/lectures/master/06-web-css/06-web-css.html">Webscraping: (1) Server-side and CSS</a></li>
 <li><a href="http://applied-r.com/web-scrapping/">Web Scraping in R</a></li>
+<li><a href="https://github.com/keithmcnulty/scraping/blob/master/web_scraping_tutorial.md">Scraping and Harvesting Web Data in R</a></li>
 </ul>
 </div>
 <div id="reporting" class="section level1">
@@ -756,6 +728,7 @@ div.tocify {
 <h1>Flexdashboard</h1>
 <ul>
 <li><a href="https://www.r-bloggers.com/automated-dashboard-with-various-correlation-visualizations-in-r/amp/">Automated Dashboard with various correlation visualizations in R</a></li>
+<li><a href="https://rviews.rstudio.com/2017/06/28/printing-from-flex-dashboard/">Printing From Flex Dashboard</a></li>
 </ul>
 </div>
 <div id="programming" class="section level1">
@@ -793,6 +766,7 @@ div.tocify {
 <h2>Docker</h2>
 <ul>
 <li><a href="https://harini.blog/2019/05/25/rstudio-and-rshiny-in-docker/">RStudio in Docker – now share your R code effortlessly!</a></li>
+<li><a href="https://harshsinghal.dev/post/create-your-r-learning-environment.html#.XT_ur8MTXqs.linkedin">Create your R learning environment with Docker and RStudio Server in minutes</a></li>
 </ul>
 </div>
 <div id="aws-tutorial" class="section level2">
@@ -825,6 +799,7 @@ div.tocify {
 <li><a href="https://github.com/daattali/addinslist">Discover and install useful RStudio addins</a></li>
 <li><a href="https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/">RStudio IDE Easy Tricks You Might’ve Missed</a></li>
 <li><a href="https://www.rostrum.blog/2019/01/04/rprofile-motivate/">Motivate yourself with an .Rprofile</a></li>
+<li><a href="https://www.ddrive.no/post/making-hex-and-twittercard-with-bunny-and-magick/">Making hex and twittercard with bunny and magick</a></li>
 </ul>
 </div>
 <div id="teaching" class="section level1">
@@ -848,6 +823,7 @@ div.tocify {
 <li><a href="http://setosa.io/ev/">ML concepts explained Visually</a></li>
 <li><a href="https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/">How to I interpret odds ratios in logistic regression</a></li>
 <li><a href="https://www.listendata.com/2019/06/free-sql-download-to-practice-queries.html?m=1">Free SQL Download to practice queries</a></li>
+<li><a href="https://medium.com/nightingale/getting-started-the-what-where-why-how-of-data-visualization-f408f09933b8">Getting Started: The What, Where, Why &amp; How of Data Visualisation</a></li>
 </ul>
 <hr />
 <ul>
@@ -879,6 +855,7 @@ div.tocify {
 <li><a href="https://kdestasio.github.io/post/r_best_practices/">R Best practices</a></li>
 <li><a href="https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users">Getting Started with Git and GitHub for R Users</a></li>
 <li><a href="https://www-trainindata-com.cdn.ampproject.org/c/s/www.trainindata.com/amp/best-resources-to-learn-r-programming-for-data-science">R: Best Resources to Learn R programming for Data Science</a></li>
+<li><a href="https://github.com/seankross/ari">The Automated R Instructor</a></li>
 </ul>
 </div>
 <div id="tidyverse" class="section level2">
@@ -955,6 +932,12 @@ div.tocify {
 <li><a href="https://towardsdatascience.com/which-promotion-should-be-used-to-increase-sales-c1c91b4ffb34">Which promotion should be used to increase sales? A fast-food chain’s marketing campaign case study</a></li>
 <li><a href="http://www.storybench.org/tidytuesday-bike-rentals-part-2-modeling-with-gradient-boosting-machine/">How to model with gradient boosting machine in R</a></li>
 </ul>
+<div id="sport-analytics" class="section level2">
+<h2>Sport Analytics</h2>
+<ul>
+<li><a href="http://www.robert-hickman.eu/post/dixon_coles_1/">An Introduction to Modelling Soccer Matches in R (part 1)</a></li>
+</ul>
+</div>
 </div>
 <div id="conference" class="section level1">
 <h1>Conference</h1>
@@ -1044,6 +1027,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 
