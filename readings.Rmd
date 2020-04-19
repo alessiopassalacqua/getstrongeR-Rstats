@@ -16,6 +16,7 @@ output:
 * [SQL for LinkedIn](http://drenr.com/pages/html_files/linkedin_sql.html)
 * [Handling large data sets with Google BigQuery and R](https://rpubs.com/shivanandiyer/BigRQuery)
 * [Introduction to dplyr for Databases](https://rpubs.com/jladams/dbplyr)
+* [A Comprehensive Introduction to Working with Databases using R](https://blog.rsquaredacademy.com/working-with-databases-using-r/)
 
 
 # Data Wrangling
@@ -32,7 +33,8 @@ output:
 * [Joining Data in R with dplyr](https://rpubs.com/williamsurles/293454) -- `dplyr`
 * [How do I make my own dplyr-style functions?](https://thisisnic.github.io/2018/04/16/how-do-i-make-my-own-dplyr-style-functions/) -- `dplyr`
 * [Simplify Your Code with %>%](https://uc-r.github.io/pipe)
-
+* [Five steps for missing data with Finalfit](https://www.datasurg.net/2018/08/30/five-steps-for-missing-data-with-finalfit/)
+* [Pipelines in R and Data Analysis](https://rpubs.com/chrisbrunsdon/pipelines)
 
 # Data Preparation
 
@@ -47,6 +49,10 @@ output:
 * [Explore Your Dataset in R](https://www.littlemissdata.com/blog/simple-eda)
 * [D3 Charts for Non_D3 Users](https://www.kaggle.com/nulldata/d3-charts-for-r-users-with-sunburst)
 * [A Brief Introduction to Various Correlation Coefficients and When to Use Which](https://blog.zenggyu.com/en/post/2019-06-11/a-brief-introduction-to-various-correlation-coefficients-and-when-to-use-which/)
+* [Beginners Cookbook for Interactive Visualization in R with highcharter](https://www.programmingwithr.com/beginners-cookbook-for-interactive-visualization-in-r-with-highcharter/?utm_content=buffereaa41&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer) -- `highcharter`
+* [Correlogram in R: how to highlight the most correlated variables in a dataset](https://www.statsandr.com/blog/correlogram-in-r-how-to-highlight-the-most-correlated-variables-in-a-dataset/)
+
+
 
 # Visualization
 
@@ -72,6 +78,7 @@ output:
 * [Themes and Labels](https://nilsreimer.com/post/gwtp-themes-labels/) -- `ggplot2`
 * [A Detailed Guide to ggplot colors](https://michaeltoth.me/a-detailed-guide-to-ggplot-colors.html)
 * [INTRODUCING 3D GGPLOTS WITH RAYSHADER](https://www.tylermw.com/3d-ggplots-with-rayshader/) -- `rayshader`
+* [Highcharts for R users](https://www.highcharts.com/blog/data-science/highcharts-for-r-users/)
 
 ## Animation
 
@@ -93,6 +100,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Determining The Optimal Number Of Clusters: 3 Must Know Methods](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/)
 * [Hierarchical Cluster Analysis](https://afit-r.github.io/hc_clustering)
 * [K-means Clustering in R with Example](https://www.guru99.com/r-k-means-clustering.html)
+* [Measuring feature importance in k-means clustering and variants thereof](https://datentrang.netlify.com/2019/07/10/measuring-feature-importance-in-k-means-clustering-and-variants-thereof/)
 
 
 # PCA
@@ -103,12 +111,20 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Introduzione al trattamento Statistico dei Dati](http://www.uniroma2.it/didattica/Sensori_ed_applic_2/deposito/lez5.pdf)
 * [PRINCIPAL COMPONENT ANALYSIS (PCA)](http://rinterested.github.io/statistics/PCA.html)
 * [Understanding PCA using stack overflow data](https://juliasilge.com/blog/stack-overflow-pca/)
+* [Dimension reduction with R](http://rpubs.com/Saskia/520216)
+* [Exploring Instacart Dataset with PCA](http://www.notesofdabbler.com/2017/05/22/exploreinstacart/)
+* [Ten quick tips for effective dimensionality reduction](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006907)
 
 # Machine Learning
 
 * [modelDown: a website generator for your predictive models](http://smarterpoland.pl/index.php/2018/06/modeldown-a-website-generator-for-your-predictive-models/) -- `modelDown`
 * [100 Days of ML Coding](Avik-Jain/100-Days-Of-ML-Code)
 * [Bias-Variance Tradeoff in Machine Learning](https://www.learnopencv.com/bias-variance-tradeoff-in-machine-learning/)
+
+## Feauture Engineering
+
+* [My secret sauce to be in top 2% of a kaggle competition](https://towardsdatascience.com/my-secret-sauce-to-be-in-top-2-of-a-kaggle-competition-57cff0677d3c)
+* [Feature Engineering for Machine Learning: A Comprehensive Overview](https://www-trainindata-com.cdn.ampproject.org/c/s/www.trainindata.com/amp/feature-engineering-comprehensive-overview)
 
 ## Regression
 
@@ -142,15 +158,18 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Metric Functions in a Classification Dataset](http://rpubs.com/prcuny/161764) -- `caret`
 * [caret machine learning repository](https://github.com/tobigithub/caret-machine-learning/wiki) -- `caret`
 * [Unbox the Black Box: Part #1](https://www.kaggle.com/ankur310794/unbox-the-black-box-part-1) -- `lime`
-
+* [Confusion Matrices – Evaluating your classification models](https://www.draperanddash.com/machinelearning/2019/07/confusion-matrices-evaluating-your-classification-models/)
+* [Using the tidyverse for machine learning](https://www.jwilber.me/nest/) -- `caret`
 
 ## Tidymodels
+
 
 * [A Gentle Introduction to tidymodels](https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/?utm_content=buffer25e57&utm_medium=social&utm_source=linkedin&utm_campaign=buffer)
 * [Modelling with Tidymodels and Parsnip](https://medium.com/@diegousaiuk/modelling-with-tidymodels-and-parsnip-bae2c01c131c)
 * [Modeling with `parsnip` and `tidymodels`](https://www.benjaminsorensen.me/post/modeling-with-parsnip-and-tidymodels/)
 * [How to use recipes package from tidymodels for one hot encoding](https://blog-datascienceheroes-com.cdn.ampproject.org/c/s/blog.datascienceheroes.com/how-to-use-recipes-package-for-one-hot-encoding/amp/)
 * [How to do feature engineering in R with the recipes package](https://ortom.co.uk/r/2019/07/12/How-to-do-feature-engineering-in-R-with-the-recipes-package.html)
+
 
 ## H2O
 
@@ -162,8 +181,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 
 * [A Python Toolkit for Scalable Outlier Detection (Anomaly Detection) ](https://github.com/yzhao062/pyod)
 * [Techniques of Outlier Detection and Treatment](https://www.linkedin.com/pulse/techniques-outlier-detection-treatment-suhas-jk/)
-* [Anomaly Detection Techniques: Defining Normal](https://www.darkreading.com/threat-intelligence/anomaly-detection-techniques-defining-normal-/a/d-id/1334116)
-* [Using R and H2O to identify product anomalies during the manufacturing process.](https://laranikalranalytics.blogspot.com/2019/03/using-r-and-h2o-to-identify-product.html)
+* [Using R and H2O to identify product anomalies during the manufacturing process](https://laranikalranalytics.blogspot.com/2019/03/using-r-and-h2o-to-identify-product.html)
 
 # Sparklyr
 
@@ -249,13 +267,13 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Web Scraping in R](http://applied-r.com/web-scrapping/)
 * [Webscraping: (1) Server-side and CSS](https://raw.githack.com/uo-ec607/lectures/master/06-web-css/06-web-css.html)
 * [Web Scraping in R](http://applied-r.com/web-scrapping/)
-
+* [Scraping and Harvesting Web Data in R](https://github.com/keithmcnulty/scraping/blob/master/web_scraping_tutorial.md)
+* [How to scrape Zomato Restaurants Data in R](https://www.programmingwithr.com/how-to-scrape-zomato-restaurants-data-in-r/)
 
 # Reporting
 
 * [Getting Started with R Markdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html) -- `rmarkdown`
 * [Introduction to R Markdown](https://saghirb.github.io/shared/Rmarkdown-Intro-Workshop.html#1) -- `rmarkdown`
-* [Build a Jekyll blog in minutes](https://github.com/barryclark/jekyll-now)
 * [Job automation in R](https://www.worksmarter.pl/en/post/job-automation-r-1/) -- `rmarkdown`
 * [bookdown cheatsheet](http://www.pzhao.org/en/post/bookdown-cheatsheet/) -- `bookdown`
 * [A clean R Markdown template for your reports](https://github.com/holtzy/epuRate) -- `rmarkdown`
@@ -264,11 +282,9 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Deploying to Github pages with Travis](https://backendtea.github.io/deploy-travis-to-github)
 * [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html) -- `rmarkdown`
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-* [Up and running with blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/) -- `blogdown`
 * [How to self-publish a book](https://blog.datascienceheroes.com/how-to-self-publish-a-book/)
 * [Writing your thesis with bookdown](https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/)
 * [How to self-publish a book: Customizing Bookdown](https://blog.datascienceheroes.com/how-to-self-publish-a-book-customizing-bookdown/)
-* [Pimp my RMD: a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
 * [R Markdown](https://uc-r.github.io/r_markdown)
 * [Getting Started with R Markdown](https://ourcodingclub.github.io/2016/11/24/rmarkdown-1.html)
 * [Introduction to R Markdown](https://rpubs.com/brandonkopp/RMarkdown)
@@ -277,9 +293,18 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Comparing huxtable with other R packages for creating tables](https://hughjonesd.github.io/huxtable/design-principles.html)
 * [Introducing vitae](https://blog.mitchelloharawild.com/blog/vitae/)
 * [Style knitr Code Output Appearance in HTML with Custom CSS Classes](https://www.garrickadenbuie.com/blog/knitr-custom-class-output/)
-* [How to build a website with Blogdown in R](http://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/)
 * [Using R Markdown for Class Reports](http://www.stat.cmu.edu/~cshalizi/rmarkdown/)
 * [What is R Markdown?](https://scientistcafe.com/post/markdownreport#01_what_is_r_markdown)
+* [Emoji unicode](https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm)
+* [Rmarkdown HTML Output](http://rpubs.com/Stewartli/508151) -- embedded video -- 
+
+## Creating Blog
+
+* [Build a Jekyll blog in minutes](https://github.com/barryclark/jekyll-now)
+* [Setting up a Distill Blog with Netlify](https://www.shamindras.com/posts/2019-07-11-shrotriya2019distillpt1/)
+* [How to build a website with Blogdown in R](http://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/)
+* [Up and running with blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/) -- `blogdown`
+* [Website Tutorial](https://pbarajas.rbind.io/posts/website-tutorial/)
 
 # Shiny
 
@@ -299,6 +324,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Adding Firebase Authentication to Shiny](https://www.tychobra.com/posts/2019-01-03-firebasse-auth-wtih-shiny/)
 * [Deep Learning Image Classification with Keras and Shiny](https://jasminedaly.com/2018-02-20-deep-learning-img-classifier/)
 * [Shiny application (with modules) - Saving and Restoring from RDS](https://www.radmuzom.com/2019/06/23/shiny-application-with-modules-saving-and-restoring-from-rds/)
+* [Forget about Excel, Use these R Shiny Packages Instead](https://appsilon.com/forget-about-excel-use-r-shiny-packages-instead/)
 
 # Shiny Code
 
@@ -312,6 +338,10 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 # Flexdashboard
 
 * [Automated Dashboard with various correlation visualizations in R](https://www.r-bloggers.com/automated-dashboard-with-various-correlation-visualizations-in-r/amp/)
+* [Printing From Flex Dashboard](https://rviews.rstudio.com/2017/06/28/printing-from-flex-dashboard/)
+* [How to host a flexdashboard on GitHub Pages](https://github.com/pbatey/flexdashboard-example)
+* [Coranovirus dashboard](https://ramikrispin.github.io/coronavirus_dashboard/)
+
 
 # Programming
 
@@ -344,6 +374,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 ## Docker
 
 * [RStudio in Docker – now share your R code effortlessly!](https://harini.blog/2019/05/25/rstudio-and-rshiny-in-docker/)
+* [Create your R learning environment with Docker and RStudio Server in minutes](https://harshsinghal.dev/post/create-your-r-learning-environment.html#.XT_ur8MTXqs.linkedin)
 
 
 ## AWS Tutorial
@@ -371,6 +402,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Discover and install useful RStudio addins](https://github.com/daattali/addinslist)
 * [RStudio IDE Easy Tricks You Might've Missed](https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/)
 * [Motivate yourself with an .Rprofile](https://www.rostrum.blog/2019/01/04/rprofile-motivate/)
+* [Making hex and twittercard with bunny and magick](https://www.ddrive.no/post/making-hex-and-twittercard-with-bunny-and-magick/)
 
 
 # Teaching  
@@ -393,6 +425,10 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [ML concepts explained Visually](http://setosa.io/ev/)
 * [How to I interpret odds ratios in logistic regression](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/)
 * [Free SQL Download to practice queries](https://www.listendata.com/2019/06/free-sql-download-to-practice-queries.html?m=1)
+* [Getting Started: The What, Where, Why & How of Data Visualisation](https://medium.com/nightingale/getting-started-the-what-where-why-how-of-data-visualization-f408f09933b8)
+* [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
+* [In-depth introduction to machine learning in 15 hours of expert videos](https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
+
 
 ----
 * [End-to-End Machine Learning](https://brohrer.github.io/blog.html)
@@ -422,9 +458,11 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Getting Started with Git and GitHub for R Users
 ](https://github.com/saghirb/Getting-Started-with-Git-and-GitHub-for-R-Users)
 * [R: Best Resources to Learn R programming for Data Science](https://www-trainindata-com.cdn.ampproject.org/c/s/www.trainindata.com/amp/best-resources-to-learn-r-programming-for-data-science)
+* [The Automated R Instructor](https://github.com/seankross/ari)
 
 ## Tidyverse
 
+* [Transitioning into the tidyverse (part 2)](http://www.rebeccabarter.com/blog/2019-08-05_base_r_to_tidyverse_pt2/)
 * [The tidyverse: dplyr, ggplot2, and friends](https://monashbioinformaticsplatform.github.io/r-more/topics/tidyverse.html)
 * [Tidyverse for beginners](https://learningstatisticswithr.com/)
 * [Animations of tidyverse verbs using R, the tidyverse, and gganimate](https://github.com/gadenbuie/tidy-animated-verbs/#tidy-data)
@@ -447,7 +485,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Learn R Shiny through studying the rise in ocean plastics - Part One](https://www.linkedin.com/pulse/learn-r-shiny-through-studying-rise-ocean-plastics-part-mcnulty/)
 * [Using Shiny in the Classroom](https://teachdatascience.com/shiny2/)
 * [Materials for the Intro to Shiny workshop with RLadies Nijmegen ](https://github.com/sowla/2019-shiny-intro-workshop-Nijmegen-RLadies)
-
+* [Shiny Apps: Development and Deployment](https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/shiny-apps/)
 
 # RPubs must read
 
@@ -486,6 +524,15 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 
 * [Which promotion should be used to increase sales? A fast-food chain’s marketing campaign case study](https://towardsdatascience.com/which-promotion-should-be-used-to-increase-sales-c1c91b4ffb34)
 * [How to model with gradient boosting machine in R](http://www.storybench.org/tidytuesday-bike-rentals-part-2-modeling-with-gradient-boosting-machine/)
+* [Analyzing London Crimes Data in R](https://medium.com/analytics-vidhya/analyzing-london-crimes-data-in-r-aee4658f79fe)
+
+## Sport Analytics
+
+* [An Introduction to Modelling Soccer Matches in R (part 1)](http://www.robert-hickman.eu/post/dixon_coles_1/)
+
+## For Fun
+
+* [analysing your fitbit sleeping patterns](https://bitowaqr.github.io/fitbitting/#)
 
 # Conference
 
@@ -496,6 +543,10 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [NEW YORK R CONFERENCE](https://www.rstats.nyc/2019/nyr/)
 * [useR2019](https://github.com/sowla/useR2019-materials)
 * [Keynote lectures at useR! 2019](https://www.youtube.com/channel/UC_R5smHVXRYGhZYDJsnXTwg/videos?view=57&flow=grid)
+
+## 2020
+
+* [CelebRation 2020](https://www.youtube.com/channel/UCqEdfW-1KUn_QQyQogxqLeA/)
 
 # Github repository
 
@@ -514,6 +565,7 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [Code Smells and Feels](https://github.com/jennybc/code-smells-and-feels#readme)
 * [Machine Learning Cheatsheet Data set](https://ml-cheatsheet.readthedocs.io/en/latest/datasets.html)
 * [R package primer](https://kbroman.org/pkg_primer/)
+* [Google’s R Style Guide](https://google.github.io/styleguide/Rguide.html)
 
 
 # Datasets
@@ -540,7 +592,12 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [UCI Machine Learning Repository in R](https://ucimlr.netlify.com/)
 * [SMS Spam Collection](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)
 * [tidytuesday.rocks](https://nsgrantham.shinyapps.io/tidytuesdayrocks/)
+* [Datasets for teaching data science](https://simplystatistics.org/2019/07/19/more-datasets-for-teaching-data-science-the-expanded-dslabs-package/) -- `dslabs`
 
+## Simulating dataset
+
+* [Create Fake Data in R for tutorials](https://github.com/ThinkR-open/fakir) -- `fakir` 
+* [How to generate meaningful fake data for learning, experimentation and teaching](https://www.programmingwithr.com/how-to-generate-meaningful-fake-data-for-learning-experimentation-and-teaching/) -- `fakir` 
 
 
 ## Datasets for smart factory

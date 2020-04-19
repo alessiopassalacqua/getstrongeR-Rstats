@@ -44,7 +44,7 @@ The goal of the forcats package is to provide a suite of useful tools that solve
 
 [forcats - website](http://forcats.tidyverse.org/)
 
-# Create dataset
+# Simulating dataset
 
 > Xy
 
@@ -60,6 +60,11 @@ A tool for producing synthetic versions of microdata containing confidential inf
 
 A Tidy Interface For Simulating Multivariate Data
 [holodeck -- github](https://github.com/Aariq/holodeck)
+
+> fakir
+
+Create Fake Data in R for tutorials
+[fakir -- github](https://github.com/ThinkR-open/fakir)
 
 # Explorative data analysis
 
@@ -79,13 +84,14 @@ Summarize and Explore the Data
 
 `funModeling`: data cleaning, importance variable analysis and model perfomance
 
-[funModeling - github](funModeling)
+[funModeling - github](https://github.com/pablo14/funModeling)
 
 > DataExplorer
 
 Data exploration process for data analysis and model building, so that users could focus on understanding data and extracting insights. The package automatically scans through each variable and does data profiling. 
 
 [DataExplorer - vignettes](https://cran.r-project.org/web/packages/DataExplorer/vignettes/dataexplorer-intro.html)
+[DataExplorer - github](https://boxuancui.github.io/DataExplorer/index.html)
 
 
 > naniar
@@ -100,6 +106,12 @@ Data exploration process for data analysis and model building, so that users cou
 Generating codebooks in R
 
 * [dataMaid - vignettes](https://cran.r-project.org/web/packages/dataMaid/vignettes/extending_dataMaid.html#a-datamaid-report-with-user-defined-functions-documenting-artdata)
+
+# Experimental Design
+
+* `edibble`  facilitates statistical thinking of adapting experimental designs to different conditions by implementing the grammar of experimental design to generate new designs
+
+[edibble - github](https://github.com/emitanaka/edibble)
 
 
 # Dimension Reduction (PCA)
@@ -533,6 +545,11 @@ Shiny gadget for labeling points on ggplot
 
 Make ‘ggplot’ Graphics Interactive
 [ggiraph -- github](http://davidgohel.github.io/ggiraph/index.html)
+
+> excelR
+
+An R interface to jExcel library to create web-based interactive tables and spreadsheets compatible with 'Excel' or any other spreadsheet software.
+[excelR -- github](https://github.com/Swechhya/excelR)
 
 # Reporting & Publishing results
 
