@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>library.utf8.md</title>
+<title>library.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -237,6 +235,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -265,6 +264,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -459,6 +464,13 @@ div.tocify {
 <ul>
 <li><a href="https://cran.r-project.org/web/packages/dataMaid/vignettes/extending_dataMaid.html#a-datamaid-report-with-user-defined-functions-documenting-artdata">dataMaid - vignettes</a></li>
 </ul>
+</div>
+<div id="experimental-design" class="section level1">
+<h1>Experimental Design</h1>
+<ul>
+<li><code>edibble</code> facilitates statistical thinking of adapting experimental designs to different conditions by implementing the grammar of experimental design to generate new designs</li>
+</ul>
+<p><a href="https://github.com/emitanaka/edibble">edibble - github</a></p>
 </div>
 <div id="dimension-reduction-pca" class="section level1">
 <h1>Dimension Reduction (PCA)</h1>

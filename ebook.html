@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>ebook.utf8.md</title>
+<title>ebook.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -237,6 +235,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -265,6 +264,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -393,6 +398,7 @@ div.tocify {
 <li><p><a href="http://www.cs.cornell.edu/jeh/book.pdf">Foundations of Data Science</a></p></li>
 <li><p><a href="https://github.com/kjmazidi/Learning_from_Data">Materials to accompany the book Learning from Data: An Introductory Handbook Using R</a></p></li>
 <li><p><a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a></p></li>
+<li><p><a href="https://stefvanbuuren.name/fimd/">Flexible Imputation of Missing Data</a></p></li>
 <li><p><a href="http://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></p></li>
 <li><p><a href="https://otexts.org/fpp2/">Forecasting: Principles and Practice</a></p></li>
 <li><p><a href="http://socviz.co/">Data Visualization</a></p></li>
@@ -434,7 +440,6 @@ div.tocify {
 <li><p><a href="https://rdbsql.rsquaredacademy.com/">R, Databases &amp; SQL</a></p></li>
 <li><p><a href="https://thinkr-open.github.io/building-shiny-apps-workflow/">Building Big Shiny Apps - A Workflow</a></p></li>
 <li><p><a href="https://cengel.github.io/R-data-wrangling/">Data Wrangling with R</a></p></li>
-<li><p><a href="https://plotly-r.com/index.html">Interactive web-based data visualization with R, plotly, and shiny</a></p></li>
 <li><p><a href="https://r-graphics.org/">R Graphics Cookbook</a></p></li>
 <li><p><a href="https://bookdown.org/max/FES/">Feature Engineering and Selection: A Practical Approach for Predictive Models</a></p></li>
 <li><p><a href="Efficient%20R%20programming">Efficient R programming</a></p></li>
@@ -454,8 +459,15 @@ div.tocify {
 <li><p><a href="https://psyteachr.github.io/msc-conv-f2f/">MSc Conversion in Psychological Studies/Science</a></p></li>
 <li><p><a href="https://psyteachr.github.io/msc-data-skills/">Data Skills for Reproducible Science</a></p></li>
 <li><p><a href="https://www.introregression.org/">Intro Regression</a></p></li>
-<li><p><a href="https://mastering-shiny.org/">Mastering Shiny</a></p></li>
 <li><p><a href="https://bookdown.org/mwheymans/Book_MI/">Applied missing data analysis</a></p></li>
+</ul>
+</div>
+<div id="shiny" class="section level1">
+<h1>Shiny</h1>
+<ul>
+<li><p><a href="https://plotly-r.com/index.html">Interactive web-based data visualization with R, plotly, and shiny</a></p></li>
+<li><p><a href="https://mastering-shiny.org/">Mastering Shiny</a></p></li>
+<li><p><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a></p></li>
 </ul>
 <hr />
 </div>

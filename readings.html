@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>readings.utf8.md</title>
+<title>readings.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -237,6 +235,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -265,6 +264,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -486,6 +491,7 @@ div.tocify {
 <div id="pca" class="section level1">
 <h1>PCA</h1>
 <ul>
+<li><a href="https://towardsdatascience.com/multivariate-outlier-detection-in-high-dimensional-spectral-data-45878fd0ccb8">Multivariate Outlier Detection in High-Dimensional Spectral Data</a></li>
 <li><a href="http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/118-principal-component-analysis-in-r-prcomp-vs-princomp/#compute-pca-in-r-using-prcomp">Principal Component Methods in R</a> – <code>factoextra</code></li>
 <li><a href="https://www.datacamp.com/community/tutorials/pca-analysis-r">Principal Component Analysis in R</a></li>
 <li><a href="http://www.sthda.com/english/wiki/print.php?id=206#infos">Principal component analysis : the basics you should read - R software and data mining</a></li>
@@ -553,6 +559,7 @@ div.tocify {
 <div id="tidymodels" class="section level2">
 <h2>Tidymodels</h2>
 <ul>
+<li><a href="http://www.rebeccabarter.com/blog/2020-03-25_machine_learning/">Tidymodels: tidy machine learning in R</a></li>
 <li><a href="https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/?utm_content=buffer25e57&amp;utm_medium=social&amp;utm_source=linkedin&amp;utm_campaign=buffer">A Gentle Introduction to tidymodels</a></li>
 <li><a href="https://medium.com/@diegousaiuk/modelling-with-tidymodels-and-parsnip-bae2c01c131c">Modelling with Tidymodels and Parsnip</a></li>
 <li><a href="https://www.benjaminsorensen.me/post/modeling-with-parsnip-and-tidymodels/">Modeling with <code>parsnip</code> and <code>tidymodels</code></a></li>
@@ -697,6 +704,7 @@ div.tocify {
 <li><a href="https://hughjonesd.github.io/huxtable/design-principles.html">Comparing huxtable with other R packages for creating tables</a></li>
 <li><a href="https://blog.mitchelloharawild.com/blog/vitae/">Introducing vitae</a></li>
 <li><a href="https://www.garrickadenbuie.com/blog/knitr-custom-class-output/">Style knitr Code Output Appearance in HTML with Custom CSS Classes</a></li>
+<li><a href="https://csgillespie.github.io/efficientR/">Efficient R programming</a></li>
 <li><a href="http://www.stat.cmu.edu/~cshalizi/rmarkdown/">Using R Markdown for Class Reports</a></li>
 <li><a href="https://scientistcafe.com/post/markdownreport#01_what_is_r_markdown">What is R Markdown?</a></li>
 <li><a href="https://www.quackit.com/character_sets/emoji/emoji_v3.0/unicode_emoji_v3.0_characters_all.cfm">Emoji unicode</a></li>
@@ -711,6 +719,7 @@ div.tocify {
 <li><a href="http://www.storybench.org/how-to-build-a-website-with-blogdown-in-r/">How to build a website with Blogdown in R</a></li>
 <li><a href="https://alison.rbind.io/post/up-and-running-with-blogdown/">Up and running with blogdown</a> – <code>blogdown</code></li>
 <li><a href="https://pbarajas.rbind.io/posts/website-tutorial/">Website Tutorial</a></li>
+<li><a href="https://samtoet.cool/posts/how-tf-does-this-blog-thing-work/">How TF does this blog thing work?</a></li>
 </ul>
 </div>
 </div>
@@ -864,6 +873,7 @@ div.tocify {
 <div id="r" class="section level2">
 <h2>R</h2>
 <ul>
+<li><a href="https://whatpixel.com/best-r-programming-books/">Top 20 R Programming Books To Teach Yourself From Scratch</a></li>
 <li><a href="https://www.tutorialspoint.com/r/index.htm">Learn R Programming</a></li>
 <li><a href="https://owi.usgs.gov/blog/intro-best-practices/">Beyond Basic R - Introduction and Best Practices</a></li>
 <li><a href="https://rbasics.netlify.com/index.html">Getting used to R, RStudio, and R Markdown</a></li>
@@ -890,6 +900,7 @@ div.tocify {
 <div id="tidyverse" class="section level2">
 <h2>Tidyverse</h2>
 <ul>
+<li><a href="https://juliasilge.com/blog/hotels-recipes/">#TidyTuesday hotel bookings and recipes</a></li>
 <li><a href="http://www.rebeccabarter.com/blog/2019-08-05_base_r_to_tidyverse_pt2/">Transitioning into the tidyverse (part 2)</a></li>
 <li><a href="https://monashbioinformaticsplatform.github.io/r-more/topics/tidyverse.html">The tidyverse: dplyr, ggplot2, and friends</a></li>
 <li><a href="https://learningstatisticswithr.com/">Tidyverse for beginners</a></li>
@@ -968,6 +979,7 @@ div.tocify {
 <h2>Sport Analytics</h2>
 <ul>
 <li><a href="http://www.robert-hickman.eu/post/dixon_coles_1/">An Introduction to Modelling Soccer Matches in R (part 1)</a></li>
+<li><a href="https://www.robert-hickman.eu/post/dixon_coles_2/">An Introduction to Modelling Soccer Matches in R (part 2)</a></li>
 </ul>
 </div>
 <div id="for-fun" class="section level2">
