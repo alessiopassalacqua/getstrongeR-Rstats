@@ -11,10 +11,10 @@ output:
 |   Focus on |      Course      |  Made by |
 |----------------|:---------------------------------:|-----------------:|
 |Data Science |[Intro to Data Science](https://www2.stat.duke.edu/courses/Spring18/Sta199/) | RStudio|
+|Data Science| [Supervised Machine Learning  Case Studies in R](https://supervised-ml-course.netlify.app/)|Julia Silge |
 |Data Science|[Data Science course in a box](https://github.com/rstudio-education/datascience-box)|RStudio|
 |Data Science|[Data Science for Social Science](http://datascience.tntlab.org/schedule-materials/)|RICHARD N. LANDERS|
 |R|[Introduction to R](https://ramnathv.github.io/pycon2014-r/)|idocs|
-|R|[R course material](http://stcorp.nl/R_course/)|Paul Hiemstra|
 |R|[Introduction to R](http://uc-r.github.io/introduction)|UC|
 |R | [Intro to R](https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP)|google|
 |Biomedical|[Biomedical Data Science](http://genomicsclass.github.io/book/)|R. Irizarry and M. Love|
@@ -41,6 +41,7 @@ output:
 |Programming|[Programming with R](https://swcarpentry.github.io/r-novice-inflammation/)|Carpentries|
 |Visualization|[R graphics with ggplot2 workshop notes](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#geometric_objects_and_aesthetics)|Harvard University|
 |Visualization|[Introduction to Data Visualization](http://paldhous.github.io/ucb/2016/dataviz/index.html)|Peter Aldhous|
+|Visualization|(Information Visualization)[http://enrico.bertini.io/teaching/]|Enrico Bertini|
 |Data Analysis|[Business Analytics in R](http://lab.rady.ucsd.edu/sawtooth/business_analytics_in_r/index.html)|Karsten T. Hansen|
 |Bioconductor|[RNA-Seq Analysis with R and Bioconductor](http://girke.bioinformatics.ucr.edu/CSHL_RNAseq/)|UC Riverside|
 |Data Analysis|[The Research Cycle](https://rgup.gitlab.io/research_cycle/index.html)| D. Barr and L. DeBruine|
@@ -77,6 +78,17 @@ Applied Time Series Analysis](https://newonlinecourses.science.psu.edu/stat510/)
 |Data Science|[Master Tidyverse](https://github.com/rstudio/master-the-tidyverse)|Garrett Grolemund|
 |Data Science|[R bootcamp](https://r-bootcamp.netlify.com/)|T. Laderas & J. Minnier|
 |R Docker|[A Docker tutorial for reproducible research](http://ropenscilabs.github.io/r-docker-tutorial/)|ropenscilabs|
+|Data Analysis|[QCBS R Workshops](https://wiki.qcbs.ca/r)|QCBS|
+|Data Science| [Introduction to Data Science](https://datasciencelabs.github.io/)|Harvard|
+|Shiny|[Shiny Tutorials](https://psyteachr.github.io/shiny-tutorials/)|Teaching Reproducible Psychology|
+|Data Analysis|[Analytics for industRy](https://garthtarr.github.io/meatR/index.html)|Garth Tarr|
+|Data Analysis|[R for Reproducible Research](https://annakrystalli.me/rrresearch/index.html)|Anna Krystalli|
+|Data Science|[Applied Machine Learning short course at R/Pharma 2019](https://github.com/tidymodels/aml-training/tree/master/half%20day)|Max Kuhn |
+|Data Science|[Data Science Essentials in R
+Introduction](https://uvastatlab.github.io/phdplus/index.html)|PhDPlus |
+|Tidyverse|[R Bootcamp interactive course](https://r-bootcamp.netlify.com/)|T. Laderas & J. Minnier|
+|Market Analysis|[Market Analysis with Econometrics and Machine Learning](https://github.com/skranz/MarketAnalysis)|Sebastian Kranz|
+
 
 
 

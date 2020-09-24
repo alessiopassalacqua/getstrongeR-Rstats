@@ -7,7 +7,6 @@ output:
 ---
 
 <br>
-
 This is an attempt to curate  my favorite resources for learning data science with R. 
 The organization is as follows:
 
@@ -20,7 +19,7 @@ The organization is as follows:
 <br>
 
 
-In this website I reported my resources collection ispired by the following website/posts:
+Other resources collection:
 
 * [Quick list of useful R packages](https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages?mobile_site=true)
 * [Great R packages for data import, wrangling and visualization](https://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html)
@@ -31,3 +30,6 @@ In this website I reported my resources collection ispired by the following webs
 * [Top R libraries for Data Science](https://medium.com/@Mr.dhariwal/top-r-libraries-for-data-science-9b24f658e243)
 * [100 FREE TUTORIALS FOR LEARNING R](https://www.listendata.com/p/r-programming-tutorials.html)
 * [An awesome sparklyr related package collection](https://github.com/harryprince/awesome-sparklyr)
+* [Resources for Learning R](https://crumplab.github.io/blogposts/LearningR/LearningR.html#)
+* [RStartHere](https://github.com/rstudio/RStartHere)
+

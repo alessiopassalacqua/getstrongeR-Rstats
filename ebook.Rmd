@@ -8,6 +8,12 @@ output:
 
 # Ebook 
 
+* [R for Data Science](https://r4ds.had.co.nz/)
+
+* [Introduction to Programming with R](https://eeecon.uibk.ac.at/~discdown/rprogramming/introduction.html)
+
+* [Twitter for R programmers](https://www.t4rstats.com/)
+
 * [R Packages](https://r-pkgs.org/)
 
 * [Happy Git and GitHub for the useR](http://happygitwithr.com/)
@@ -18,7 +24,7 @@ output:
 
 * [Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
 
-* [A gRadual intRoduction to Shiny](https://laderast.github.io/gradual_shiny/)
+* [Data Science in Education Using R](https://datascienceineducation.com/)
 
 * [Functional programming and unit testing for data munging with R](https://b-rodrigues.github.io/fput/)
 
@@ -28,13 +34,15 @@ output:
 
 * [plotly for R](https://plotly-book.cpsievert.me/index.html)
 
-* [Writing R extensions](https://colinfay.me/writing-r-extensions/index.html)
+
 
 * [Foundations of Data Science](http://www.cs.cornell.edu/jeh/book.pdf)
 
 * [Materials to accompany the book Learning from Data: An Introductory Handbook Using R](https://github.com/kjmazidi/Learning_from_Data)
 
 * [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+* [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/)
 
 * [Fundamentals of Data Visualization](http://serialmentor.com/dataviz/)
 
@@ -118,13 +126,11 @@ output:
 
 * [Data Wrangling with R](https://cengel.github.io/R-data-wrangling/)
 
-* [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/index.html)
 
 * [R Graphics Cookbook](https://r-graphics.org/)
 
 * [Feature Engineering and Selection: A Practical Approach for Predictive Models](https://bookdown.org/max/FES/)
 
-* [Efficient R programming](Efficient R programming)
 
 * [Predictive Models: Visual Exploration, Explanation and Debugging](https://pbiecek.github.io/PM_VEE/)
 
@@ -148,9 +154,43 @@ output:
 
 * [Agile Machine Learning with R](https://bookdown.org/edwinthoen/AMLwR/)
 
+* [Data Science with R: A Resource Compendium](https://bookdown.org/martin_monkman/DataScienceResources_book/)
+
+* [The wikipedia of R by me](https://r-pedia.gitbook.io/cevi/)
+
+* [MSc Conversion in Psychological Studies/Science](https://psyteachr.github.io/msc-conv-f2f/)
+
+* [Data Skills for Reproducible Science](https://psyteachr.github.io/msc-data-skills/)
+
+* [Intro Regression](https://www.introregression.org/)
+
+* [Applied missing data analysis](https://bookdown.org/mwheymans/Book_MI/)
+
+## Programming
+
+* [Writing R extensions](https://colinfay.me/writing-r-extensions/index.html)
+
+* [Efficient R programming](https://csgillespie.github.io/efficientR/)
+
+
+## Shiny
+
+* [Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/index.html)
+
+* [Mastering Shiny](https://mastering-shiny.org/)
+
+* [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
+
+* [Shiny Production with AWS Book](https://business-science.github.io/shiny-production-with-aws-book/)
+
+* [Outstanding User Interfaces with Shiny](https://divadnojnarg.github.io/outstanding-shiny-ui/?s=09)
 ----
 
 # Ebook Collection
+
+* [20 Free Online Books to Learn R and Data Science](https://cmdlinetips.com/2018/01/free-online-resources-books-to-learn-r-and-data-science/)
+
+* [Books for learning R](https://github.com/jl5000/r_ebooks)
 
 * [Useful books by Suzan Baert](https://github.com/suzanbaert/Resources_and_Bookmarks/blob/master/1_R_Books.md)
 
@@ -169,4 +209,13 @@ output:
 
 * [What are some good resources for learning R?](https://www.quora.com/What-are-some-good-resources-for-learning-R-1)
 
+* [FREE R READING MATERIAL](https://committedtotape.shinyapps.io/freeR/)
+
+* [Data Science Learning Resources](https://github.com/bradleyboehmke/data-science-learning-resources)
+
 ----
+
+
+# R book in italian
+
+* [Statistica per Data Science con R](http://www.r-project.it/_book/index.html)
