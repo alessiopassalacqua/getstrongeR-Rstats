@@ -601,6 +601,11 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [R package primer](https://kbroman.org/pkg_primer/)
 * [Google’s R Style Guide](https://google.github.io/styleguide/Rguide.html)
 
+# Football analysis
+
+* [Functions to aid football / soccer analysis](https://github.com/thecomeonman/CodaBonito)
+
+* [Expected Goals - Overachieving or just lucky?](https://dm13450.github.io/2020/09/11/ExpGoals.html)
 
 # Datasets
 
@@ -634,6 +639,3 @@ Can DBSCAN be a solution?](https://datascience-enthusiast.com/Python/DBSCAN_Kmea
 * [How to generate meaningful fake data for learning, experimentation and teaching](https://www.programmingwithr.com/how-to-generate-meaningful-fake-data-for-learning-experimentation-and-teaching/) -- `fakir` 
 
 
-## Datasets for smart factory
-
-* [Combined Cycle Power Plant Data Set](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)

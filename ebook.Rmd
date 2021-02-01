@@ -8,6 +8,8 @@ output:
 
 # Ebook 
 
+* [Introduction to Open Data Science](https://ohi-science.org/data-science-training/)
+
 * [R for Data Science](https://r4ds.had.co.nz/)
 
 * [Introduction to Programming with R](https://eeecon.uibk.ac.at/~discdown/rprogramming/introduction.html)
@@ -34,7 +36,7 @@ output:
 
 * [plotly for R](https://plotly-book.cpsievert.me/index.html)
 
-
+* [Tidyverse Skills for Data Science](https://jhudatascience.org/tidyversecourse/)
 
 * [Foundations of Data Science](http://www.cs.cornell.edu/jeh/book.pdf)
 
@@ -172,6 +174,7 @@ output:
 
 * [Efficient R programming](https://csgillespie.github.io/efficientR/)
 
+* [Computational Genomics with R](https://compgenomr.github.io/book/)
 
 ## Shiny
 

@@ -70,8 +70,7 @@ Data Analysis|[Analyzing large-scale biomedical data with R](https://bims.fun/in
 |Data Analysis|[Data Skills for Reproducible Science](https://gupsych.github.io/data_skills/)|Dale Barr and Lisa DeBruine|
 |Data Science|[Data Science with R](https://p8105.com/schedule.html)|Jeff Goldsmith|
 |Time Series| [Time Series Boot Camp](https://github.com/jlukito/timeseries-bootcamp)|J. Lukito and J. Foley|
-|Time Series|[
-Applied Time Series Analysis](https://newonlinecourses.science.psu.edu/stat510/)|The Pennsylvania State University|
+|Time Series| [Applied Time Series Analysis](https://newonlinecourses.science.psu.edu/stat510/)|The Pennsylvania State University|
 |Data Analysis|[Exploratory Data Analysis in R](https://mgimond.github.io/ES218/index.html)|Manny Gimond|
 |Data Science|[Tidy Data Science](https://tidy-ds.wjakethompson.com/)|Jake Thompson|
 |Shiny|[Shiny Workshop](https://osf.io/69j37/files/)|Sonja Winter & Katie Coburn|
